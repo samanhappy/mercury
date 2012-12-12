@@ -1,0 +1,5 @@
+##timer param##
+intervalForTimer=180
+intervalForRetry=0
+shortTimeOut=180
+addInterval=3

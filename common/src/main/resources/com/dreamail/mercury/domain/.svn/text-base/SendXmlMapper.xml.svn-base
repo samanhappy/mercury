@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.SendXmlMapper">
+
+	<insert id="addSendXml" parameterType="clickoo_send_xml"
+		useGeneratedKeys="true" keyProperty="id">
+		insert into
+		clickoo_send_xml
+		(id,sxKey,sxValue,sxDate)
+		values
+		(#{id},#{sxKey},#{sxValue},#{sxDate})
+	</insert>
+
+	<delete id="deleteSendXmlBysxKey" parameterType="string">
+		delete from
+		clickoo_send_xml where sxKey = #{sxKey} 
+    </delete>
+
+	<delete id="deleteSendXmlByTime" parameterType="string">
+		delete from
+		clickoo_send_xml where sxDate <![CDATA[<]]>
+		#{sxDate}
+	</delete>
+
+	<update id="updateSendXmlBysxKey" parameterType="clickoo_send_xml">
+		update
+		clickoo_send_xml
+		set sxValue = #{sxValue}
+		where sxKey = #{sxKey}
+	</update>
+
+	<select id="getSenXmlBysxKey" parameterType="string" resultType="clickoo_send_xml">
+		select
+		id,sxKey,sxValue
+		from
+		clickoo_send_xml
+		where
+		sxKey = #{sxKey} order by id
+    </select>
+
+</mapper>

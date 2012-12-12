@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PushMail>
+	<Header>
+		<Version>PushMail1.0</Version>
+	</Header>
+	<Body>
+		<!-- 指定改请求处理那些信息 -->
+		<!--isAtom用来控制Cmd标签的事务-->
+		<Target name="User" isAtom="true" >
+			<Cmd name="UserLogin">
+
+				<User>
+					<!--用户姓名不能重复-->
+					<Name>T123</Name >
+					<!--用户密码-->
+					<Passwd>000000</Passwd>
+					<!--手机唯一标识-->
+					<IMEI>192.168.20.43</IMEI>
+				</User>        
+			</Cmd>
+		</Target>
+	</Body>
+</PushMail>

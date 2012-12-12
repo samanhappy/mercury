@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/371/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/hearbeat
+END
+HearbeatTimerTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/PushMail_Server/!svn/ver/371/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/hearbeat/HearbeatTimerTask.java
+END
+TelnetClientHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/PushMail_Server/!svn/ver/371/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/hearbeat/TelnetClientHandler.java
+END
+TelnetClientPipelineFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/335/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/hearbeat/TelnetClientPipelineFactory.java
+END
+HearbeatTimer.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/335/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/hearbeat/HearbeatTimer.java
+END

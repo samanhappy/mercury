@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/308/mercury/adminManager/src/main/java/com/dreamail/admin/action/config
+END
+SelectReceiveConfigListAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/308/mercury/adminManager/src/main/java/com/dreamail/admin/action/config/SelectReceiveConfigListAction.java
+END
+SelectSendConfigListAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/308/mercury/adminManager/src/main/java/com/dreamail/admin/action/config/SelectSendConfigListAction.java
+END
+AddConfigAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/PushMail_Server/!svn/ver/308/mercury/adminManager/src/main/java/com/dreamail/admin/action/config/AddConfigAction.java
+END

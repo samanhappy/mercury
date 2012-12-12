@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/PushMail_Server/!svn/ver/378/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/jms
+END
+TimeTopicReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/300/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/jms/TimeTopicReceiver.java
+END
+IMUPEReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/292/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/jms/IMUPEReceiver.java
+END
+MqConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/204/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/jms/MqConnectionFactory.java
+END
+TimerReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/292/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/jms/TimerReceiver.java
+END
+MessageReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/378/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/jms/MessageReceiver.java
+END
+CAGTopicReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/292/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/jms/CAGTopicReceiver.java
+END

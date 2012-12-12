@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/PushMail_Server/!svn/ver/293/mercury/taskFactory/src/main/java/com/dreamail/data
+END
+ListenerData.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PushMail_Server/!svn/ver/293/mercury/taskFactory/src/main/java/com/dreamail/data/ListenerData.java
+END
+AccountMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/PushMail_Server/!svn/ver/234/mercury/taskFactory/src/main/java/com/dreamail/data/AccountMessage.java
+END
+QuartzJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/PushMail_Server/!svn/ver/234/mercury/taskFactory/src/main/java/com/dreamail/data/QuartzJob.java
+END
+SendMessageDataCleaner.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/293/mercury/taskFactory/src/main/java/com/dreamail/data/SendMessageDataCleaner.java
+END
+ListenerDownLoadData.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/293/mercury/taskFactory/src/main/java/com/dreamail/data/ListenerDownLoadData.java
+END
+ListenerMemoryData.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/PushMail_Server/!svn/ver/293/mercury/taskFactory/src/main/java/com/dreamail/data/ListenerMemoryData.java
+END
+CleanDeleteMessages.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/293/mercury/taskFactory/src/main/java/com/dreamail/data/CleanDeleteMessages.java
+END

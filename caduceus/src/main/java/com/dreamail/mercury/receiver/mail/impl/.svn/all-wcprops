@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PushMail_Server/!svn/ver/545/mercury/caduceus/src/main/java/com/dreamail/mercury/receiver/mail/impl
+END
+GmailProviderImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/PushMail_Server/!svn/ver/469/mercury/caduceus/src/main/java/com/dreamail/mercury/receiver/mail/impl/GmailProviderImpl.java
+END
+IMAP4ProviderImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/PushMail_Server/!svn/ver/469/mercury/caduceus/src/main/java/com/dreamail/mercury/receiver/mail/impl/IMAP4ProviderImpl.java
+END
+HotmailProvideImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PushMail_Server/!svn/ver/469/mercury/caduceus/src/main/java/com/dreamail/mercury/receiver/mail/impl/HotmailProvideImpl.java
+END
+YahooProviderImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/PushMail_Server/!svn/ver/469/mercury/caduceus/src/main/java/com/dreamail/mercury/receiver/mail/impl/YahooProviderImpl.java
+END
+Pop3ProviderImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/PushMail_Server/!svn/ver/545/mercury/caduceus/src/main/java/com/dreamail/mercury/receiver/mail/impl/Pop3ProviderImpl.java
+END

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.clickoo</groupId>
+	<artifactId>mercury</artifactId>
+	<version>1.0</version>
+	<packaging>pom</packaging>
+	<name>mercury</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<modules>
+		<module>common</module>
+		<!-- 		<module>commons</module> -->
+		<module>talaria</module>
+		<module>petasos</module>
+		<module>caduceus</module>
+		<module>taskFactory</module>
+		<module>yahooSNP</module>
+		<module>sendMail</module>
+		<!--		<module>cagauth</module>-->
+		<!--		<module>clickooIdle</module>-->
+		<module>timerPush</module>
+		<!-- <module>clickooImap</module> -->
+		<module>adminManager</module>
+	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+			<groupId>org.jboss.netty</groupId>
+			<artifactId>netty</artifactId>
+			<version>3.2.4.Final</version>
+		</dependency>
+			<!--mercury -->
+			<dependency>
+				<groupId>com.clickoo.mercury</groupId>
+				<artifactId>common</artifactId>
+				<version>${version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.clickoo.mercury</groupId>
+				<artifactId>caduceus</artifactId>
+				<version>${version}</version>
+			</dependency>
+			<!--JEE-Servlet_6 -->
+			<dependency>
+				<groupId>javax</groupId>
+				<artifactId>javaee-web-api</artifactId>
+				<version>6.0</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.ck.memcached</groupId>
+				<artifactId>com.ck.memcached</artifactId>
+				<version>0.1</version>
+			</dependency>
+
+			<!--Jibx -->
+			<dependency>
+				<groupId>org.jibx</groupId>
+				<artifactId>jibx-run</artifactId>
+				<version>1.2.2</version>
+			</dependency>
+			<dependency>
+				<groupId>org.jibx</groupId>
+				<artifactId>jibx-extras</artifactId>
+				<version>1.2.2</version>
+			</dependency>
+
+			<!--db -->
+			<dependency>
+				<groupId>mysql</groupId>
+				<artifactId>mysql-connector-java</artifactId>
+				<version>5.1.14</version>
+			</dependency>
+			<dependency>
+				<groupId>org.mybatis</groupId>
+				<artifactId>mybatis</artifactId>
+				<version>3.0.3</version>
+			</dependency>
+			<!--Log -->
+			<dependency>
+				<groupId>ch.qos.logback</groupId>
+				<artifactId>logback-classic</artifactId>
+				<version>0.9.27</version>
+			</dependency>
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>1.6.1</version>
+			</dependency>
+			<!--UtilTools -->
+			<dependency>
+				<groupId>xerces</groupId>
+				<artifactId>xercesImpl</artifactId>
+				<version>2.9.1</version>
+			</dependency>
+			<dependency>
+				<groupId>nekohtml</groupId>
+				<artifactId>nekohtml</artifactId>
+				<version>1.9.6</version>
+			</dependency>
+			<dependency>
+				<groupId>com.clickoo.mercury</groupId>
+				<artifactId>mail</artifactId>
+				<version>1.4.2</version>
+			</dependency>
+
+			<!--jutf7 -->
+			<dependency>
+				<groupId>com.beetstra.jutf7</groupId>
+				<artifactId>jutf7</artifactId>
+				<version>0.9.0</version>
+				<type>jar</type>
+				<scope>compile</scope>
+			</dependency>
+
+			<!--Test -->
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>4.6</version>
+				<scope>test</scope>
+			</dependency>
+			<!--concurrent -->
+			<dependency>
+				<groupId>concurrent</groupId>
+				<artifactId>concurrent</artifactId>
+				<version>1.3.4</version>
+			</dependency>
+			<!--poi_scratchpad -->
+			<dependency>
+				<groupId>org.apache.poi</groupId>
+				<artifactId>poi-scratchpad</artifactId>
+				<version>3.7</version>
+			</dependency>
+			<!--poi -->
+			<dependency>
+				<groupId>org.apache.poi</groupId>
+				<artifactId>poi</artifactId>
+				<version>3.7</version>
+			</dependency>
+
+			<dependency>
+				<groupId>net.sf.json-lib</groupId>
+				<artifactId>json-lib</artifactId>
+				<version>2.3</version>
+			</dependency>
+			<!-- <dependency> -->
+			<!-- <groupId>pdfbox</groupId> -->
+			<!-- <artifactId>pdfbox</artifactId> -->
+			<!-- <version>0.7.3</version> -->
+			<!-- </dependency> -->
+			<dependency>
+				<groupId>org.apache.pdfbox</groupId>
+				<artifactId>pdfbox</artifactId>
+				<version>1.5.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.fontbox</groupId>
+				<artifactId>fontbox</artifactId>
+				<version>1.5.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.bouncycastle</groupId>
+				<artifactId>bcprov-ext-jdk15</artifactId>
+				<version>1.46</version>
+			</dependency>
+
+			<dependency>
+				<groupId>im4java</groupId>
+				<artifactId>im4java</artifactId>
+				<version>1.0.0</version>
+			</dependency>
+			<dependency>
+				<groupId>glassfish</groupId>
+				<artifactId>imqjmsra</artifactId>
+				<version>1.0</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.jms</groupId>
+				<artifactId>jms</artifactId>
+				<version>1.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring</artifactId>
+				<version>2.5.6</version>
+			</dependency>
+			<dependency>
+				<groupId>com.clickoo.mercury</groupId>
+				<artifactId>cpdetector</artifactId>
+				<version>1.0</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.httpcomponents</groupId>
+				<artifactId>httpclient</artifactId>
+				<version>4.1.2</version>
+			</dependency>
+			<dependency>
+				<groupId>org.samba.jcifs</groupId>
+				<artifactId>jcifs</artifactId>
+				<version>1.2.19</version>
+			</dependency>
+			<dependency>
+				<groupId>org.codehaus.xfire</groupId>
+				<artifactId>xfire-jaxb2</artifactId>
+				<version>1.2.6</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.codehaus.xfire</groupId>
+				<artifactId>xfire-java5</artifactId>
+				<version>1.2.6</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.sun.jndi</groupId>
+				<artifactId>fscontext</artifactId>
+				<version>1.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.sun.jndi</groupId>
+				<artifactId>providerutil</artifactId>
+				<version>1.0</version>
+			</dependency>
+
+
+
+			<dependency>
+				<groupId>net.sf.jsr107cache</groupId>
+				<artifactId>jsr107cache</artifactId>
+				<version>1.1</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.thoughtworks.xstream</groupId>
+				<artifactId>xstream</artifactId>
+				<version>1.3.1</version>
+			</dependency>
+
+
+			<dependency>
+				<groupId>dom4j</groupId>
+				<artifactId>dom4j</artifactId>
+				<version>1.6.1</version>
+			</dependency>
+
+			<!-- quartz -->
+			<dependency>
+				<groupId>quartz</groupId>
+				<artifactId>quartz</artifactId>
+				<version>1.5.2</version>
+			</dependency>
+			<!-- memcache -->
+			<dependency>
+				<groupId>com.caucho</groupId>
+				<artifactId>hessian</artifactId>
+				<version>4.0.7</version>
+			</dependency>
+			<dependency>
+				<groupId>com.ck.mail</groupId>
+				<artifactId>memcached</artifactId>
+				<version>2.6.2</version>
+			</dependency>
+			<dependency>
+				<groupId>com.ck.mail</groupId>
+				<artifactId>commons-pool</artifactId>
+				<version>1.5.6</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.struts</groupId>
+				<artifactId>struts2-core</artifactId>
+				<version>2.2.3.1</version>
+			</dependency>
+			<dependency>
+				<groupId>javassist</groupId>
+				<artifactId>javassist</artifactId>
+				<version>3.8.0.GA</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>2.0.2</version>
+					<configuration>
+						<source>1.6</source>
+						<target>1.6</target>
+						<encoding>UTF-8</encoding>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>2.4.3</version>
+					<configuration>
+						<encoding>UTF-8</encoding>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-war-plugin</artifactId>
+					<version>2.1-beta-1</version>
+					<configuration>
+						<failOnMissingWebXml>true</failOnMissingWebXml>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.jibx</groupId>
+					<artifactId>maven-jibx-plugin</artifactId>
+					<version>1.2.2</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.5</version>
+				<configuration>
+					<skipTests>true</skipTests>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+
+
+	<profiles>
+		<profile>
+			<id>pj</id>
+			<dependencyManagement>
+				<dependencies>
+					<dependency>
+						<groupId>jmagick</groupId>
+						<artifactId>jmagick</artifactId>
+						<version>6.3.9-Q8</version>
+					</dependency>
+				</dependencies>
+			</dependencyManagement>
+		</profile>
+
+		<profile>
+			<id>endorsed</id>
+			<activation>
+				<property>
+					<name>sun.boot.class.path</name>
+				</property>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-compiler-plugin</artifactId>
+						<version>2.0.2</version>
+						<configuration>
+							<!--
+								javaee6 contains upgrades of APIs contained within the JDK
+								itself. As such these need to be placed on the bootclasspath,
+								rather than classpath of the compiler. If you don't make use of
+								these new updated API, you can delete the profile. On non-SUN
+								jdk, you will need to create a similar profile for your jdk,
+								with the similar property as sun.boot.class.path in Sun's JDK.
+							-->
+							<compilerArguments>
+								<bootclasspath>${settings.localRepository}/javax/javaee-endorsed-api/6.0/javaee-endorsed-api-6.0.jar${path.separator}${sun.boot.class.path}</bootclasspath>
+							</compilerArguments>
+						</configuration>
+						<dependencies>
+							<dependency>
+								<groupId>javax</groupId>
+								<artifactId>javaee-endorsed-api</artifactId>
+								<version>6.0</version>
+							</dependency>
+						</dependencies>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+
+	</profiles>
+</project>

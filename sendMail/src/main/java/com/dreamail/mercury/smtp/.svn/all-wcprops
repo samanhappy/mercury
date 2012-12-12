@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/PushMail_Server/!svn/ver/291/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp
+END
+SmtpProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/SmtpProcessor.java
+END
+SmtpSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/SmtpSession.java
+END

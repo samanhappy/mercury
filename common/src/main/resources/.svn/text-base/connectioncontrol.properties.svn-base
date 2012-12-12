@@ -1,0 +1,5 @@
+connect_default=30000
+connect_yahoo=100000
+connect_gmail=100000
+connect_hotmail=100000
+connect_others=100000

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/PushMail_Server/!svn/ver/360/mercury/taskFactory/src/main/resources
+END
+logback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/PushMail_Server/!svn/ver/1/mercury/taskFactory/src/main/resources/logback.xml
+END
+quartz-spring.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/PushMail_Server/!svn/ver/238/mercury/taskFactory/src/main/resources/quartz-spring.xml
+END
+taskfactory.properties
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/PushMail_Server/!svn/ver/81/mercury/taskFactory/src/main/resources/taskfactory.properties
+END
+tfthreadpool.properties
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/PushMail_Server/!svn/ver/1/mercury/taskFactory/src/main/resources/tfthreadpool.properties
+END
+cleandata.properties
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/PushMail_Server/!svn/ver/1/mercury/taskFactory/src/main/resources/cleandata.properties
+END
+offlinehandle.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/PushMail_Server/!svn/ver/1/mercury/taskFactory/src/main/resources/offlinehandle.properties
+END
+heartbeat.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/PushMail_Server/!svn/ver/360/mercury/taskFactory/src/main/resources/heartbeat.properties
+END
+taskspring-jms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/PushMail_Server/!svn/ver/238/mercury/taskFactory/src/main/resources/taskspring-jms.xml
+END

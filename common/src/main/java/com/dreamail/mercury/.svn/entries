@@ -1,0 +1,76 @@
+10
+
+dir
+557
+https://10.11.1.107/svn/PushMail_Server/mercury/common/src/main/java/com/dreamail/mercury
+https://10.11.1.107/svn/PushMail_Server
+
+
+
+2012-04-16T07:08:27.996625Z
+555
+haisheng.wang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9b0afab4-edfc-6d4f-883e-c1cb8134b5b6
+
+sender
+dir
+
+configure
+dir
+
+mail
+dir
+
+cag
+dir
+
+proces
+dir
+
+store
+dir
+
+jibx
+dir
+
+yahooSNP
+dir
+
+xml
+dir
+
+dal
+dir
+
+cache
+dir
+
+receiver
+dir
+
+memcached
+dir
+
+pojo
+dir
+
+domain
+dir
+
+util
+dir
+

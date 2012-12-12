@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/netty/server
+END
+TelnetServerHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/netty/server/TelnetServerHandler.java
+END
+TelnetServerHttpsHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/netty/server/TelnetServerHttpsHandler.java
+END
+SecureChatSslContextFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/netty/server/SecureChatSslContextFactory.java
+END
+TelnetPipelineFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/netty/server/TelnetPipelineFactory.java
+END
+SecureChatTrustManagerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/netty/server/SecureChatTrustManagerFactory.java
+END
+SecureChatKeyStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/netty/server/SecureChatKeyStore.java
+END
+TelnetPipelineHttpsFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/netty/server/TelnetPipelineHttpsFactory.java
+END

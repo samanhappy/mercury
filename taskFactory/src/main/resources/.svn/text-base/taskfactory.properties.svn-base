@@ -1,0 +1,14 @@
+##timer param unit:min##
+heart_beat=1
+listener_time=2
+dead_time=2
+listener_data=30
+listener_download_data=180
+listener_mail_data=180
+##max_download_times##
+max_download_times=3
+##download_times_once##
+send_times=3
+send_count=20
+##sendmail retry_minute##
+retry_minute=3

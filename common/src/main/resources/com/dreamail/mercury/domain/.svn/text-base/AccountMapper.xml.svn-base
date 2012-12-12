@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.AccountMapper">
+
+	<resultMap type="clickoo_mail_account" id="accountMap">
+		<id column="id" property="id" />
+		<result column="name" property="name" />
+		<result column="status" property="status" />
+		<result column="inCert" property="inCert" />
+		<result column="inPath" property="inPath" />
+		<result column="outCert" property="outCert" />
+		<result column="outPath" property="outPath" />
+		<result column="type" property="type" />
+		<result column="roleLevel" property="roleLevel" />
+		<result column="failtime" property="failtime" />
+		<result column="registrationDate" property="registrationDate" />
+		<result column="recentMessageDate" property="recentMessageDate" />
+		<result column="priority" property="priority" />
+		<result column="maxuuid" property="maxuuid" />
+		<result column="sign" property="sign" />
+		<result column="uid" property="uid" />
+		<result column="function" property="function" />
+		<collection property="deviceModelList" column="id" ofType="string"
+			select="selectDeviceModelByAid">
+		</collection>
+	</resultMap>
+
+	<resultMap type="clickoo_mail_account" id="accountMessageMap">
+		<id column="id" property="id" />
+		<result column="name" property="name" />
+		<result column="type" property="type" />
+		<result column="status" property="status" />
+		<result column="inCert" property="inCert" />
+		<result column="inPath" property="inPath" />
+		<result column="outCert" property="outCert" />
+		<result column="outPath" property="outPath" />
+		<result column="roleLevel" property="roleLevel" />
+		<result column="registrationDate" property="registrationDate" />
+		<collection property="Clickoo_message" column="id"
+			ofType="clickoo_message">
+			<id column="mesid" property="id" />
+			<result column="intime" property="intime" />
+			<result column="status" property="status" />
+			<result column="aid" property="aid" javaType="string" />
+			<result column="mvol" property="volumeid" />
+			<result column="mpath" property="path" />
+			<result column="muuid" property="uuid" />
+		</collection>
+	</resultMap>
+
+	<parameterMap type="map" id="getMessage">
+		<parameter property="aid" javaType="long" />
+		<parameter property="mid" javaType="long" />
+	</parameterMap>
+
+	<select id="getMessage" parameterMap="getMessage" resultMap="accountMessageMap">
+		select a.id, a.name, a.type, a.status ,a.in_Cert as inCert,
+		a.in_Path
+		as
+		inPath,a.out_Cert as outCert,a.outPath as outPath, b.id as
+		mesid,b.intime,b.status,b.aid as mesid,b.volumeid as mvol,b.path as
+		mpath,b.uuid as muuid
+		from clickoo_mail_account as a,clickoo_message as
+		b where a.id=#{aid}
+		and b.id= #{mid}
+	</select>
+
+
+	<select id="selectDeviceModelByAid" parameterType="long"
+		resultType="string">
+		select distinct devicemodel
+		from clickoo_mail_account a
+		left
+		join clickoo_user_account ua on a.id=ua.aid
+		left join clickoo_user u on
+		ua.uid = u.uid
+		where a.id = #{id}
+	</select>
+
+	<insert id="insertAccount" parameterType="clickoo_mail_account"
+		useGeneratedKeys="true" keyProperty="id">
+		insert into
+		clickoo_mail_account
+		(id,name,type,status,in_cert,in_path,out_cert,outpath)
+		values
+		(#{id},#{name},#{type},#{status},#{inCert},#{inPath},#{outCert},#{outPath})
+	</insert>
+
+	<delete id="deleteAccountById" parameterType="long">
+		delete from
+		clickoo_mail_account where id = #{id}
+	</delete>
+
+	<update id="updateAccount" parameterType="clickoo_mail_account">
+		update
+		clickoo_mail_account
+		set
+		name=#{name},status=#{status},in_cert=#{inCert},in_path=#{inPath},out_cert=#{outCert},outpath=#{outPath},type=#{type}
+		where id = #{id}
+	</update>
+
+	<select id="selectAccountByID" parameterType="long"
+		resultType="clickoo_mail_account">
+		select id,name,type,status,in_cert as inCert,in_path as
+		inPath,out_cert as
+		outCert,outpath as outPath
+		from clickoo_mail_account
+		where id = #{id}
+	</select>
+
+	<!--别名astatus,ustatus -->
+	<!--where inCert is not null条件是过渡代码，后面应去掉 -->
+	<select id="selectAllValidAccounts" resultType="clickoo_mail_account">
+		select a.id
+		,a.name,a.type, a.status,in_cert as inCert,in_path as inPath,out_cert
+		as
+		outCert,outpath as outPath,
+		min(ua.registerDate) as registrationDate,
+		max(u.rolelevel) as roleLevel, max(devicemodel) as
+		deviceModel
+		from
+		clickoo_mail_account a
+		left join clickoo_user_account ua on a.id=ua.aid
+		left join clickoo_user u on ua.uid = u.uid
+		where in_cert is not null
+		group by ua.aid
+	</select>
+
+	<select id="getAccountByName" parameterType="string"
+		resultType="clickoo_mail_account">
+		select id,name,type,status,in_cert as inCert,in_path as
+		inPath,out_cert as
+		outCert,outpath as outPath
+		from clickoo_mail_account
+		where name = #{name}
+	</select>
+
+	<select id="getAccountByNameIdle" parameterType="string"
+		resultType="clickoo_mail_account">
+		select id,in_cert as inCert
+		from clickoo_mail_account
+		where
+		name = #{name}
+	</select>
+
+	<select id="getAccountById" parameterType="long" resultType="clickoo_mail_account">
+		select id,name,type,status,in_cert as inCert,in_path as
+		inPath,out_cert as
+		outCert,outpath as outPath
+		from clickoo_mail_account
+		where id =
+		#{id}
+	</select>
+
+	<!-- 得到所有account -->
+	<select id="getAllAccount" resultType="clickoo_mail_account">
+		select
+		id,name,type,status,in_cert as inCert,in_path as inPath,out_cert as
+		outCert,outpath as outPath
+		from clickoo_mail_account 
+	</select>
+
+
+	<select id="getAccountByUidAndName" parameterType="clickoo_mail_account"
+		resultType="clickoo_mail_account">
+		select id,name,type,status,in_cert as inCert,in_path as
+		inPath,out_cert as
+		outCert,outpath as outPath
+		from clickoo_mail_account
+		where name= #{name}
+	</select>
+
+	<update id="updateAccountState" parameterType="clickoo_mail_account">
+		update
+		clickoo_mail_account set status=#{status} where id = #{id}
+	</update>
+
+	<select id="isAccountExit" parameterType="string" resultType="long">
+		select id from clickoo_mail_account where in_cert=#{in_cert}
+	</select>
+
+
+	<parameterMap type="map" id="limitNumber">
+		<parameter property="first" javaType="string" />
+		<parameter property="second" javaType="string" />
+	</parameterMap>
+
+	<!--where inCert is not null条件是过渡代码，后面应去掉 -->
+	<!--type字段控制选择普通账号和imap-idle账号，排除yahooSNP账号 -->
+	<select id="getAllAccountToCache" parameterMap="limitNumber"
+		resultMap="accountMap">
+		select a.id
+		,a.name,a.type,a.status,in_cert as inCert,in_path
+		as
+		inPath,out_cert as
+		outCert,outpath as outPath,
+		min(ua.registerDate) as
+		registrationDate,
+		max(u.rolelevel) as roleLevel, max(devicemodel) as
+		deviceModel
+		from
+		clickoo_mail_account a
+		left join
+		clickoo_user_account ua
+		on a.id=ua.aid
+		left join clickoo_user u on
+		ua.uid = u.uid
+		where in_cert
+		is not null
+		and a.type != 1 and a.type != 2
+		and ua.registerDate is not
+		null
+		group by ua.aid
+		limit #{first},#{second}
+	</select>
+
+
+	<parameterMap type="map" id="getAccountIdByName">
+		<parameter property="uid" javaType="string" />
+		<parameter property="name" javaType="string" />
+	</parameterMap>
+
+	<select id="getAccountIdByName" parameterMap="getAccountIdByName"
+		resultType="long">
+		select a.id from clickoo_mail_account a right join
+		clickoo_user_account ua
+		on a.id=ua.aid where a.name=#{name} and
+		ua.uid=#{uid}
+	</select>
+
+	<update id="updateTmpState">
+		update clickoo_mail_account set status=2 where
+		status=3
+	</update>
+
+	<!-- 根据aid得到所属用户最高权限的角色level. -->
+	<select id="getMaxRoleLevelByAid" parameterType="long"
+		resultType="int">
+		select max(rolelevel)
+		from clickoo_user_account ua
+		left join
+		clickoo_user u
+		on ua.uid = u.uid
+		where ua.aid = #{aid}
+	</select>
+
+	<select id="getAccountToCacheByAid" parameterType="long"
+		resultMap="accountMap" statementType="CALLABLE">
+		{call
+		RECEIVEEMAILACCOUNT(#{aid})}  
+	</select>
+
+	<select id="selectAccountAndUUIdByMid" parameterType="long"
+		resultType="clickoo_mail_account">
+		select uuid, a.id,a.name,a.type,a.status,in_cert as
+		inCert,in_path
+		as
+		inPath,out_cert as outCert,outpath as outPath,
+		min(ua.registerDate)
+		as
+		registrationDate
+		from clickoo_message m
+		left join
+		clickoo_mail_account
+		a on m.aid = a.id
+		left join clickoo_user_account ua
+		on a.id = ua.aid
+		where m.id = #{mid}
+		group by m.id
+	</select>
+	<!-- <select id="selectUidAndIMEIByAid" parameterType="long" resultType="clickoo_user"> 
+		select u.uid, u.IMEI from clickoo_user_account ua left join clickoo_user 
+		u on ua.uid = u.uid where ua.aid = #{aid} </select> -->
+	<select id="selectUidAndIMEIByAid" parameterType="long"
+		resultType="clickoo_user">
+		SELECT uid,IMEI FROM selectuidandimeibyaid WHERE aid =
+		#{aid}
+	</select>
+
+	<update id="updateFailTime" parameterType="clickoo_mail_account">
+		update
+		clickoo_mail_account set failtime=#{failtime} where id = #{id}
+	</update>
+
+	<select id="getAccountConfigByUid" parameterType="string"
+		resultType="clickoo_mail_account">
+		select ua.cuki, ua.validation, a.name
+		from
+		clickoo_user_account ua left join clickoo_mail_account a
+		on ua.aid =
+		a.id
+		where ua.uid = #{uid} 
+	</select>
+
+	<select id="getAccountConfigByUidWithoutCUKI" parameterType="string"
+		resultType="clickoo_mail_account">
+		select ua.validation, a.name, a.id, a.status
+		from
+		clickoo_user_account ua left join clickoo_mail_account a
+		on ua.aid =
+		a.id
+		where ua.uid = #{uid} 
+	</select>
+
+	<parameterMap type="map" id="configMap">
+		<parameter property="names" javaType="string" />
+		<parameter property="validations" javaType="string" />
+		<parameter property="uid" javaType="string" />
+	</parameterMap>
+
+	<select id="setAccountConfig" parameterMap="configMap"
+		resultType="clickoo_mail_account">
+		call SETCAGCONFIG(#{names}, #{validations}, #{uid},
+		#{cukis})
+	</select>
+
+	<select id="validateUidAndAccountName" parameterType="clickoo_mail_account"
+		resultType="string">
+		select 1 from
+		clickoo_user_account ua left join
+		clickoo_mail_account a
+		on ua.aid = a.id
+		where ua.uid = #{uuid} and
+		a.name = #{name}
+	</select>
+
+	<select id="getAccountBySTMP" resultType="clickoo_mail_account">
+		select
+		id,name,type,status,in_cert as inCert,in_path as
+		inPath,out_cert as
+		outCert,outpath as outPath
+		from clickoo_mail_account
+		where status = 1
+	</select>
+
+	<!--根据邮箱类型查询账号 -->
+	<select id="getAllValidAccountListByType" resultType="clickoo_mail_account"
+		parameterType="int">
+		SELECT id,name,status,in_cert AS inCert FROM
+		clickoo_mail_account WHERE type = #{type}
+	</select>
+
+	<!--获取邮箱账号配置 -->
+	<select id="getMailBoxConfig" parameterType="map" resultType="map">
+		CALL getMailBoxConfig(#{in_uuid}, #{in_name}, #{in_suffix},
+		#{in_second_suffix})
+	</select>
+
+	<!--增加一个账号 -->
+	<select id="addMailAccount" parameterType="clickoo_mail_account"
+		resultType="long">
+		CALL addAccount(#{name}, #{inPath}, #{inCert}, #{outPath},
+		#{outCert},
+		#{uuid}, #{type}, #{isnewmailbox}, #{suffix})
+	</select>
+
+	<!--刪除一个账号的所有信息（此处不删除账号表和邮件信息表的记录） -->
+	<select id="removeAllAccountInfoByUidAndAid" parameterType="uaRelation"
+		resultType="clickoo_mail_account">
+		CALL removeAccount(#{uid}, #{aid})
+	</select>
+
+	<!-- 更新maxuuid -->
+	<update id="updateMaxUuid">
+		update clickoo_mail_account set maxuuid=#{maxuuid}
+		where
+		id = #{id}
+	</update>
+
+	<!--查询账号总个数 -->
+	<select id="getAllValidAccountSize" resultType="int">
+		select count(1)
+		from clickoo_mail_account where type != 1 and type != 2
+	</select>
+
+	<select id="getAccountNameById" parameterType="string"
+		resultType="string">
+		select name from clickoo_mail_account a
+		right join
+		clickoo_send_message m on a.id = m.aid where m.id =#{id}
+	</select>
+	
+	<!--查询全部在线账号 -->
+	<select id="getAllMailAccount" resultType="clickoo_mail_account">
+		select ma.id,ma.type from clickoo_mail_account ma left join clickoo_user_account ua on
+		 	ma.id = ua.aid
+		where ua.status = 0 or ua.status = 1
+	</select>
+</mapper>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!--
+		Document : logback.xml Created on : 2010年6月22日, 上午10:22 Author : tiger
+		Description: Purpose of the document follows.
+	-->
+
+<configuration>
+	<Property name="log.base" value="/tmp/logs" />
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender" Threshold="DEBUG">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>%-20(%d{HH:mm:ss.SSS} [%thread]) %-5level %logger{0} -%msg%n</pattern>
+		</layout>
+	</appender>
+
+	<appender name="file"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.base}/taskfactory.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.base}/taskfactory.%d{yyyy-MM-dd}.log.zip
+			</fileNamePattern>
+			<maxHistory>7</maxHistory>
+		</rollingPolicy>
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>%-20(%d{HH:mm:ss.SSS} [%thread]) %-5level %logger{0} -%msg%n</pattern>
+		</layout>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">  
+			<level>INFO</level>  
+ 	    </filter>  
+	</appender>
+	<appender name="file_warn"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.base}/taskfactory_warn.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.base}/taskfactory_warn.%d{yyyy-MM-dd}.log.zip
+			</fileNamePattern>
+			<maxHistory>7</maxHistory>
+		</rollingPolicy>
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>%-20(%d{HH:mm:ss.SSS} [%thread]) %-5level %logger{0} -%msg%n</pattern>
+		</layout>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">  
+			<level>WARN</level>  
+ 	    </filter>  
+	</appender>
+	<root>
+		<level value="DEBUG" />
+		<appender-ref ref="file" />
+		<appender-ref ref="file_warn" />
+		<appender-ref ref="STDOUT" />
+	</root> 
+	
+</configuration>

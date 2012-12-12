@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.SendMessageMapper">
+
+	<resultMap id="sendFailedMessageMap" type="clickoo_send_failed_message">
+		<id column="id" property="id" />
+		<result column="mid" property="mid" />
+		<result column="oldmid" property="oldmid" />
+		<result column="uid" property="uid" />
+		<result column="hid" property="hid" />
+		<result column="sendtype" property="sendtype" />
+		<result column="retrycount" property="retrycount" />
+		<result column="qeuetype" property="qeuetype" />
+	</resultMap>
+
+	<insert id="insertSendFailedMessage" parameterType="clickoo_send_failed_message"
+		useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO
+		clickoo_send_failed_message
+		(id,mid,oldmid,uid,hid,sendtype,retrycount,qeuetype)
+		VALUES(#{id},#{mid},#{oldmid},#{uid},#{hid},#{sendtype},#{retrycount},#{qeuetype})
+	</insert>
+
+	<select id="getAllSendFailedMessage" resultType="clickoo_send_failed_message">
+		SELECT
+		id,mid,oldmid,uid,hid,sendtype,retrycount,qeuetype
+		FROM clickoo_send_failed_message 
+	</select>
+
+	<select id="selectSendFailedMessageByMid" parameterType="long"
+		resultType="clickoo_send_failed_message">
+		SELECT id,mid,oldmid,uid,hid,sendtype,retrycount,qeuetype
+		FROM clickoo_send_failed_message WHERE mid = #{mid}
+	</select>
+
+	<delete id="deleteSendFailedMessageByMids">
+		DELETE FROM clickoo_send_failed_message WHERE mid IN
+		<foreach item="mids" index="index" collection="array" open="("
+			separator="," close=")">
+			#{mids}   
+		</foreach>
+	</delete>
+
+	<delete id="deleteSendFailedMessageByMid" parameterType="long">
+		DELETE
+		FROM clickoo_send_failed_message WHERE mid = #{mid}
+	</delete>
+
+	<update id="updateSentFailedMessageCount" parameterType="clickoo_send_failed_message">
+		UPDATE
+		clickoo_send_failed_message SET retrycount=#{retrycount} WHERE id =
+		#{id};
+	</update>
+</mapper>
+	
+	

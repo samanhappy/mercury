@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.DownloadMessageMapper">
+
+	<resultMap id="doMessageMap" type="clickoo_download_message">
+		<id column="doid" property="id" />
+		<result column="domid" property="mid" />
+		<result column="douid" property="uid" />
+		<result column="doaid" property="aid" />
+		<result column="dointime" property="intime" />
+		<result column="dostatus" property="status" />
+	</resultMap>
+
+	<insert id="insertDownloadMessage" parameterType="clickoo_download_message"
+		useGeneratedKeys="true" keyProperty="id">
+		insert into
+		clickoo_download_message(id,mid,uid,aid,intime,status)
+		values(#{id},#{mid},#{uid},#{aid},#{intime},#{status})
+	</insert>
+
+	<delete id="deleteDownloadMessageByDids" parameterType="idMap">
+		DELETE FROM clickoo_download_message WHERE uid=#{uid} and mid in
+		<foreach item="dids" index="index" collection="mids" open="("
+			separator="," close=")">
+			#{dids}   
+        </foreach>
+	</delete>
+
+	<select id="getDownloadedMessages" parameterType="long"
+		resultType="clickoo_message">
+		select cm.id,cm.intime,cm.status,cm.aid,
+		cm.volumeid,cm.path ,cm.uuid ,cm.foldername
+		from clickoo_message cm inner join clickoo_download_message cdm on
+		cdm.mid=cm.id where cdm.uid=#{uid} and cdm.status=0; 
+	</select>
+
+	<update id="updateDownloadMessageStatus" parameterType="long">
+		update clickoo_download_message set status= 0 where mid in
+		<foreach item="mids" index="index" collection="array" open="("
+			separator="," close=")">
+			#{mids}   
+		</foreach>
+	</update>
+
+	<update id="updateDownloadedMessageStatus" parameterType="long">
+		update clickoo_download_message set status= 1 where mid in
+		<foreach item="mids" index="index" collection="array" open="("
+			separator="," close=")">
+			#{mids}   
+		</foreach>
+	</update>
+	<update id="updateDownloadFailMessageStatus" parameterType="long">
+		update clickoo_download_message set status= 2 where mid in
+		<foreach item="mids" index="index" collection="array" open="("
+			separator="," close=")">
+			#{mids}   
+		</foreach>
+	</update>
+
+	<select id="getDownloadMessages" parameterType="string"
+		resultType="string">
+		select distinct cdm.mid from clickoo_download_message cdm where
+		cdm.status=1 and cdm.intime <![CDATA[<]]>
+		#{intime}
+	</select>
+
+	<parameterMap type="map" id="idMap">
+		<parameter property="uid" javaType="string" />
+		<parameter property="mid" javaType="string" />
+	</parameterMap>
+	<select id="selectDownloadMessageByUid" parameterMap="idMap"
+		resultType="string">
+		select id from clickoo_download_message where uid= #{uid}
+		and mid =#{mid}
+	</select>
+
+	<select id="selectIMEIByMid" parameterType="long" resultType="string">
+		select cu.IMEI from clickoo_user cu inner join
+		clickoo_download_message cdm on cu.uid=cdm.uid where cdm.mid=#{mid}
+	</select>
+
+	<delete id="deleteDownloadMessageByUid" parameterType="string">
+		DELETE
+		FROM clickoo_download_message WHERE uid=#{uid} and status =0
+	</delete>
+	<delete id="deleteDownloadMessageByids" parameterType="long">
+		DELETE FROM clickoo_download_message where id in
+		<foreach item="ids" index="index" collection="array" open="("
+			separator="," close=")">
+			#{ids}   
+		</foreach>
+	</delete>
+</mapper>
+	
+	

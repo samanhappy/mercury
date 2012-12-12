@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="mercury-petasos" version="2.5">
+
+	<display-name>petasos</display-name>
+	<welcome-file-list>
+		<welcome-file>testQwertml.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>qwertmlServlet</servlet-name>
+		<servlet-class>com.dreamail.mercury.petasos.servlet.QwertmlServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>qwertmlServlet</servlet-name>
+		<url-pattern>/qwertml.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>protocolExchangeServlet</servlet-name>
+		<servlet-class>com.dreamail.mercury.petasos.servlet.ProtocolExchangeServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>protocolExchangeServlet</servlet-name>
+		<url-pattern>/protocolExchange.do</url-pattern>
+	</servlet-mapping>
+
+	<listener>
+		<listener-class>com.dreamail.mercury.petasos.listener.TimerListener</listener-class>
+	</listener>
+
+	<!-- <filter>
+		<filter-name>GZipFilter</filter-name>
+		<filter-class>com.dreamail.mercury.petasos.filter.GZipFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>GZipFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping> -->
+
+</web-app>

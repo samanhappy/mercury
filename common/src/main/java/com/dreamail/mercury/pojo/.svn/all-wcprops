@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/PushMail_Server/!svn/ver/467/mercury/common/src/main/java/com/dreamail/mercury/pojo
+END
+Clickoo_message_attachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_message_attachment.java
+END
+Clickoo_mail_account.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/467/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_mail_account.java
+END
+Clickoo_yahoosnp_ids.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_yahoosnp_ids.java
+END
+Clickoo_role.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_role.java
+END
+Clickoo_send_failed_message.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_send_failed_message.java
+END
+Clickoo_volume.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_volume.java
+END
+Clickoo_send_xml.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_send_xml.java
+END
+Clickoo_volume_meta.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_volume_meta.java
+END
+OutPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/OutPath.java
+END
+OutCert.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/OutCert.java
+END
+Clickoo_message.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_message.java
+END
+Clickoo_sender_filter.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_sender_filter.java
+END
+IdMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/IdMap.java
+END
+Clickoo_user_account.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_user_account.java
+END
+Clickoo_imap_message.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_imap_message.java
+END
+User_role.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/User_role.java
+END
+Clickoo_send_message.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_send_message.java
+END
+Clickoo_yahoosnp_message.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_yahoosnp_message.java
+END
+Clickoo_delete_message.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_delete_message.java
+END
+Clickoo_mail_receive_server.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_mail_receive_server.java
+END
+Clickoo_download_message.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_download_message.java
+END
+Clickoo_folder.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_folder.java
+END
+Clickoo_message_data.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_message_data.java
+END
+Clickoo_user_limittimes.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_user_limittimes.java
+END
+Clickoo_user.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/PushMail_Server/!svn/ver/346/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_user.java
+END
+Clickoo_ids.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_ids.java
+END
+InPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/InPath.java
+END
+Clickoo_timer.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_timer.java
+END
+InCert.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/InCert.java
+END
+Clickoo_mail_send_server.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_mail_send_server.java
+END
+Function.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Function.java
+END
+AdminUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PushMail_Server/!svn/ver/306/mercury/common/src/main/java/com/dreamail/mercury/pojo/AdminUser.java
+END
+Clickoo_task_factory.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/pojo/Clickoo_task_factory.java
+END

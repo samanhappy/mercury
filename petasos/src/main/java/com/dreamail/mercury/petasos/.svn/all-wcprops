@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/PushMail_Server/!svn/ver/553/mercury/petasos/src/main/java/com/dreamail/mercury/petasos
+END
+ISenderFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/290/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/ISenderFilter.java
+END
+IEmailController.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/290/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/IEmailController.java
+END
+IFunctionDispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/290/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/IFunctionDispatcher.java
+END
+IFunctionHandle.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/290/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/IFunctionHandle.java
+END
+IUserController.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/290/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/IUserController.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/PushMail_Server/!svn/ver/220/mercury/talaria/src/main/resources
+END
+logback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/PushMail_Server/!svn/ver/1/mercury/talaria/src/main/resources/logback.xml
+END
+spring-jms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/PushMail_Server/!svn/ver/220/mercury/talaria/src/main/resources/spring-jms.xml
+END
+suspend.properties
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/PushMail_Server/!svn/ver/1/mercury/talaria/src/main/resources/suspend.properties
+END

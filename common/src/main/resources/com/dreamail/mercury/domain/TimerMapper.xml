@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.TimerMapper">
+	<!-- 查询所有UserLimittimes -->
+	<select id="queryUserLimittimes" resultType="clickoo_user_limittimes">
+		SELECT
+		id,uid,aid,weekdays,starthour,endhour,startminute,endminute,timetype
+		FROM clickoo_timer
+	</select>
+	<!-- 新增 -->
+	<insert id="insertUserLimittimes" parameterType="clickoo_user_limittimes"
+		useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO
+		clickoo_timer
+		(id,uid,aid,weekdays,starthour,endhour,startminute,endminute,timetype)
+		VALUES
+		(#{id},#{uid},#{aid},#{weekdays},#{starthour},#{endhour},#{startminute},#{endminute},#{timetype})
+	</insert>
+	<!-- 根据id删除 -->
+	<delete id="deleteUserLimittimesById" parameterType="long">
+		DELETE FROM
+		clickoo_timer WHERE id = #{id}
+	</delete>
+
+	<select id="getAllTimerInfo" resultType="clickoo_user_limittimes">
+		SELECT
+		id,uid,aid,weekdays,starthour,endhour,startminute,endminute,timetype
+		FROM clickoo_timer
+	</select>
+
+	<select id="getAllCommonTimerInfo" resultType="clickoo_user_limittimes">
+		SELECT
+		id,uid,aid,weekdays,starthour,endhour,startminute,endminute,timetype
+		FROM clickoo_timer
+		where timetype = 1
+	</select>
+
+	<select id="getCommonTimerInfoByUidAndAid" parameterMap="idMap"
+		resultType="clickoo_user_limittimes">
+		SELECT
+		id,uid,aid,weekdays,starthour,endhour,startminute,endminute,timetype
+		FROM clickoo_timer
+		where uid = #{uid} and aid = #{aid} and timetype = 1
+	</select>
+
+	<parameterMap type="map" id="idMap">
+		<parameter property="uid" javaType="string" />
+		<parameter property="aid" javaType="string" />
+		<parameter property="id" javaType="string" />
+		<parameter property="timetype" javaType="string" />
+	</parameterMap>
+
+	<!--只删除账号级别的非普通定时器 -->
+	<delete id="deleteTimerByUidAndAid" parameterMap="idMap">
+		delete from
+		clickoo_timer where uid = #{uid} and aid = #{aid} and timetype != 1
+	</delete>
+
+	<!--只删除账号级别的普通定时器 -->
+	<delete id="deleteCommonTimerByUidAndAid" parameterMap="idMap">
+		delete
+		from
+		clickoo_timer where uid = #{uid} and aid = #{aid} and timetype = 1
+	</delete>
+
+	<!--只删除用户级别的定时器 -->
+	<delete id="deleteTimerByUid" parameterType="string">
+		delete from
+		clickoo_timer where uid = #{uid} and (timetype = 3 or timetype = 4)
+	</delete>
+
+	<!--删除账号的所有定时设置 -->
+	<delete id="deleteTimerByAid" parameterType="string">
+		delete from
+		clickoo_timer where aid = #{aid}
+	</delete>
+
+	<insert id="addOffTimerForUidAndAid" parameterMap="idMap"
+		useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO
+		clickoo_timer
+		(id,uid,aid,timetype)
+		VALUES
+		(#{id},#{uid},#{aid},#{timetype})
+	</insert>
+
+	<insert id="addOffTimerForUid" parameterMap="idMap"
+		useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO
+		clickoo_timer
+		(id,uid,timetype)
+		VALUES
+		(#{id},#{uid},#{timetype})
+	</insert>
+
+	<!--meng.sun modify at 14:20 2011-1-24 -->
+	<select id="selectAllTimerByUid" parameterType="long"
+		resultType="clickoo_user_limittimes">
+		select
+		uid,aid,weekdays,starthour,endhour,startminute,endminute,timetype
+		from
+		clickoo_timer
+		where uid = #{uid}
+	</select>
+
+	<!--判断用户是否PushOff -->
+	<select id="selectUserOffTimerByUid" parameterType="long"
+		resultType="int">
+		select 1 from clickoo_timer where uid = #{uid} and timetype
+		= 3
+	</select>
+
+	<!--
+		新增用户级别定时
+	-->
+	<select id="getCommonTimerInfoByUid" parameterType="string"
+		resultType="clickoo_user_limittimes">
+		SELECT
+		id,uid,weekdays,starthour,endhour,startminute,endminute,timetype
+		FROM
+		clickoo_timer
+		where uid = #{uid} and timetype = 6
+	</select>
+
+	<!--只删除账号级别的普通定时器 -->
+	<delete id="deleteCommonTimerByUid" parameterType="string">
+		delete
+		from
+		clickoo_timer where uid = #{uid} and timetype = 6
+	</delete>
+
+</mapper>

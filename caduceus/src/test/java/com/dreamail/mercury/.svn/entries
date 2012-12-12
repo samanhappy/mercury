@@ -1,0 +1,83 @@
+10
+
+dir
+565
+https://10.11.1.107/svn/PushMail_Server/mercury/caduceus/src/test/java/com/dreamail/mercury
+https://10.11.1.107/svn/PushMail_Server
+
+
+
+2012-05-11T09:07:05.877375Z
+564
+lianjie.you
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9b0afab4-edfc-6d4f-883e-c1cb8134b5b6
+
+configure
+dir
+
+mail
+dir
+
+imapIdle
+dir
+
+receiver
+dir
+
+memcached
+dir
+
+xfire
+dir
+
+ews
+dir
+
+ExpectionTest.java
+file
+
+
+
+
+2011-12-02T08:03:36.531250Z
+4c2719013f01a5f71c97beab7dd87cc7
+2011-10-17T03:07:40.842625Z
+276
+meng.sun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2465
+

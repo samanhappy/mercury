@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.VolumeMapper">
+
+    <select id="getCurrentVolume" parameterType="long" resultType="clickoo_volume">
+    	select 
+    	id,name,path,type,file_bits,space 
+    	from 
+    	clickoo_volume 
+    	where 
+    	id = (select max(id) from clickoo_volume where type = #{type})
+    </select>
+    
+     <select id="getVolumeByVolumeId" parameterType="long" resultType="clickoo_volume">
+    	select 
+    	id,name,path,type,file_bits,space  
+    	from 
+    	clickoo_volume 
+    	where id = #{id}
+    </select>
+    
+    <select id="getCurrentVolumeByMetaName" parameterType="string" resultType="clickoo_volume">
+    	select 
+    	id,name,path,type,file_bits,space  
+    	from 
+    	clickoo_volume
+    	where id = (select vid from clickoo_volume_meta where name =#{name})
+    </select>
+    
+    <select id="getAllVolume" resultType="clickoo_volume">
+    	select 
+    	id,name,path,type,file_bits,space  
+    	from 
+    	clickoo_volume
+    </select>
+    
+	<update id="updateDiskState" parameterType="clickoo_volume">
+		update
+		clickoo_volume
+		set space = #{space}
+		where id = #{id}
+	</update>
+</mapper>

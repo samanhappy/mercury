@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PushMail_Server/!svn/ver/553/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/user
+END
+SynchronizationInfor.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PushMail_Server/!svn/ver/530/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/user/SynchronizationInfor.java
+END
+UserRegister.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PushMail_Server/!svn/ver/553/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/user/UserRegister.java
+END
+AccountModify.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/400/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/user/AccountModify.java
+END
+AccountAdd.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/403/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/user/AccountAdd.java
+END
+UserModify.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/351/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/user/UserModify.java
+END
+UserLogin.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/397/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/user/UserLogin.java
+END
+AccountRemove.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/290/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/user/AccountRemove.java
+END

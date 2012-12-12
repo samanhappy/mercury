@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/PushMail_Server/!svn/ver/531/mercury/common/src/main/java/com/dreamail/mercury/domain
+END
+EmailCacheObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/EmailCacheObject.java
+END
+WebEmailbody.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/WebEmailbody.java
+END
+TimeoutException.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/TimeoutException.java
+END
+WebRoleFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/WebRoleFunction.java
+END
+WebEmailhead.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/WebEmailhead.java
+END
+WebUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/WebUser.java
+END
+IDTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/IDTypes.java
+END
+WebSenderFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/WebSenderFilter.java
+END
+Context.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PushMail_Server/!svn/ver/531/mercury/common/src/main/java/com/dreamail/mercury/domain/Context.java
+END
+EmailSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/EmailSupport.java
+END
+TrunOn.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/TrunOn.java
+END
+WebEmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/WebEmail.java
+END
+Email.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/Email.java
+END
+WebAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/WebAccount.java
+END
+Body.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/Body.java
+END
+WebDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/WebDevice.java
+END
+WebEmailattachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/WebEmailattachment.java
+END
+TimePush.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/domain/TimePush.java
+END

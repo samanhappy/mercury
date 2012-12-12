@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/PushMail_Server/!svn/ver/291/mercury/sendMail/src/main/java/com/dreamail/mercury/netty/server
+END
+TelnetServerHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/PushMail_Server/!svn/ver/291/mercury/sendMail/src/main/java/com/dreamail/mercury/netty/server/TelnetServerHandler.java
+END
+TelnetServerPipelineFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/netty/server/TelnetServerPipelineFactory.java
+END
+TelnetServerSmtpHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/netty/server/TelnetServerSmtpHandler.java
+END
+TelnetServerSmtpPipelineFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/netty/server/TelnetServerSmtpPipelineFactory.java
+END

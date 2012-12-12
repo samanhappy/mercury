@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PushMail>
+	<Header>
+		<Version>PushMail1.0</Version>
+		<Cred>
+			<!--同步信息，需要用户提供UUID用户ID-->
+			<UUID>4</UUID>
+		</Cred>
+	</Header>
+	<Body>
+		<!-- 指定改请求处理那些信息 -->
+		<!--isAtom用来控制Cmd标签的事务-->
+		<Target name="User" isAtom="true" >
+			<Cmd name="SynchronizationInfor">
+				<Meta size="1">
+					<!--判断是否需要同步信息0是代表“不需要同步”，1是代表“需要同步用户信息”，2是代表“需要更新用户角色” -->
+					<Item name="iSsynchronization">1</Item>
+				</Meta> 
+				<User>
+					<!--传入新手机的长宽 -->
+					<DeviceModel>100,50</DeviceModel>
+				</User>      
+			</Cmd>
+		</Target>
+	</Body>
+</PushMail>
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/PushMail_Server/!svn/ver/218/mercury/petasos/src/main/resources/META-INF/services
+END
+com.dreamail.mercury.petasos.IEmailController
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/218/mercury/petasos/src/main/resources/META-INF/services/com.dreamail.mercury.petasos.IEmailController
+END
+com.dreamail.mercury.petasos.impl.AbstractFunctionHandle
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/218/mercury/petasos/src/main/resources/META-INF/services/com.dreamail.mercury.petasos.impl.AbstractFunctionHandle
+END
+com.dreamail.mercury.petasos.IUserController
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/PushMail_Server/!svn/ver/218/mercury/petasos/src/main/resources/META-INF/services/com.dreamail.mercury.petasos.IUserController
+END

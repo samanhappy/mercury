@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title>MainBottomBar</title>
+		<meta http-equiv="Content-Language" content="zh-cn">
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+		<LINK href="../Css/TopMenu.css" type="text/css" rel="stylesheet">
+	</HEAD>
+	<body>
+		<form id="Form1" method="post" >
+			
+			<table height="100%" cellSpacing="0" cellPadding="0" width="100%" border="0">
+				<tr vAlign="bottom">
+					<td><IMG src="../images/TopMenu/bg_down_grid.gif" border="0"></td>
+					<td align="center" width="100%" background="../Images/TopMenu/bg_down.gif">XX软件有限公司
+						版权所有 2003-2004 <span style="FONT-SIZE: 8pt;FONT-FAMILY: Verdana">All Right Reserved</span></td>
+					<TD><IMG src="../images/TopMenu/bg_down_grid.gif" border="0" designtimesp="19709"></TD>
+				</tr>
+			</table>
+			
+		</form>
+	</body>
+</HTML>

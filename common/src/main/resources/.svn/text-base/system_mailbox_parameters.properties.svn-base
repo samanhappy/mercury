@@ -1,0 +1,9 @@
+system_mailbox_suffix=@super.com
+system_mailbox_inpath={"host":"10.11.1.188","type":"","protocoltype":"pop","receivePort":"110","supportalluid":"0"}
+system_mailbox_outpath={"smtpServer":"10.11.1.188","type":"","sendPort":"25","protocoltype":"smtp"}
+system_mailbox_receiveserver=10.11.1.188
+system_mailbox_receiveport=110
+system_mailbox_sendserver=10.11.1.188
+system_mailbox_sendport=25
+system_mailbox_receivets=false
+system_mailbox_sendts=false

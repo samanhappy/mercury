@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/utils
+END
+Tools.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/utils/Tools.java
+END
+EmlIdGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/utils/EmlIdGenerator.java
+END
+SmtpEmailattachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/utils/SmtpEmailattachment.java
+END
+Constant.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/utils/Constant.java
+END
+SmtpEmailBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/utils/SmtpEmailBody.java
+END
+SmtpEmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/utils/SmtpEmail.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/utils/User.java
+END

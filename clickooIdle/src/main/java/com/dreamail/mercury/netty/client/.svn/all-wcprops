@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/netty/client
+END
+SecureChatClientHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/netty/client/SecureChatClientHandler.java
+END
+SecureChatClientPipelineFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/netty/client/SecureChatClientPipelineFactory.java
+END
+SecureChatClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/netty/client/SecureChatClient.java
+END

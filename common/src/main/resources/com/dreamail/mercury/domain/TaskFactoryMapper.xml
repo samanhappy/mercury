@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.TaskFactoryMapper">
+
+	<insert id="addTaskParameter" parameterType="clickoo_task_factory">
+		insert into
+		clickoo_task_factory
+		(mctype,mckey,mcvalue)
+		values
+		(#{mctype},#{mckey},#{mcvalue})
+	</insert>
+
+	<delete id="deleteTaskParameterByMCKey" parameterType="string">
+		delete from
+		clickoo_task_factory where mckey = #{mckey}
+    </delete>
+
+	<delete id="deleteTaskParameterByMCType" parameterType="string">
+		delete from
+		clickoo_task_factory where mctype = #{mctype}
+    </delete>
+
+    <update id="updateTaskParameterByMCKey" parameterType="clickoo_task_factory">
+		update
+		clickoo_task_factory
+		set mcvalue = #{mcvalue}
+		where mckey = #{mckey}
+	</update>
+
+    <select id="getTaskParameterByMCKey" parameterType="string" resultType="clickoo_task_factory">
+    	select 
+    	mckey,mcvalue
+    	from 
+    	clickoo_task_factory
+    	where 
+    	mckey = #{mckey}
+    </select>
+    
+     <select id="getTaskParameterByType" parameterType="string" resultType="clickoo_task_factory">
+    	select 
+    	mckey,mcvalue
+    	from 
+    	clickoo_task_factory
+    	where
+    	mctype =#{mctype}
+    </select>
+</mapper>

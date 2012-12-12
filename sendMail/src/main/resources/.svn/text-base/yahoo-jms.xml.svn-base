@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jms="http://www.springframework.org/schema/jms"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd 
+       http://www.springframework.org/schema/context 
+       http://www.springframework.org/schema/context/spring-context-2.5.xsd 
+       http://www.springframework.org/schema/jms 
+       http://www.springframework.org/schema/jms/spring-jms-2.5.xsd"
+	default-lazy-init="true">
+	<bean id="placeholderConfig"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location">
+			<value>classpath:jms.properties</value>
+		</property>
+	</bean>
+	
+	<jms:listener-container connection-factory="messageFactory" destination-type="queue">
+		<jms:listener destination="yahooSendQueue" ref="messageReceiver" method="onMessage" /> 
+	</jms:listener-container>
+	<bean id="messageFactory" class="com.dreamail.mercury.sendMail.jms.MqConnectionFactory">
+		<constructor-arg type="java.lang.String">
+			<value>${queue.url}</value>
+		</constructor-arg>
+	</bean>
+	
+	<jms:listener-container connection-factory="jmsFactoryCacheUpdate" destination-type="topic">
+		<jms:listener destination="cacheUpdate" ref="messageReceiver" method="onMessage" /> 
+	</jms:listener-container>
+	<bean id="jmsFactoryCacheUpdate" class="com.dreamail.mercury.sendMail.jms.MqConnectionFactory">
+		<constructor-arg type="java.lang.String">
+			<value>${topic.url}</value>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="messageReceiver" class="com.dreamail.mercury.sendMail.jms.MessageReceiver">
+	</bean>
+		
+</beans>

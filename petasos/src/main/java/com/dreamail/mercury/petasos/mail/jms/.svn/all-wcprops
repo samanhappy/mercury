@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/290/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/mail/jms
+END
+MqConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/PushMail_Server/!svn/ver/213/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/mail/jms/MqConnectionFactory.java
+END
+ReceiveMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/290/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/mail/jms/ReceiveMessage.java
+END

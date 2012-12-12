@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PushMail_Server/!svn/ver/293/mercury/taskFactory/src/main/java/com/dreamail/taskfactory/msghandle
+END
+ServerMaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PushMail_Server/!svn/ver/293/mercury/taskFactory/src/main/java/com/dreamail/taskfactory/msghandle/ServerMaster.java
+END
+ServerSecond.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PushMail_Server/!svn/ver/293/mercury/taskFactory/src/main/java/com/dreamail/taskfactory/msghandle/ServerSecond.java
+END
+CacheUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/234/mercury/taskFactory/src/main/java/com/dreamail/taskfactory/msghandle/CacheUpdate.java
+END
+AccountTaskHandle.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/PushMail_Server/!svn/ver/293/mercury/taskFactory/src/main/java/com/dreamail/taskfactory/msghandle/AccountTaskHandle.java
+END
+IServerHandel.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/293/mercury/taskFactory/src/main/java/com/dreamail/taskfactory/msghandle/IServerHandel.java
+END

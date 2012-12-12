@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/PushMail_Server/!svn/ver/443/mercury/common/src/main/java/com/dreamail/mercury/dal/dao
+END
+FolderDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/FolderDao.java
+END
+DownloadMessageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/DownloadMessageDao.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PushMail_Server/!svn/ver/343/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/UserDao.java
+END
+VolumeMetaDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/VolumeMetaDao.java
+END
+UserLimitTimesDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/UserLimitTimesDao.java
+END
+SendServerDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/SendServerDao.java
+END
+MessageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PushMail_Server/!svn/ver/443/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/MessageDao.java
+END
+SenderFilterDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/343/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/SenderFilterDao.java
+END
+AdminUserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/PushMail_Server/!svn/ver/306/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/AdminUserDao.java
+END
+AttachmentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/AttachmentDao.java
+END
+TaskFactoryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/TaskFactoryDao.java
+END
+AccountDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PushMail_Server/!svn/ver/324/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/AccountDao.java
+END
+SendMessageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/SendMessageDao.java
+END
+YahoosnpIdsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/YahoosnpIdsDao.java
+END
+RoleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/RoleDao.java
+END
+SendFailedMessageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/SendFailedMessageDao.java
+END
+UARelationDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/UARelationDao.java
+END
+YahoosnpMessageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/YahoosnpMessageDao.java
+END
+DeleteMessageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/DeleteMessageDao.java
+END
+VolumeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/VolumeDao.java
+END
+ReceiveServerDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/ReceiveServerDao.java
+END
+DataDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/DataDao.java
+END
+SendXmlDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/dal/dao/SendXmlDao.java
+END

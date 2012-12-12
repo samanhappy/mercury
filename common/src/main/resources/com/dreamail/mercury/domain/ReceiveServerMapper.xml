@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.ReceiveServerMapper">
+
+	<select id="getReceiveServerByName" parameterType="string"
+		resultType="clickoo_mail_receive_server">
+		select
+		id,name,inpath,status,intervaltime,retrytime,connections from
+		clickoo_mail_receive_server where name = #{name}
+    </select>
+	
+	<select id="getReceiveCountByName" parameterType="string"
+		resultType="string">
+		select
+		count(id) from
+		clickoo_mail_receive_server where name = #{name}
+    </select>
+	
+	
+	
+	<insert id="insertReceiveServer" parameterType="clickoo_mail_receive_server"
+		useGeneratedKeys="true" keyProperty="id">
+		insert into
+		clickoo_mail_receive_server
+		(id,name,inpath,status, intervaltime,
+		retrytime,connections)
+		values
+		(#{id},#{name},#{inPath},#{status},#{intervaltime},#{retrytime},#{connections})
+    </insert>
+
+	<select id="getAllReceiveServer" resultType="clickoo_mail_receive_server">
+		select
+		id,name,inpath,status,intervaltime,retrytime,connections from
+		clickoo_mail_receive_server
+    </select>
+
+	<select id="getReceiveServerByID" parameterType="long"
+		resultType="clickoo_mail_receive_server">
+		select
+		id,name,inpath,status,intervaltime,retrytime,connections
+		from
+		clickoo_mail_receive_server
+		where
+		id = #{id}
+	</select>
+
+	<insert id="insertSendServer" parameterType="clickoo_mail_send_server"
+		useGeneratedKeys="true" keyProperty="id">
+		insert into
+		clickoo_mail_send_server
+		(id,name,outpath,status)
+		values
+		(#{id},#{name},#{outPath},#{status})
+    </insert>
+    
+	<!-- 根据status查询配置信息 -->
+    <select id="getReceiveServerByStatus" parameterType="string" resultType="clickoo_mail_receive_server">
+		select
+		id,name,inpath,status,intervaltime,retrytime,connections from
+		clickoo_mail_receive_server where status = #{status}
+    </select>
+</mapper>

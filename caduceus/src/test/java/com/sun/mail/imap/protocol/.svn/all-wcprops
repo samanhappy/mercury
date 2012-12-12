@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol
+END
+MessageSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/MessageSet.java
+END
+BASE64MailboxEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/BASE64MailboxEncoder.java
+END
+RFC822DATA.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/RFC822DATA.java
+END
+RFC822SIZE.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/RFC822SIZE.java
+END
+IMAPSaslAuthenticator.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/IMAPSaslAuthenticator.java
+END
+IMAPResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/IMAPResponse.java
+END
+MailboxInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/MailboxInfo.java
+END
+IMAPProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/IMAPProtocol.java
+END
+FetchResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/FetchResponse.java
+END
+INTERNALDATE.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/INTERNALDATE.java
+END
+ENVELOPE.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/ENVELOPE.java
+END
+BODYSTRUCTURE.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/BODYSTRUCTURE.java
+END
+Namespaces.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/Namespaces.java
+END
+UID.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/UID.java
+END
+Status.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/Status.java
+END
+BASE64MailboxDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/BASE64MailboxDecoder.java
+END
+ListInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/ListInfo.java
+END
+FLAGS.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/FLAGS.java
+END
+BODY.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/BODY.java
+END
+SaslAuthenticator.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/SaslAuthenticator.java
+END
+UIDSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/UIDSet.java
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/Item.java
+END
+SearchSequence.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/protocol/SearchSequence.java
+END

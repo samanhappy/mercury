@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/PushMail_Server/!svn/ver/292/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/xstream
+END
+XStreamParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/292/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/xstream/XStreamParser.java
+END
+MSNObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/204/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/xstream/MSNObject.java
+END
+PushMailObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PushMail_Server/!svn/ver/292/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/xstream/PushMailObject.java
+END
+IMObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/204/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/xstream/IMObject.java
+END
+IMSettingsObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/PushMail_Server/!svn/ver/292/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/xstream/IMSettingsObject.java
+END
+UPEParserObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/204/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/xstream/UPEParserObject.java
+END
+CAGParserObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/292/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/xstream/CAGParserObject.java
+END

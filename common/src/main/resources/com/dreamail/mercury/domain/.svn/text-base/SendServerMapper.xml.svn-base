@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.SendServerMapper">
+
+	<select id="getSendServerByName" parameterType="string"
+		resultType="clickoo_mail_send_server">
+		select id,name,outpath,status from clickoo_mail_send_server where name =
+		#{name}
+    </select>
+    
+    <select id="getSendServerCountByName" parameterType="string"
+		resultType="string">
+		select
+		count(id) from
+		clickoo_mail_send_server where name = #{name}
+    </select>
+
+	<insert id="insertSendServer" parameterType="clickoo_mail_send_server"
+		useGeneratedKeys="true" keyProperty="id">
+		insert into clickoo_mail_send_server
+		(id,name,outpath,status)
+		values
+		(#{id},#{name},#{outPath},#{status})
+    </insert>
+
+	<select id="getAllSendServer" resultType="clickoo_mail_send_server">
+		select id,name,outpath,status from clickoo_mail_send_server
+    </select>
+
+</mapper>

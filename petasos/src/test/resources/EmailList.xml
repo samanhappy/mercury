@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PushMail>
+	<Header>
+		<Version>PushMail1.0</Version>
+		<Cred>
+			<UUID>5</UUID>
+		</Cred>
+	</Header>
+	<Body>
+		<Target name="Email">
+			<Cmd name="EmailList">	
+				<Meta size="5">
+					<Item name="IMEI">20.43</Item>
+					<Item name="AidTimeDate">9;2011-01-26 15:27:18</Item>
+					<Item name="TimeDate">2011-01-27 15:21:43</Item>
+					<!--<Item name="AidTimeDate">1;2010-07-15 15:23:20</Item>-->
+					<!--<Item name="TimeDate">2010-07-15 15:49:33</Item>-->
+					<Item name="SeqNo">2</Item>
+					<!--<Item name="SubDataNo">1</Item>-->
+				</Meta>
+			</Cmd>
+		</Target>
+	</Body>
+</PushMail>
+
+

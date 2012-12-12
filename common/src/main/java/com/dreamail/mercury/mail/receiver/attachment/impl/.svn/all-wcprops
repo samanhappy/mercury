@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/430/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/attachment/impl
+END
+OriginalFileFormatImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/attachment/impl/OriginalFileFormatImpl.java
+END
+TextFormatImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/attachment/impl/TextFormatImpl.java
+END
+DOCFormatImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/attachment/impl/DOCFormatImpl.java
+END
+XLSFormatImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/attachment/impl/XLSFormatImpl.java
+END
+AttachmentFormatControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PushMail_Server/!svn/ver/424/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/attachment/impl/AttachmentFormatControl.java
+END
+NoSupportFormatImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/attachment/impl/NoSupportFormatImpl.java
+END
+PDFFormatImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/attachment/impl/PDFFormatImpl.java
+END
+ImageFormatImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/attachment/impl/ImageFormatImpl.java
+END
+PPTFormatImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/430/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/attachment/impl/PPTFormatImpl.java
+END

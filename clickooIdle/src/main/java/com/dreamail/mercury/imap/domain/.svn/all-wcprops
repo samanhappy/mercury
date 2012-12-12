@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/domain
+END
+SearchData.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/domain/SearchData.java
+END
+FetchData.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/domain/FetchData.java
+END
+FolderData.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/domain/FolderData.java
+END
+EmailUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/domain/EmailUser.java
+END

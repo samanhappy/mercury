@@ -1,0 +1,8 @@
+com.dreamail.mercury.petasos.impl.user.UserRegister
+com.dreamail.mercury.petasos.impl.user.UserModify
+com.dreamail.mercury.petasos.impl.user.AccountRemove
+com.dreamail.mercury.petasos.impl.user.AccountModify
+com.dreamail.mercury.petasos.impl.user.AccountAdd
+com.dreamail.mercury.petasos.impl.user.UserLogin
+com.dreamail.mercury.petasos.impl.user.SynchronizationInfor
+com.dreamail.mercury.petasos.impl.senderfilter.SenderFilter

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+		Document : data.xml Created on : 2010年6月11日, 下午4:10 Author : tiger
+		Description: Purpose of the document follows.
+	-->
+
+
+<!--
+<PushMail>
+	<Header>
+		<Version>PushMail1.0</Version>
+	</Header>
+	<Body>
+		<Target name="User">
+			<Cmd name="UserRegister">-->
+<!--				<Device>-->
+<!--					<DeviceCode>100</DeviceCode>-->
+<!--					<Model>100,50</Model>-->
+<!--				</Device>-->
+<!--			<User>
+		<Fname>wang</Fname>
+		<Lname>haisheng</Lname>
+		<Alias></Alias>
+		<Gender></Gender>
+		<Birthday></Birthday>
+		<Declaration></Declaration>
+	</User>-->
+<!--				<Account>-->
+<!--					<Alias></Alias>-->
+<!--					<Name>nj_basketball@163.com</Name>-->
+<!--					<Password encryptmode="base64" >wanghysen</Password>-->
+<!--				</Account>-->
+<!--			</Cmd>
+		</Target>
+	</Body>
+</PushMail>
+-->
+<PushMail>
+	<Header>
+		<Version>PushMail1.0</Version>
+	</Header>
+	<Body>
+		<Target name="User" isAtom="true" >
+			<Cmd name="UserRegister">
+				<User>
+					<Name>T123_0</Name >
+					<Passwd>000000</Passwd>	
+					<IMEI>20.43</IMEI>
+					<DeviceModel>100,50</DeviceModel>
+					<Signature>某某</Signature>
+				</User>        
+			</Cmd>
+		</Target>
+	</Body>
+</PushMail>
+<!--如果name和IMEI都在表中不存在
+	 <Status>
+	  <Code>0</Code>
+	  <Message>Users registered success</Message>
+</Status>
+-->
+<!--如果name不存在而IMEI存在，将该IMEI所在用户的IMEI清空，同时新用户添加成功，且该IMEI为该IMEI
+<PushMail>
+	  <Header>
+		<Version>PushMail1.0</Version>
+		<Cred>
+		  <UUID>42</UUID>
+		</Cred>
+	  </Header>
+	  <Body>
+		<Target name="User">
+		  <Cmd name="UserRegister">
+			<Status>
+			  <Code>0</Code>
+			  <Message>Users registered success</Message>
+			</Status>
+		  </Cmd>
+		</Target>
+	  </Body>
+</PushMail>
+-->
+<!--如果name存在而IMEI无论存不存在
+<PushMail>
+	  <Header>
+		<Version>PushMail1.0</Version>
+	  </Header>
+	  <Body>
+		<Target name="User">
+		  <Cmd name="UserRegister">
+			<Status>
+			  <Code>00010</Code>
+			  <Message>user name is exist </Message>
+			</Status>
+		  </Cmd>
+		</Target>
+	  </Body>
+</PushMail>
+-->
+<!--如果name为空
+ERROR com.dreamail.mercury.petasos.impl.user.UserRegister -User information name error
+-->
+<!--如果name在表中不存在且IMEI为空
+13:26:08.988 [main]  ERROR com.dreamail.mercury.petasos.impl.user.UserRegister -User information IMEI error
+13:26:08.988 [main]  INFO  com.dreamail.mercury.petasos.impl.user.UserRegister -Users registered fail
+====<?xml version="1.0" encoding="UTF-8"?>
+<PushMail>
+	  <Header>
+		<Version>PushMail1.0</Version>
+	  </Header>
+	  <Body>
+		<Target name="User">
+		  <Cmd name="UserRegister">
+			<Status>
+			  <Code>00008</Code>
+			  <Message>User information IMEI error</Message>
+			</Status>
+		  </Cmd>
+		</Target>
+	  </Body>
+</PushMail>
+-->
+<!--密码为空
+13:33:11.246 [main]  ERROR com.dreamail.mercury.petasos.impl.user.UserRegister -User information password error
+====<?xml version="1.0" encoding="UTF-8"?>
+<PushMail>
+	  <Header>
+		<Version>PushMail1.0</Version>
+	  </Header>
+	  <Body>
+		<Target name="User">
+		  <Cmd name="UserRegister"/>
+		</Target>
+	  </Body>
+</PushMail>
+-->

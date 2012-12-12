@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/PushMail_Server/!svn/ver/557/mercury/common/src/main/java/com/dreamail/talaria/memcached
+END
+TimerCacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/300/mercury/common/src/main/java/com/dreamail/talaria/memcached/TimerCacheManager.java
+END
+AbstractCacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/talaria/memcached/AbstractCacheManager.java
+END
+UPECacheObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/556/mercury/common/src/main/java/com/dreamail/talaria/memcached/UPECacheObject.java
+END
+UPEMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/talaria/memcached/UPEMapping.java
+END
+UPECacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/557/mercury/common/src/main/java/com/dreamail/talaria/memcached/UPECacheManager.java
+END

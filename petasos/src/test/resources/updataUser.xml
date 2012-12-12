@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+		Document : data.xml Created on : 2010年6月11日, 下午4:10 Author : tiger
+		Description: Purpose of the document follows.
+	-->
+
+<!--<PushMail>
+	  <Header>
+		<Version>PushMail1.0</Version>
+		<Cred>
+		  <UUID>11</UUID>
+		</Cred>
+	  </Header>
+	  <Body>
+		<Target name="User">
+				<Cmd name="UserModify">
+					<Device>
+						<DeviceCode>苏ASDFd</DeviceCode>
+						<Model>544332</Model>
+					</Device>
+					<User>
+						<Fname>haaaa</Fname>
+						<Lname>haha</Lname>
+						<Alias>heihei</Alias>
+						<Gender>1</Gender>
+						<Birthday>2008-05-06</Birthday>
+						<Declaration>123</Declaration>
+					</User>
+				</Cmd>
+			</Target>
+		</Body>
+</PushMail>
+-->
+<PushMail>
+	<Header>
+		<Version>PushMail1.0</Version>
+		<Cred>
+			<UUID>2</UUID>	
+		</Cred>
+	</Header>
+	<Body>
+		<!-- 指定改请求处理那些信息 -->
+		<Target name="User" isAtom="true" >
+			<Cmd name="UserModify">
+				<Meta size="1">
+					<!--IMEI手机唯一标识，用来阻止被踢下线的用户-->
+					<Item name="IMEI">192.168.20.43</Item>
+				</Meta>
+				<!--用户信息 -->
+				<User>
+					<!--用户的签名，提供用户个性签名的修改，修改签名时，可以不需要提供其他用户信息，只要提供<User>中的Signature标签即可-->
+					<Signature>中文签名</Signature>
+				</User>         
+			</Cmd>
+		</Target>
+	</Body>
+</PushMail>

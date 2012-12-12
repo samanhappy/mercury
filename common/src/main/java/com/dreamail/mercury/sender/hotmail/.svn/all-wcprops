@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/sender/hotmail
+END
+HotmailSSLSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/sender/hotmail/HotmailSSLSocketFactory.java
+END
+DummyTrustManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/sender/hotmail/DummyTrustManager.java
+END
+DummySSLSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/sender/hotmail/DummySSLSocketFactory.java
+END

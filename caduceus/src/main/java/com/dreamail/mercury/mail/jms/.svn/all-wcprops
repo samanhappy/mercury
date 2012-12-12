@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/PushMail_Server/!svn/ver/547/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/jms
+END
+RemoveAccountMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PushMail_Server/!svn/ver/406/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/jms/RemoveAccountMessage.java
+END
+ReceiveGmailMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/496/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/jms/ReceiveGmailMessage.java
+END
+ReceiveMessageList.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/381/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/jms/ReceiveMessageList.java
+END
+ReceiveAccountMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/425/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/jms/ReceiveAccountMessage.java
+END
+MqConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/jms/MqConnectionFactory.java
+END
+ReceiveHotmailMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/436/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/jms/ReceiveHotmailMessage.java
+END
+ReceiveStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/406/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/jms/ReceiveStatus.java
+END
+ReceiveMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/491/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/jms/ReceiveMain.java
+END
+ReceiveMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/jms/ReceiveMessage.java
+END
+ReceiveYahooMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/386/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/jms/ReceiveYahooMessage.java
+END
+ReceiveMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/381/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/jms/ReceiveMsg.java
+END
+TruePushJMS.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/406/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/jms/TruePushJMS.java
+END
+ReceiveCacheMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/287/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/jms/ReceiveCacheMessage.java
+END

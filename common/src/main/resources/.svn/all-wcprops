@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/PushMail_Server/!svn/ver/550/mercury/common/src/main/resources
+END
+attachmentsupport.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/PushMail_Server/!svn/ver/429/mercury/common/src/main/resources/attachmentsupport.properties
+END
+scale.properties
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/resources/scale.properties
+END
+jms.properties
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/PushMail_Server/!svn/ver/10/mercury/common/src/main/resources/jms.properties
+END
+mailbox.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/resources/mailbox.properties
+END
+connectioncontrol.properties
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/resources/connectioncontrol.properties
+END
+ibatismain.ids.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/PushMail_Server/!svn/ver/306/mercury/common/src/main/resources/ibatismain.ids.cfg.xml
+END
+snp.properties
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/PushMail_Server/!svn/ver/404/mercury/common/src/main/resources/snp.properties
+END
+sendemail.properties
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/resources/sendemail.properties
+END
+crebas.sql
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/PushMail_Server/!svn/ver/550/mercury/common/src/main/resources/crebas.sql
+END
+sendemailproxy.properties
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/resources/sendemailproxy.properties
+END
+messageDataMaxSaveLength.properties
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/resources/messageDataMaxSaveLength.properties
+END
+memcached.properties
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/PushMail_Server/!svn/ver/10/mercury/common/src/main/resources/memcached.properties
+END
+jdbcmain.properties
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/PushMail_Server/!svn/ver/10/mercury/common/src/main/resources/jdbcmain.properties
+END
+edcrypt.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/resources/edcrypt.properties
+END
+upeThreadPool.properties
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/PushMail_Server/!svn/ver/379/mercury/common/src/main/resources/upeThreadPool.properties
+END
+timer.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/PushMail_Server/!svn/ver/519/mercury/common/src/main/resources/timer.properties
+END
+loadtest.sql
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/PushMail_Server/!svn/ver/43/mercury/common/src/main/resources/loadtest.sql
+END
+system_mailbox_parameters.properties
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PushMail_Server/!svn/ver/178/mercury/common/src/main/resources/system_mailbox_parameters.properties
+END

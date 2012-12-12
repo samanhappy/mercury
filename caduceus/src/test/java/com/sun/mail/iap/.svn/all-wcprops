@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/test/java/com/sun/mail/iap
+END
+ProtocolException.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/iap/ProtocolException.java
+END
+Protocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/test/java/com/sun/mail/iap/Protocol.java
+END
+Argument.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/iap/Argument.java
+END
+ByteArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/iap/ByteArray.java
+END
+CommandFailedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/iap/CommandFailedException.java
+END
+ParsingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/iap/ParsingException.java
+END
+BadCommandException.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/iap/BadCommandException.java
+END
+ResponseInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/test/java/com/sun/mail/iap/ResponseInputStream.java
+END
+LiteralException.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/iap/LiteralException.java
+END
+Literal.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/test/java/com/sun/mail/iap/Literal.java
+END
+ResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/iap/ResponseHandler.java
+END
+ConnectionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/iap/ConnectionException.java
+END
+Response.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/test/java/com/sun/mail/iap/Response.java
+END

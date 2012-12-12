@@ -1,0 +1,4 @@
+#timer parameter unit:min#
+heart_port=5555
+heart_intervalTime=10000
+reload_time=15000

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/PushMail_Server/!svn/ver/219/mercury/yahooSNP/src/main/resources
+END
+logback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/PushMail_Server/!svn/ver/1/mercury/yahooSNP/src/main/resources/logback.xml
+END
+spring-jms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/PushMail_Server/!svn/ver/219/mercury/yahooSNP/src/main/resources/spring-jms.xml
+END

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>mercury</artifactId>
+		<groupId>com.clickoo</groupId>
+		<version>1.0</version>
+	</parent>
+	<groupId>com.clickoo</groupId>
+	<artifactId>cagauth</artifactId>
+	<version>${parent.version}</version>
+	<packaging>war</packaging>
+	<name>cagauth</name>
+	<url>http://maven.apache.org</url>
+	<build>
+		<finalName>cagauth</finalName>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-web-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.jms</groupId>
+			<artifactId>jms</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>glassfish</groupId>
+			<artifactId>imqjmsra</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.clickoo.mercury</groupId>
+			<artifactId>common</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring</artifactId>
+		</dependency>
+	</dependencies>
+</project>

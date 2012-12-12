@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.SenderFilterMapper">
+	<resultMap type="clickoo_sender_filter" id="filterMap">
+		<id column="id" property="id" />
+		<result column="uid" property="uid" />
+		<result column="name" property="name" />
+		<result column="sign" property="sign" />
+	</resultMap>
+	
+	<insert id="insertSenderFilter" parameterType="clickoo_sender_filter">
+		insert into clickoo_sender_filter(id,uid,name,sign) 
+			values(#{id},#{uid},#{name},#{sign})
+	</insert>
+	
+	<select id="selectSenderFilterByName" parameterType="clickoo_sender_filter" resultMap="filterMap">
+		select id,uid,name,sign from clickoo_sender_filter where uid=#{uid} and name=#{name}
+	</select>
+	
+	<delete id="deleteSenderFilterByName" parameterType="clickoo_sender_filter">
+		delete from clickoo_sender_filter where uid=#{uid} and name=#{name} and sign=#{sign}
+	</delete>
+	
+	<select id="selectSenderFilterBySign" parameterType="clickoo_sender_filter" resultMap="filterMap">
+		select id,uid,name,sign from clickoo_sender_filter where uid=#{uid} and sign=#{sign}
+	</select>
+	
+	<select id="selectAllSenderFilter"  resultMap="filterMap">
+		select id,uid,name,sign from clickoo_sender_filter
+	</select>
+</mapper>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+		Document : data.xml Created on : 2010年6月11日, 下午4:10 Author : tiger
+		Description: Purpose of the document follows.
+	-->
+
+<PushMail>
+	<Header>
+		<Version>PushMail1.0</Version>
+		<Cred>
+			<UUID>5</UUID>
+		</Cred>
+	</Header>
+	<Body>
+		<Target name="User">
+			<Cmd name="AccountAdd">
+				<Meta size="1">
+					<Item name="IMEI">20.43</Item>
+				</Meta>
+				<Account>
+					<!--					<Alias>kaka1121</Alias>-->
+					<!--					<Name>hysenwang@yahoo.com</Name>-->
+					<!--					<Password>12345678</Password>-->
+					<!--<Alias>kaka1121</Alias>
+						<Name>jin123855@163.com</Name>
+						<Password>jywzzz</Password>
+						-->
+					<Alias>某某</Alias>
+					<Name>ss_102698@yahoo.com</Name>
+					<Password>654321</Password>
+				</Account>
+			</Cmd>
+		</Target>
+	</Body>
+</PushMail>
+
+
+

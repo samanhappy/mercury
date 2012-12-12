@@ -1,0 +1,10 @@
+name=saman_love@126.com
+password=sm6051199
+sendhost=smtp.126.com
+sendport=25
+sendto=nj_basketball@163.com
+subject=PushMail Disk space is full 
+content=disk space < 15 
+yellowspace=15
+master_change_subject=Master server change
+master_change_content=Master server change to 

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/483/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/truepush/threadpool
+END
+PutActiveSyncThreadPool.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/483/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/truepush/threadpool/PutActiveSyncThreadPool.java
+END
+ReceiveActiveSyncTaskCallable.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/464/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/truepush/threadpool/ReceiveActiveSyncTaskCallable.java
+END

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!--
+		Document : data.xml Created on : 2010年6月11日, 下午4:10 Author : tiger
+		Description: Purpose of the document follows.
+	-->
+
+<PushMail>
+	<Header>
+		<Version>PushMail1.0</Version>
+		<Cred>
+			<Meta size="2">
+				<Item name="Encrypt1">base64</Item>
+				<Item name="Encrypt3">ffffff</Item>
+			</Meta>
+			<DvcID>16</DvcID>
+			<UUID>18</UUID>
+		</Cred>
+		<Status>
+			<Code>12344</Code>
+			<Message>dfdsgdstds</Message>
+		</Status>
+	</Header>
+	<Body>
+		<Target name="Configuration">
+			<Meta size="3">
+				<Item name="Encrypt1">base64</Item>
+				<Item name="Encrypt2">base64</Item>
+				<Item name="Encrypt3">base64</Item>
+			</Meta>
+			<Cmd name="Add">
+				<Meta size="1">
+					<Item name="Encrypt1">base64</Item>
+				</Meta>
+				<Account>
+					<Alias>hysenwang</Alias>
+					<Name>hysenwang@yahoo.com</Name>
+					<Password>12345678</Password>
+				</Account>
+			</Cmd>
+		</Target>
+	</Body>
+</PushMail>

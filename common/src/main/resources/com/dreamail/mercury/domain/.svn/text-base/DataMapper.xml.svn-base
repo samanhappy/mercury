@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.DataMapper">
+	<resultMap type="clickoo_message_data" id="dataMap">
+		<id column="id" property="id" />
+		<result column="data" property="content" />
+		<result column="size" property="size" />
+	</resultMap>
+	
+	<insert id="insertData" parameterType="clickoo_message_data">
+		insert into
+		clickoo_message_data
+		(id,data,size)
+		values
+		(#{id},#{content},#{size})
+	</insert>
+
+	<delete id="deleteDataById" parameterType="long">
+		delete from
+		clickoo_message_data where id = #{id}
+    </delete>
+
+	<select id="selectDataById" parameterType="long" resultMap="dataMap">
+		select id,data,size from clickoo_message_data where id = #{id}
+	</select>
+
+	<select id="selectDeviceByMessid" parameterType="long"
+		resultType="string">
+		select dev.model from clickoo_message mes,clickoo_device
+		dev where
+		mes.id=#{id} and mes.uid = dev.uid  
+    </select>
+
+    <delete id="deleteDataByMids">
+		DELETE FROM clickoo_message_data WHERE id in
+		<foreach item="mids" index="index" collection="array" open="("
+			separator="," close=")">
+			#{mids}   
+        </foreach>
+	</delete>
+
+</mapper>

@@ -1,0 +1,5 @@
+##big attachment thread pool param##
+keepBigAttachAliveTime=2400000
+createBigAttachSize=32
+minBigAttachPoolSize=32
+maxBigAttachPoolSize=256

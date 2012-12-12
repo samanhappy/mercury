@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/PushMail_Server/!svn/ver/551/mercury/common/src/main/java/com/dreamail/jms
+END
+Notice.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/jms/Notice.java
+END
+IJmsSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/jms/IJmsSender.java
+END
+CacheAccountMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/jms/CacheAccountMessage.java
+END
+JmsSenderProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PushMail_Server/!svn/ver/300/mercury/common/src/main/java/com/dreamail/jms/JmsSenderProvider.java
+END
+MessageSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/PushMail_Server/!svn/ver/551/mercury/common/src/main/java/com/dreamail/jms/MessageSender.java
+END
+SendMessageThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PushMail_Server/!svn/ver/420/mercury/common/src/main/java/com/dreamail/jms/SendMessageThread.java
+END
+UidMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/jms/UidMessage.java
+END
+TaskMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/jms/TaskMessage.java
+END
+ConnectionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/jms/ConnectionManager.java
+END
+JmsSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/PushMail_Server/!svn/ver/400/mercury/common/src/main/java/com/dreamail/jms/JmsSender.java
+END
+ConnectionInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/400/mercury/common/src/main/java/com/dreamail/jms/ConnectionInfo.java
+END

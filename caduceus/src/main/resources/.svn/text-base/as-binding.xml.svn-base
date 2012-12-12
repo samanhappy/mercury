@@ -1,0 +1,227 @@
+<binding xmlns:tns="http://jibx.org/starter1">
+	<!-- FolderSync -->
+	<mapping name="FolderSync"
+		class="com.dreamail.mercury.mail.truepush.impl.FolderSync" flexible="true" ordered="false">
+		<value name="FolderHierarchy_Status" field="status" usage="optional" />
+		<value name="FolderHierarchy_SyncKey" field="syncKey" />
+		<structure map-as="tns:Changes" name="Changes" field="changes"
+			usage="optional" />
+	</mapping>
+
+	<mapping abstract="true" type-name="tns:Changes"
+		class="com.dreamail.mercury.mail.truepush.impl.Changes" ordered="false">
+		<value name="Count" field="count" usage="optional" />
+		<collection field="add" usage="optional"
+			factory="org.jibx.runtime.Utility.arrayListFactory" flexible="true" ordered="false">
+			<structure name="Add" map-as="tns:Add" />
+		</collection>
+	</mapping>
+
+	<mapping abstract="true" type-name="tns:Add"
+		class="com.dreamail.mercury.mail.truepush.impl.Add" flexible="true" ordered="false" >
+		<value name="ServerId" field="serverId" usage="optional" />
+		<value name="ParentId" field="parentId" usage="optional" />
+		<value name="DisplayName" field="displayName" usage="optional" />
+		<value name="Type" field="type" usage="optional" />
+		<structure map-as="tns:ApplicationData" name="ApplicationData"
+			field="applicationData" usage="optional" />
+	</mapping>
+
+	<mapping abstract="true" type-name="tns:ApplicationData"
+		class="com.dreamail.mercury.mail.truepush.impl.ApplicationData"
+		flexible="true" ordered="false">
+		<value name="To" field="to" usage="optional" />
+		<value name="CC" field="cc" usage="optional" />
+		<value name="BCC" field="bcc" usage="optional" />
+		<value name="From" field="from" usage="optional" />
+		<value name="ReplyTo" field="replyTo" usage="optional" />
+		<value name="Subject" field="subject" usage="optional" />
+		<value name="DateReceived" field="dateReceived" usage="optional" />
+		<value name="DisplayTo" field="displayTo" usage="optional" />
+		<value name="Importance" field="importance" usage="optional" />
+		<value name="Read" field="read" usage="optional" />
+		<value name="Flag" field="flag" usage="optional" />
+		<value name="FlagStatus" field="flagStatus" usage="optional" />
+		<value name="InternetCPID" field="internetCPID" usage="optional" />
+		<value name="Flag_1" field="flag_1" usage="optional" />
+		<value name="FlagStatus_1" field="flagStatus_1" usage="optional" />
+		<value name="InternetCPID_1" field="internetCPID_1" usage="optional" />
+		<value name="MessageClass" field="messageClass" usage="optional" />
+		<value name="ContentClass" field="contentClass" usage="optional" />
+		<structure map-as="tns:Attachments" name="Email_Attachments"
+			field="attachments" usage="optional" />
+	</mapping>
+
+	<mapping abstract="true" type-name="tns:Attachments"
+		class="com.dreamail.mercury.mail.truepush.impl.Attachments" ordered="false">
+		<collection field="attachments" usage="optional"
+			factory="org.jibx.runtime.Utility.arrayListFactory" flexible="true" ordered="false">
+			<structure name="Email_Attachment" map-as="tns:Attachment" />
+		</collection>
+	</mapping>
+
+	<mapping abstract="true" type-name="tns:Attachment"
+		class="com.dreamail.mercury.mail.truepush.impl.Attachment" flexible="true" ordered="false">
+		<value name="Att_Method" field="attMethod" usage="optional" />
+		<value name="Att_Name" field="attName" usage="optional" />
+		<value name="Att_Size" field="attSize" usage="optional" />
+		<value name="Display_Name" field="displayName" usage="optional" />
+	</mapping>
+	<!-- FolderSync -->
+
+	<!-- Sync -->
+	<mapping name="Sync" class="com.dreamail.mercury.mail.truepush.impl.Sync"
+		flexible="true" ordered="false">
+		<value name="AirSync_Status" field="status" usage="optional" />
+		<structure map-as="tns:AirSync:Collections" name="AirSync_Collections"
+			field="collections" usage="optional" />
+	</mapping>
+
+	<mapping abstract="true" type-name="tns:AirSync:Collections"
+		class="com.dreamail.mercury.mail.truepush.impl.Collections" ordered="false">
+		<collection field="collections" usage="optional"
+			factory="org.jibx.runtime.Utility.arrayListFactory" flexible="true" ordered="false">
+			<structure name="AirSync_Collection" map-as="tns:AirSync:Collection" />
+		</collection>
+	</mapping>
+
+	<mapping abstract="true" type-name="tns:AirSync:Collection"
+		class="com.dreamail.mercury.mail.truepush.impl.Collection" flexible="true" ordered="false">
+		<value name="AirSync_Class" field="class_name" usage="optional" />
+		<value name="AirSync_SyncKey" field="syncKey" usage="optional" />
+		<value name="AirSync_CollectionId" field="collectionId" usage="optional" />
+		<value name="FilterType" field="filterType" usage="optional" />
+		<value name="AirSync_Status" field="status" usage="optional" />
+		<value name="DeletesAsMoves" field="deletesAsMoves" usage="optional" />
+		<value name="GetChanges" field="getChanges" usage="optional" />
+		<value name="WindowSize" field="windowSize" usage="optional" />
+		<value name="MoreAvailable" field="moreAvailable" usage="optional" />
+		<structure map-as="tns:AirSync:Options" name="Options"
+			field="options" usage="optional" />
+		<structure map-as="tns:AirSync:Commands" name="Commands"
+			field="commands" usage="optional" />
+	</mapping>
+
+	<mapping abstract="true" type-name="tns:AirSync:BodyPreference"
+		class="com.dreamail.mercury.mail.truepush.impl.BodyPreference" flexible="true" ordered="false">
+		<value name="AirSyncBase_Type" field="type" usage="optional" />
+		<value name="TruncationSize" field="truncationSize" usage="optional" />
+	</mapping>
+	
+	<mapping abstract="true" type-name="tns:AirSync:Options"
+		class="com.dreamail.mercury.mail.truepush.impl.Options" flexible="true" ordered="false">
+		<value name="FilterType" field="filterType" usage="optional" />
+		<value name="MIMESupport" field="mimeSupport" usage="optional" />
+		<value name="MIMETruncation" field="mimeTruncation" usage="optional" />
+		<value name="Truncation" field="truncation" usage="optional" />
+	</mapping>
+	<mapping abstract="true" type-name="tns:AirSync:Change"
+		class="com.dreamail.mercury.mail.truepush.impl.Change" flexible="true" ordered="false">
+		<value name="ServerId" field="serverId" usage="optional" />
+		<structure map-as="tns:ApplicationData" name="ApplicationData"
+			field="applicationData" usage="optional" />
+	</mapping>
+
+	<mapping abstract="true" type-name="tns:AirSync:Delete"
+		class="com.dreamail.mercury.mail.truepush.impl.Delete" flexible="true" ordered="false">
+		<value name="ServerId" field="serverId" usage="optional" />
+	</mapping>
+	
+	<mapping abstract="true" type-name="tns:AirSync:SoftDelete"
+		class="com.dreamail.mercury.mail.truepush.impl.SoftDelete" flexible="true" ordered="false">
+		<value name="ServerId" field="serverId" usage="optional" />
+	</mapping>
+	
+	<mapping abstract="true" type-name="tns:AirSync:Fetch"
+		class="com.dreamail.mercury.mail.truepush.impl.Fetch" flexible="true" ordered="false">
+		<value name="ServerId" field="serverId" usage="optional" />
+	</mapping>
+	
+	<mapping abstract="true" type-name="tns:AirSync:Commands"
+		class="com.dreamail.mercury.mail.truepush.impl.Commands" ordered="false">
+		<collection field="adds" usage="optional"
+			factory="org.jibx.runtime.Utility.arrayListFactory" flexible="true" ordered="false">
+			<structure name="Add" map-as="tns:Add" />
+		</collection>
+		<collection field="changes" usage="optional"
+			factory="org.jibx.runtime.Utility.arrayListFactory" flexible="true" ordered="false">
+			<structure name="Change" map-as="tns:AirSync:Change" />
+		</collection>
+		<collection field="deletes" usage="optional"
+			factory="org.jibx.runtime.Utility.arrayListFactory" flexible="true" ordered="false">
+			<structure name="Delete" map-as="tns:AirSync:Delete" />
+		</collection>
+		<collection field="fetchs" usage="optional"
+			factory="org.jibx.runtime.Utility.arrayListFactory" flexible="true" ordered="false">
+			<structure name="Fetch" map-as="tns:AirSync:Fetch" />
+		</collection>
+		<collection field="softDeletes" usage="optional"
+			factory="org.jibx.runtime.Utility.arrayListFactory" flexible="true" ordered="false">
+			<structure name="SoftDelete" map-as="tns:AirSync:SoftDelete" />
+		</collection>
+	</mapping>
+	
+	<!-- Sync -->
+
+	<!-- GetItemEstimate -->
+	<mapping name="GetItemEstimate"
+		class="com.dreamail.mercury.mail.truepush.impl.GetItemEstimate"
+		flexible="true" ordered="false">
+		<structure map-as="tns:ItemEstimate:Collections" name="ItemEstimate_Collections"
+			field="collections" usage="optional" />
+		<structure map-as="tns:ItemEstimate:Response" name="Response"
+			field="response" usage="optional" />
+	</mapping>
+
+	<mapping abstract="true" type-name="tns:ItemEstimate:Collections"
+		class="com.dreamail.mercury.mail.truepush.impl.Collections" ordered="false">
+		<collection field="collections" usage="optional"
+			factory="org.jibx.runtime.Utility.arrayListFactory" flexible="true" ordered="false">
+			<structure name="ItemEstimate_Collection" map-as="tns:ItemEstimate:Collection" />
+		</collection>
+	</mapping>
+
+	<mapping abstract="true" type-name="tns:ItemEstimate:Response"
+		class="com.dreamail.mercury.mail.truepush.impl.Response" ordered="false">
+		<value name="ItemEstimate_Status" field="status" usage="optional" />
+		<collection field="collections" usage="optional"
+			factory="org.jibx.runtime.Utility.arrayListFactory" flexible="true" ordered="false">
+			<structure name="ItemEstimate_Collection" map-as="tns:ItemEstimate:Collection" />
+		</collection>
+	</mapping>
+
+	<mapping abstract="true" type-name="tns:ItemEstimate:Collection"
+		class="com.dreamail.mercury.mail.truepush.impl.Collection" flexible="true" ordered="false">
+		<value name="ItemEstimate_Class" field="class_name" usage="optional" />
+		<value name="ItemEstimate_CollectionId" field="collectionId"
+			usage="optional" />
+		<value name="FilterType" field="filterType" usage="optional" />
+		<value name="AirSync_SyncKey" field="syncKey" usage="optional" />
+		<value name="Estimate" field="estimate" usage="optional" />
+	</mapping>
+	<!-- GetItemEstimate -->
+
+	<!-- Ping -->
+	<mapping name="Ping" class="com.dreamail.mercury.mail.truepush.impl.Ping"
+		flexible="true" ordered="false">
+		<value name="HeartbeatInterval" field="heartbeatInterval" usage="optional" />
+		<value name="Ping_Status" field="status" usage="optional" />
+		<structure map-as="tns:Folders" name="Folders" field="folders"
+			usage="optional" />
+	</mapping>
+
+	<mapping abstract="true" type-name="tns:Folders"
+		class="com.dreamail.mercury.mail.truepush.impl.Folders" ordered="false">
+		<collection field="folders" usage="optional"
+			factory="org.jibx.runtime.Utility.arrayListFactory" flexible="true" ordered="false">
+			<structure name="Folder" map-as="tns:Folder" />
+		</collection>
+	</mapping>
+
+	<mapping abstract="true" type-name="tns:Folder"
+		class="com.dreamail.mercury.mail.truepush.impl.Folder" flexible="true" ordered="false">
+		<value name="Ping_Class" field="class_name" usage="optional" />
+		<value name="Id" field="id" usage="optional" />
+	</mapping>
+	<!-- Ping -->
+</binding>

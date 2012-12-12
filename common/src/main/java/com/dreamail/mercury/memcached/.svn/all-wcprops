@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/PushMail_Server/!svn/ver/392/mercury/common/src/main/java/com/dreamail/mercury/memcached
+END
+EmailListCacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/memcached/EmailListCacheManager.java
+END
+EmailCacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/memcached/EmailCacheManager.java
+END
+AccountFailTimeCacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/PushMail_Server/!svn/ver/392/mercury/common/src/main/java/com/dreamail/mercury/memcached/AccountFailTimeCacheManager.java
+END
+IdleCacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/memcached/IdleCacheManager.java
+END
+SendMailXmlCacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/memcached/SendMailXmlCacheManager.java
+END

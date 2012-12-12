@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/350/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/senderfilter
+END
+SenderFilterAdd.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/PushMail_Server/!svn/ver/350/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/senderfilter/SenderFilterAdd.java
+END
+SetFilterSign.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/PushMail_Server/!svn/ver/350/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/senderfilter/SetFilterSign.java
+END
+SenderFilterRemove.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/350/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/senderfilter/SenderFilterRemove.java
+END
+SenderFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PushMail_Server/!svn/ver/290/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/senderfilter/SenderFilter.java
+END

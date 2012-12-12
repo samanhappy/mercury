@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/PushMail_Server/!svn/ver/366/mercury/taskFactory/src/main/java/com/dreamail/jms
+END
+MqConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/PushMail_Server/!svn/ver/234/mercury/taskFactory/src/main/java/com/dreamail/jms/MqConnectionFactory.java
+END
+ReceiveMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PushMail_Server/!svn/ver/366/mercury/taskFactory/src/main/java/com/dreamail/jms/ReceiveMessage.java
+END

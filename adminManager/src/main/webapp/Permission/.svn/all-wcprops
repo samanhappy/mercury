@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/PushMail_Server/!svn/ver/247/mercury/adminManager/src/main/webapp/Permission
+END
+ConfigureMember.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/247/mercury/adminManager/src/main/webapp/Permission/ConfigureMember.jsp
+END
+ConfigureMemberRole.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/PushMail_Server/!svn/ver/247/mercury/adminManager/src/main/webapp/Permission/ConfigureMemberRole.jsp
+END
+NewRole.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/PushMail_Server/!svn/ver/247/mercury/adminManager/src/main/webapp/Permission/NewRole.jsp
+END
+RoleList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/PushMail_Server/!svn/ver/247/mercury/adminManager/src/main/webapp/Permission/RoleList.jsp
+END
+ConfigureRole.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/247/mercury/adminManager/src/main/webapp/Permission/ConfigureRole.jsp
+END

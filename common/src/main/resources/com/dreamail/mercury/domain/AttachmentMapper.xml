@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.AttachmentMapper">
+
+	<insert id="getNextAttachmentId" parameterType="clickoo_message_attachment"
+		useGeneratedKeys="true" keyProperty="id">
+		insert into
+		clickoo_message_attachement
+		(id) values (#{id})
+    </insert>
+
+	<update id="insertAttachment" parameterType="clickoo_message_attachment">
+		update
+		clickoo_message_attachement set
+		name=#{name},type=#{type},length=#{length},path=#{path},mid=#{mid},
+		volume_id=#{volume_id},parent=#{parent}
+		where id = #{id}
+	</update>
+
+	<delete id="deleteAttachmentByMid" parameterType="long">
+		delete from
+		clickoo_message_attachement where mid = #{mid}
+    </delete>
+
+	<select id="selectAttachmentById" parameterType="long"
+		resultType="clickoo_message_attachment">
+		select id,name,type,length,path,volume_id,mid,parent
+		from
+		clickoo_message_attachement
+		where id = #{id}
+    </select>
+
+	<select id="selectAttachmentListByMid" parameterType="long"
+		resultType="clickoo_message_attachment">
+		select id,name,type,length,path,volume_id,mid,parent
+		from
+		clickoo_message_attachement
+		where mid = #{mid}
+    </select>
+
+	<select id="selectOriginalAttachmentListByMid" parameterType="long"
+		resultType="clickoo_message_attachment">
+		select id,name,type,length,path,volume_id,mid,parent
+		from
+		clickoo_message_attachement
+		where mid = #{mid} and parent = 0
+    </select>
+
+	<delete id="deleteAttachmentByMids">
+		DELETE FROM clickoo_message_attachement WHERE mid in
+		<foreach item="mids" index="index" collection="array" open="("
+			separator="," close=")">
+			#{mids}   
+        </foreach>
+	</delete>
+
+
+	<!--<select id="selectUidByAttachId" parameterType="long" resultType="long"> 
+		select uid from clickoo_message_attachement a, clickoo_message m where a.id 
+		= #{id} and a.mid =m.id left join clickoo_volume_meta m on a.volume_id = 
+		m.id left join clickoo_volume v on m.vid = v.id </select> -->
+</mapper>

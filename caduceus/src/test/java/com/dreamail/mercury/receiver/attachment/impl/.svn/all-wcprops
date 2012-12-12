@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/287/mercury/caduceus/src/test/java/com/dreamail/mercury/receiver/attachment/impl
+END
+TestFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/test/java/com/dreamail/mercury/receiver/attachment/impl/TestFile.java
+END
+TextTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PushMail_Server/!svn/ver/287/mercury/caduceus/src/test/java/com/dreamail/mercury/receiver/attachment/impl/TextTestCase.java
+END
+AttachmentPathTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/test/java/com/dreamail/mercury/receiver/attachment/impl/AttachmentPathTestCase.java
+END
+DOCTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/PushMail_Server/!svn/ver/287/mercury/caduceus/src/test/java/com/dreamail/mercury/receiver/attachment/impl/DOCTestCase.java
+END
+XLSTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/PushMail_Server/!svn/ver/287/mercury/caduceus/src/test/java/com/dreamail/mercury/receiver/attachment/impl/XLSTestCase.java
+END
+ScaleByJMagickTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/test/java/com/dreamail/mercury/receiver/attachment/impl/ScaleByJMagickTestCase.java
+END
+AttachmentControlTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/PushMail_Server/!svn/ver/287/mercury/caduceus/src/test/java/com/dreamail/mercury/receiver/attachment/impl/AttachmentControlTestCase.java
+END
+NoSupportTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/287/mercury/caduceus/src/test/java/com/dreamail/mercury/receiver/attachment/impl/NoSupportTestCase.java
+END
+PDFTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/PushMail_Server/!svn/ver/287/mercury/caduceus/src/test/java/com/dreamail/mercury/receiver/attachment/impl/PDFTestCase.java
+END
+DeflaterCompressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/test/java/com/dreamail/mercury/receiver/attachment/impl/DeflaterCompressionTest.java
+END
+ImageFormatImplTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/test/java/com/dreamail/mercury/receiver/attachment/impl/ImageFormatImplTestCase.java
+END
+PictureHandleImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/PushMail_Server/!svn/ver/287/mercury/caduceus/src/test/java/com/dreamail/mercury/receiver/attachment/impl/PictureHandleImplTest.java
+END

@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/PushMail_Server/!svn/ver/404/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP
+END
+PostProvideImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/PostProvideImpl.java
+END
+YahooXStreamParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/YahooXStreamParser.java
+END
+SNPContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/SNPContext.java
+END
+YahooMessageDelete.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/YahooMessageDelete.java
+END
+TokenRetriever.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/TokenRetriever.java
+END
+YahooMessageInsert.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/YahooMessageInsert.java
+END
+AbstractSNPProvide.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/AbstractSNPProvide.java
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/Token.java
+END
+YahooMessageRead.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/YahooMessageRead.java
+END
+YahooSubscribe.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/YahooSubscribe.java
+END
+YahooMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/YahooMessage.java
+END
+YahooMailEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/YahooMailEvent.java
+END
+YahooUnSubscribe.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/YahooUnSubscribe.java
+END
+YahooMailSubscription.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/YahooMailSubscription.java
+END
+PropertiesParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/PropertiesParse.java
+END
+YahooRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/YahooRequest.java
+END
+YahooMailNotification.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/YahooMailNotification.java
+END
+YahooArithmetic.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/YahooArithmetic.java
+END
+SNPProvide.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/SNPProvide.java
+END
+GetProvideImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/404/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/GetProvideImpl.java
+END
+YahooNoticeRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/YahooNoticeRequest.java
+END
+Properties.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/Properties.java
+END
+SNPUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/SNPUtil.java
+END
+YahooResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/yahooSNP/YahooResponse.java
+END

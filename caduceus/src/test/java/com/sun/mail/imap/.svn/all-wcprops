@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap
+END
+ACL.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/ACL.java
+END
+Rights.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/Rights.java
+END
+Utility.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/Utility.java
+END
+IMAPStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/IMAPStore.java
+END
+IMAPMultipartDataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/IMAPMultipartDataSource.java
+END
+MessageCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/MessageCache.java
+END
+AppendUID.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/AppendUID.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/package.html
+END
+DefaultFolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/DefaultFolder.java
+END
+IMAPInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/IMAPInputStream.java
+END
+IMAPFolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/IMAPFolder.java
+END
+IMAPSSLStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/IMAPSSLStore.java
+END
+IMAPMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/IMAPMessage.java
+END
+IMAPBodyPart.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/IMAPBodyPart.java
+END
+IMAPNestedMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/imap/IMAPNestedMessage.java
+END

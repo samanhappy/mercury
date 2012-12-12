@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PushMail>
+	<Header>
+		<Version>PushMail1.0</Version>
+		<Cred>
+			<!-- 描述用户ID-->
+			<UUID>2</UUID>
+		</Cred>
+	</Header>
+	<Body>
+		<Target name="User" isAtom="true" >
+			<Cmd name="AccountRemove">
+				<Meta size="1">
+					<!--IMEI手机唯一标识，用来阻止被踢下线的用户-->
+					<Item name="IMEI">20.43</Item>
+				</Meta>
+				<!-- 删除邮件帐号,可以缺省,如果没有则直接删除该用户和他所有的帐号 -->
+				<Account>
+					<ID>2</ID>
+					<Name>gzinhoho@gmail.com</Name>
+				</Account>
+			</Cmd>
+		</Target>
+	</Body>
+</PushMail>

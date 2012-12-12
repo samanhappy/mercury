@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/PushMail_Server/!svn/ver/291/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/impl
+END
+MailProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/impl/MailProcess.java
+END
+QuitProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/impl/QuitProcess.java
+END
+AbstractProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/291/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/impl/AbstractProcess.java
+END
+EhloProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/impl/EhloProcess.java
+END
+RcptProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/impl/RcptProcess.java
+END
+DataProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/291/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/impl/DataProcess.java
+END
+AuthLoginProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/impl/AuthLoginProcess.java
+END
+ExpnProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/impl/ExpnProcess.java
+END
+RestProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/255/mercury/sendMail/src/main/java/com/dreamail/mercury/smtp/impl/RestProcess.java
+END

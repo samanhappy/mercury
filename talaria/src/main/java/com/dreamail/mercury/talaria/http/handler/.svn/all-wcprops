@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/PushMail_Server/!svn/ver/552/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/http/handler
+END
+IRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/PushMail_Server/!svn/ver/432/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/http/handler/IRequestHandler.java
+END
+UPERequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PushMail_Server/!svn/ver/552/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/http/handler/UPERequestHandler.java
+END
+IMHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PushMail_Server/!svn/ver/204/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/http/handler/IMHandler.java
+END
+BADRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PushMail_Server/!svn/ver/204/mercury/talaria/src/main/java/com/dreamail/mercury/talaria/http/handler/BADRequestHandler.java
+END

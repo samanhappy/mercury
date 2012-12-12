@@ -1,0 +1,1847 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types
+END
+EmailAddressType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/EmailAddressType.java
+END
+TaskDelegateStateType.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/TaskDelegateStateType.java
+END
+CompleteNameType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/CompleteNameType.java
+END
+NonEmptyArrayOfPathsToElementType.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfPathsToElementType.java
+END
+MeetingResponseMessageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/MeetingResponseMessageType.java
+END
+ArrayOfStringsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfStringsType.java
+END
+SetItemFieldType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SetItemFieldType.java
+END
+NonEmptyArrayOfRequestAttachmentIdsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfRequestAttachmentIdsType.java
+END
+FolderChangeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/FolderChangeType.java
+END
+RequestServerVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/RequestServerVersion.java
+END
+AggregateOnType.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AggregateOnType.java
+END
+GroupByType.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/GroupByType.java
+END
+ChangeDescriptionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ChangeDescriptionType.java
+END
+SearchParametersType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SearchParametersType.java
+END
+UserIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/UserIdType.java
+END
+ObjectFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ObjectFactory.java
+END
+MapiPropertyTypeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/MapiPropertyTypeType.java
+END
+NoEndRecurrenceRangeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NoEndRecurrenceRangeType.java
+END
+ManagedFolderInformationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ManagedFolderInformationType.java
+END
+ImportanceChoicesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ImportanceChoicesType.java
+END
+NonEmptyArrayOfGroupIdentifiersType.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfGroupIdentifiersType.java
+END
+RegeneratingPatternBaseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/RegeneratingPatternBaseType.java
+END
+MeetingRequestTypeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/MeetingRequestTypeType.java
+END
+AttachmentIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AttachmentIdType.java
+END
+EmailAddressDictionaryEntryType.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/EmailAddressDictionaryEntryType.java
+END
+PermissionReadAccessType.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PermissionReadAccessType.java
+END
+PhysicalAddressIndexType.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PhysicalAddressIndexType.java
+END
+IsLessThanType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/IsLessThanType.java
+END
+BaseObjectChangedEventType.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/BaseObjectChangedEventType.java
+END
+ArrayOfBaseItemIdsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfBaseItemIdsType.java
+END
+BodyTypeResponseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/BodyTypeResponseType.java
+END
+AffectedTaskOccurrencesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AffectedTaskOccurrencesType.java
+END
+NonEmptyArrayOfBaseFolderIdsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfBaseFolderIdsType.java
+END
+ConstantValueType.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ConstantValueType.java
+END
+WellKnownResponseObjectType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/WellKnownResponseObjectType.java
+END
+ConnectingSIDType.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ConnectingSIDType.java
+END
+DeletedOccurrenceInfoType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DeletedOccurrenceInfoType.java
+END
+ArrayOfDelegateUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfDelegateUserType.java
+END
+ResponseObjectCoreType.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ResponseObjectCoreType.java
+END
+ItemResponseShapeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ItemResponseShapeType.java
+END
+TargetFolderIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/TargetFolderIdType.java
+END
+SyncFolderHierarchyChangesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SyncFolderHierarchyChangesType.java
+END
+UserOofSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/UserOofSettings.java
+END
+DistinguishedUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DistinguishedUserType.java
+END
+NonEmptyArrayOfItemChangesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfItemChangesType.java
+END
+IdFormatType.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/IdFormatType.java
+END
+MeetingRequestMessageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/MeetingRequestMessageType.java
+END
+MeetingCancellationMessageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/MeetingCancellationMessageType.java
+END
+ProxySecurityContextType.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ProxySecurityContextType.java
+END
+CalendarItemCreateOrDeleteOperationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/CalendarItemCreateOrDeleteOperationType.java
+END
+NonEmptyArrayOfPropertyValuesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfPropertyValuesType.java
+END
+NonEmptyArrayOfOccurrenceInfoType.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfOccurrenceInfoType.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/package-info.java
+END
+BasePermissionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/BasePermissionType.java
+END
+EmailAddressDictionaryType.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/EmailAddressDictionaryType.java
+END
+ImAddressKeyType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ImAddressKeyType.java
+END
+ContainmentModeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ContainmentModeType.java
+END
+ConflictResolutionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ConflictResolutionType.java
+END
+AttachmentResponseShapeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AttachmentResponseShapeType.java
+END
+AttendeeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AttendeeType.java
+END
+ArrayOfCalendarPermissionsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfCalendarPermissionsType.java
+END
+EmailAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/EmailAddress.java
+END
+YearlyRegeneratingPatternType.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/YearlyRegeneratingPatternType.java
+END
+ResponseTypeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ResponseTypeType.java
+END
+CalendarViewType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/CalendarViewType.java
+END
+RestrictionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/RestrictionType.java
+END
+ArrayOfWorkingPeriod.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfWorkingPeriod.java
+END
+TaskStatusType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/TaskStatusType.java
+END
+PathToUnindexedFieldType.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PathToUnindexedFieldType.java
+END
+IsLessThanOrEqualToType.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/IsLessThanOrEqualToType.java
+END
+ArrayOfSuggestion.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfSuggestion.java
+END
+AcceptItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AcceptItemType.java
+END
+ExistsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ExistsType.java
+END
+SerializableTimeZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SerializableTimeZone.java
+END
+TaskRecurrenceType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/TaskRecurrenceType.java
+END
+ResponseObjectType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ResponseObjectType.java
+END
+AvailabilityProxyRequestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AvailabilityProxyRequestType.java
+END
+FolderQueryTraversalType.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/FolderQueryTraversalType.java
+END
+NotificationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NotificationType.java
+END
+SubscriptionStatusType.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SubscriptionStatusType.java
+END
+BodyType.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/BodyType.java
+END
+AppendToItemFieldType.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AppendToItemFieldType.java
+END
+SyncFolderItemsDeleteType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SyncFolderItemsDeleteType.java
+END
+ArrayOfPermissionsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfPermissionsType.java
+END
+InternetHeaderType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/InternetHeaderType.java
+END
+SyncFolderItemsCreateOrUpdateType.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SyncFolderItemsCreateOrUpdateType.java
+END
+ItemChangeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ItemChangeType.java
+END
+ExtendedPropertyType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ExtendedPropertyType.java
+END
+PhysicalAddressDictionaryType.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PhysicalAddressDictionaryType.java
+END
+StandardGroupByType.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/StandardGroupByType.java
+END
+MonthNamesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/MonthNamesType.java
+END
+PostReplyItemBaseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PostReplyItemBaseType.java
+END
+IndexBasePointType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/IndexBasePointType.java
+END
+SuggestionsViewOptionsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SuggestionsViewOptionsType.java
+END
+ForwardItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ForwardItemType.java
+END
+ArrayOfAttendeeConflictData.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfAttendeeConflictData.java
+END
+AlternateIdBaseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AlternateIdBaseType.java
+END
+ArrayOfAttachmentsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfAttachmentsType.java
+END
+SearchFolderType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SearchFolderType.java
+END
+RelativeMonthlyRecurrencePatternType.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/RelativeMonthlyRecurrencePatternType.java
+END
+AndType.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AndType.java
+END
+DayOfWeekIndexType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DayOfWeekIndexType.java
+END
+DelegateFolderPermissionLevelType.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DelegateFolderPermissionLevelType.java
+END
+ContactItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ContactItemType.java
+END
+Value.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/Value.java
+END
+ReplyToItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ReplyToItemType.java
+END
+FreeBusyView.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/FreeBusyView.java
+END
+ExternalAudience.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ExternalAudience.java
+END
+NonEmptyArrayOfFieldOrdersType.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfFieldOrdersType.java
+END
+SuggestionDayResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SuggestionDayResult.java
+END
+UnknownAttendeeConflictData.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/UnknownAttendeeConflictData.java
+END
+DistinguishedPropertySetType.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DistinguishedPropertySetType.java
+END
+Suggestion.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/Suggestion.java
+END
+FindFolderParentType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/FindFolderParentType.java
+END
+AlternatePublicFolderIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AlternatePublicFolderIdType.java
+END
+CalendarItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/CalendarItemType.java
+END
+SerializedSecurityContextType.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SerializedSecurityContextType.java
+END
+PhoneNumberDictionaryEntryType.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PhoneNumberDictionaryEntryType.java
+END
+ExchangeImpersonationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ExchangeImpersonationType.java
+END
+NonEmptyArrayOfNotificationEventTypesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfNotificationEventTypesType.java
+END
+PermissionSetType.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PermissionSetType.java
+END
+ReplyBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ReplyBody.java
+END
+CalendarPermissionLevelType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/CalendarPermissionLevelType.java
+END
+WeeklyRecurrencePatternType.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/WeeklyRecurrencePatternType.java
+END
+PostReplyItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PostReplyItemType.java
+END
+MimeContentType.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/MimeContentType.java
+END
+ConflictResultsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ConflictResultsType.java
+END
+DeleteItemFieldType.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DeleteItemFieldType.java
+END
+FolderChangeDescriptionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/FolderChangeDescriptionType.java
+END
+FolderIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/FolderIdType.java
+END
+CalendarItemTypeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/CalendarItemTypeType.java
+END
+AlternateIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AlternateIdType.java
+END
+MeetingMessageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/MeetingMessageType.java
+END
+NonEmptyArrayOfInternetHeadersType.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfInternetHeadersType.java
+END
+TimeChangeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/TimeChangeType.java
+END
+ReplyAllToItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ReplyAllToItemType.java
+END
+BaseFolderType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/BaseFolderType.java
+END
+ArrayOfSuggestionDayResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfSuggestionDayResult.java
+END
+NonEmptyArrayOfItemChangeDescriptionsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfItemChangeDescriptionsType.java
+END
+FindItemParentType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/FindItemParentType.java
+END
+ArrayOfUnknownEntriesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfUnknownEntriesType.java
+END
+DayOfWeekType.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DayOfWeekType.java
+END
+DisposalType.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DisposalType.java
+END
+NonEmptyArrayOfDeletedOccurrencesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfDeletedOccurrencesType.java
+END
+NonEmptyArrayOfFolderChangesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfFolderChangesType.java
+END
+BaseGroupByType.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/BaseGroupByType.java
+END
+ArrayOfFoldersType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfFoldersType.java
+END
+DeclineItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DeclineItemType.java
+END
+MonthlyRegeneratingPatternType.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/MonthlyRegeneratingPatternType.java
+END
+OccurrenceItemIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/OccurrenceItemIdType.java
+END
+IsNotEqualToType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/IsNotEqualToType.java
+END
+FileAttachmentType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/FileAttachmentType.java
+END
+NotificationEventTypeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NotificationEventTypeType.java
+END
+PhoneNumberKeyType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PhoneNumberKeyType.java
+END
+DailyRegeneratingPatternType.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DailyRegeneratingPatternType.java
+END
+SetFolderFieldType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SetFolderFieldType.java
+END
+SuppressReadReceiptType.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SuppressReadReceiptType.java
+END
+DeliverMeetingRequestsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DeliverMeetingRequestsType.java
+END
+EndDateRecurrenceRangeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/EndDateRecurrenceRangeType.java
+END
+SyncFolderHierarchyCreateOrUpdateType.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SyncFolderHierarchyCreateOrUpdateType.java
+END
+ImAddressDictionaryType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ImAddressDictionaryType.java
+END
+PathToIndexedFieldType.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PathToIndexedFieldType.java
+END
+CalendarFolderType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/CalendarFolderType.java
+END
+AbsoluteMonthlyRecurrencePatternType.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AbsoluteMonthlyRecurrencePatternType.java
+END
+SmartResponseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SmartResponseType.java
+END
+UnindexedFieldURIType.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/UnindexedFieldURIType.java
+END
+ContactsFolderType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ContactsFolderType.java
+END
+NonEmptyArrayOfFoldersType.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfFoldersType.java
+END
+CalendarItemUpdateOperationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/CalendarItemUpdateOperationType.java
+END
+BaseFolderIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/BaseFolderIdType.java
+END
+AggregateType.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AggregateType.java
+END
+IntervalRecurrencePatternBaseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/IntervalRecurrencePatternBaseType.java
+END
+PushSubscriptionRequestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PushSubscriptionRequestType.java
+END
+ArrayOfCalendarEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfCalendarEvent.java
+END
+CalendarPermissionSetType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/CalendarPermissionSetType.java
+END
+BodyTypeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/BodyTypeType.java
+END
+MeetingAttendeeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/MeetingAttendeeType.java
+END
+SyncFolderItemsChangesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SyncFolderItemsChangesType.java
+END
+PostItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PostItemType.java
+END
+GroupedItemsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/GroupedItemsType.java
+END
+ArrayOfRealItemsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfRealItemsType.java
+END
+ContactsViewType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ContactsViewType.java
+END
+AppendToFolderFieldType.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AppendToFolderFieldType.java
+END
+FolderResponseShapeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/FolderResponseShapeType.java
+END
+DistinguishedFolderIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DistinguishedFolderIdType.java
+END
+CalendarEventDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/CalendarEventDetails.java
+END
+FileAsMappingType.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/FileAsMappingType.java
+END
+GroupAttendeeConflictData.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/GroupAttendeeConflictData.java
+END
+TasksFolderType.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/TasksFolderType.java
+END
+WorkingPeriod.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/WorkingPeriod.java
+END
+Duration.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/Duration.java
+END
+MultipleOperandBooleanExpressionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/MultipleOperandBooleanExpressionType.java
+END
+MessageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/MessageType.java
+END
+BaseSubscriptionRequestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/BaseSubscriptionRequestType.java
+END
+NonEmptyArrayOfRestrictedGroupIdentifiersType.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfRestrictedGroupIdentifiersType.java
+END
+DefaultShapeNamesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DefaultShapeNamesType.java
+END
+NonEmptyArrayOfAttendeesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfAttendeesType.java
+END
+IsGreaterThanOrEqualToType.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/IsGreaterThanOrEqualToType.java
+END
+ContainsExpressionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ContainsExpressionType.java
+END
+WorkingHours.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/WorkingHours.java
+END
+CalendarPermissionReadAccessType.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/CalendarPermissionReadAccessType.java
+END
+SmartResponseBaseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SmartResponseBaseType.java
+END
+TaskType.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/TaskType.java
+END
+BaseItemIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/BaseItemIdType.java
+END
+NonEmptyArrayOfBaseItemIdsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfBaseItemIdsType.java
+END
+TentativelyAcceptItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/TentativelyAcceptItemType.java
+END
+RequestAttachmentIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/RequestAttachmentIdType.java
+END
+RootItemIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/RootItemIdType.java
+END
+RecurrencePatternBaseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/RecurrencePatternBaseType.java
+END
+NonEmptyArrayOfResponseObjectsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfResponseObjectsType.java
+END
+ArrayOfResolutionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfResolutionType.java
+END
+PermissionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PermissionType.java
+END
+SortDirectionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SortDirectionType.java
+END
+WeeklyRegeneratingPatternType.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/WeeklyRegeneratingPatternType.java
+END
+ReferenceItemResponseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ReferenceItemResponseType.java
+END
+NonEmptyArrayOfAlternateIdsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfAlternateIdsType.java
+END
+RecurrenceRangeBaseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/RecurrenceRangeBaseType.java
+END
+AlternatePublicFolderItemIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AlternatePublicFolderItemIdType.java
+END
+ItemChangeDescriptionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ItemChangeDescriptionType.java
+END
+DistributionListType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DistributionListType.java
+END
+FolderType.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/FolderType.java
+END
+DistinguishedFolderIdNameType.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DistinguishedFolderIdNameType.java
+END
+PathToExceptionFieldType.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PathToExceptionFieldType.java
+END
+BaseNotificationEventType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/BaseNotificationEventType.java
+END
+ExceptionPropertyURIType.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ExceptionPropertyURIType.java
+END
+SearchFolderTraversalType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SearchFolderTraversalType.java
+END
+NonEmptyArrayOfFolderChangeDescriptionsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfFolderChangeDescriptionsType.java
+END
+ServerVersionInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ServerVersionInfo.java
+END
+AttachmentType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AttachmentType.java
+END
+PhysicalAddressDictionaryEntryType.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PhysicalAddressDictionaryEntryType.java
+END
+MovedCopiedEventType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/MovedCopiedEventType.java
+END
+SyncFolderItemsReadFlagType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SyncFolderItemsReadFlagType.java
+END
+DeleteFolderFieldType.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DeleteFolderFieldType.java
+END
+DelegatePermissionsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DelegatePermissionsType.java
+END
+DelegateUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DelegateUserType.java
+END
+ExcludesValueType.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ExcludesValueType.java
+END
+FractionalPageViewType.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/FractionalPageViewType.java
+END
+IndividualAttendeeConflictData.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/IndividualAttendeeConflictData.java
+END
+FieldURIOrConstantType.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/FieldURIOrConstantType.java
+END
+FieldOrderType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/FieldOrderType.java
+END
+MailboxData.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/MailboxData.java
+END
+ImAddressDictionaryEntryType.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ImAddressDictionaryEntryType.java
+END
+SingleRecipientType.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SingleRecipientType.java
+END
+SearchExpressionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SearchExpressionType.java
+END
+SensitivityChoicesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SensitivityChoicesType.java
+END
+RecurrenceType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/RecurrenceType.java
+END
+ItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ItemType.java
+END
+IsGreaterThanType.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/IsGreaterThanType.java
+END
+TwoOperandExpressionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/TwoOperandExpressionType.java
+END
+ResolutionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ResolutionType.java
+END
+ItemAttachmentType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ItemAttachmentType.java
+END
+ArrayOfDLExpansionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfDLExpansionType.java
+END
+MessageDispositionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/MessageDispositionType.java
+END
+SidAndAttributesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SidAndAttributesType.java
+END
+OofState.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/OofState.java
+END
+PathToExtendedFieldType.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PathToExtendedFieldType.java
+END
+TooBigGroupAttendeeConflictData.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/TooBigGroupAttendeeConflictData.java
+END
+DictionaryURIType.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DictionaryURIType.java
+END
+BaseEmailAddressType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/BaseEmailAddressType.java
+END
+NonEmptyArrayOfAttachmentsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfAttachmentsType.java
+END
+ArrayOfRecipientsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfRecipientsType.java
+END
+PullSubscriptionRequestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PullSubscriptionRequestType.java
+END
+PhysicalAddressKeyType.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PhysicalAddressKeyType.java
+END
+CancelCalendarItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/CancelCalendarItemType.java
+END
+SerializableTimeZoneTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SerializableTimeZoneTime.java
+END
+OccurrenceInfoType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/OccurrenceInfoType.java
+END
+BasePathToElementType.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/BasePathToElementType.java
+END
+ArrayOfMailboxData.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfMailboxData.java
+END
+PhoneNumberDictionaryType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PhoneNumberDictionaryType.java
+END
+ItemIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ItemIdType.java
+END
+ExcludesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ExcludesType.java
+END
+RelativeYearlyRecurrencePatternType.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/RelativeYearlyRecurrencePatternType.java
+END
+ArrayOfUserIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfUserIdType.java
+END
+AbsoluteYearlyRecurrencePatternType.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AbsoluteYearlyRecurrencePatternType.java
+END
+ModifiedEventType.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ModifiedEventType.java
+END
+ResolveNamesSearchScopeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ResolveNamesSearchScopeType.java
+END
+ExchangeVersionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ExchangeVersionType.java
+END
+TimeZoneType.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/TimeZoneType.java
+END
+FreeBusyViewOptionsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/FreeBusyViewOptionsType.java
+END
+ArrayOfGroupedItemsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ArrayOfGroupedItemsType.java
+END
+MailboxTypeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/MailboxTypeType.java
+END
+SuggestionQuality.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SuggestionQuality.java
+END
+NotType.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NotType.java
+END
+BasePagingType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/BasePagingType.java
+END
+AttendeeConflictData.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/AttendeeConflictData.java
+END
+IsEqualToType.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/IsEqualToType.java
+END
+EmailAddressKeyType.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/EmailAddressKeyType.java
+END
+RecurringMasterItemIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/RecurringMasterItemIdType.java
+END
+ItemQueryTraversalType.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ItemQueryTraversalType.java
+END
+IndexedPageViewType.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/IndexedPageViewType.java
+END
+LegacyFreeBusyType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/LegacyFreeBusyType.java
+END
+CalendarEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/CalendarEvent.java
+END
+ContainmentComparisonType.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ContainmentComparisonType.java
+END
+DistinguishedGroupByType.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DistinguishedGroupByType.java
+END
+RemoveItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/RemoveItemType.java
+END
+ContactSourceType.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ContactSourceType.java
+END
+NonEmptyArrayOfFolderNamesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfFolderNamesType.java
+END
+DailyRecurrencePatternType.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/DailyRecurrencePatternType.java
+END
+PermissionLevelType.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PermissionLevelType.java
+END
+OrType.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/OrType.java
+END
+EffectiveRightsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/EffectiveRightsType.java
+END
+CalendarPermissionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/CalendarPermissionType.java
+END
+ResponseClassType.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/ResponseClassType.java
+END
+PermissionActionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/PermissionActionType.java
+END
+NonEmptyArrayOfAllItemsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NonEmptyArrayOfAllItemsType.java
+END
+SyncFolderHierarchyDeleteType.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/SyncFolderHierarchyDeleteType.java
+END
+NumberedRecurrenceRangeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/schemas/exchange/services/_2006/types/NumberedRecurrenceRangeType.java
+END

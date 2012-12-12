@@ -1,0 +1,5 @@
+dead_time=3
+heart_beat=1
+listener_time=2
+##port##
+nettyport=4567

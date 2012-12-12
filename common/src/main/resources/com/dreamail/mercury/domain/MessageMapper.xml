@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.MessageMapper">
+
+	<resultMap id="messageMap" type="clickoo_message">
+		<id column="mesid" property="id" />
+		<result column="intime" property="intime" />
+		<result column="status" property="status" />
+		<result column="aid" property="aid" javaType="string" />
+		<result column="muuid" property="uuid" />
+	</resultMap>
+
+	<parameterMap type="map" id="pro">
+		<parameter property="uid" javaType="string" />
+		<parameter property="limitnum" javaType="string" />
+		<parameter property="receiveTime" javaType="string" />
+		<parameter property="rangeday" javaType="string" />
+	</parameterMap>
+	<select id="getAllMessagesByProc" parameterMap="pro" resultType="clickoo_message"
+		statementType="CALLABLE">
+		{call
+		EMAILLIST(#{uid},#{limitnum},#{receiveTime},#{rangeday})}  
+	</select>
+
+	<select id="selectMessageById" parameterType="string" resultMap="messageMap">
+		select m.id as
+		mesid,intime,status,aid,
+		m.uuid as muuid
+		from
+		clickoo_message m
+		where m.id =#{id}
+	</select>
+
+	<insert id="insertMessage" parameterType="clickoo_message"
+		useGeneratedKeys="true" keyProperty="id">
+		insert into
+		clickoo_message
+		(id,intime,status,aid,uuid,emailFrom,emailTo,cc,bcc,subject,sendtime)
+		values
+		(#{id},#{intime},#{status},#{aid},#{uuid},#{emailFrom},#{emailTo},#{cc},#{bcc},#{subject},#{sendtime})
+	</insert>
+	<!--
+		<select id="selectLatestInTimeByUid" parameterType="long"
+		resultType="date"> select max(intime) from clickoo_message where
+		status = 0 </select>
+	-->
+	<delete id="deleteMessageByAid" parameterType="string">
+		delete from
+		clickoo_message where aid = #{aid}
+	</delete>
+	<!--
+		<delete id="deleteMessageByUid" parameterType="string"> delete from
+		clickoo_message where uid = #{uid} </delete>
+	-->
+	<select id="selectMessagesByAid" parameterType="string"
+		resultMap="messageMap">
+		select m.id as
+		mesid,intime,status,aid,
+		m.uuid as muuid
+		from
+		clickoo_message m
+		where aid =
+		#{aid} order by intime
+		desc
+	</select>
+	<!-- 根据UID获取所有邮件 -->
+	<select id="queryMessagesByUid" parameterType="long" resultMap="messageMap">
+		SELECT cm.id AS mesid,cm.intime,cm.status,cm.aid,cm.uuid AS muuid
+		FROM
+		clickoo_message cm LEFT JOIN clickoo_user_account cua
+		ON cm.aid =
+		cua.aid WHERE cua.uid = #{uid} ORDER BY cm.intime DESC
+	</select>
+	<!--
+		<select id="selectSentMessagesByAccountName" parameterType="string"
+		resultMap="messageAttachMap"> select m.id as
+		mesid,subject,email_from,email_to,cc,bcc,intime,mail_date,status,aid,
+		m.volumeid as mvol,m.path as mpath,threadid,m.uuid as muuid, a.id as
+		atid,a.mid as amid,parent,name,type,length,a.path as apath,a.volume_id
+		as avol,size from clickoo_message m left join clickoo_message_data d
+		on m.id = d.id left join clickoo_message_attachement a on m.id = a.mid
+		where email_from = #{name} and status = 2 order by mail_date desc
+		</select>
+	-->
+	<update id="updateMessageState" parameterType="clickoo_message">
+		update
+		clickoo_message set status=#{status} where id = #{id}
+	</update>
+
+	<update id="updateMessageStateAndDate" parameterType="clickoo_message">
+		update
+		clickoo_message set status=#{status},intime=#{intime} where id = #{id}
+	</update>
+
+	<!-- <select id="getThreadIdByMessageId" parameterType="string" -->
+	<!-- resultType="string"> -->
+	<!-- select threadid from clickoo_message where mid = #{mid} and -->
+	<!-- status != 2 -->
+	<!-- </select> -->
+
+	<parameterMap type="map" id="messageMap">
+		<parameter property="uid" javaType="string" />
+		<parameter property="status" javaType="string" />
+	</parameterMap>
+
+	<select id="selectMessagesByUid" parameterMap="messageMap"
+		resultMap="messageMap">
+		select m.id as
+		mesid,intime,status,aid,
+		m.uuid as muuid
+		from
+		clickoo_message m
+		where
+		status
+		= #{status}
+		order by intime asc
+	</select>
+
+	<select id="getAllReceivedMessageId" resultType="string">
+		select uuid from
+		clickoo_message where (status = 0 or status = 1) and (uuid
+		!='' and
+		uuid is not null)
+	</select>
+
+	<select id="getAllReceivedMessageIdByAccountId" parameterType="long"
+		resultMap="messageMap">
+		select m.id as
+		mesid,intime,status,aid,
+		m.uuid as muuid
+		from
+		clickoo_message m where aid =
+		#{aid} and
+		(uuid !='' and
+		uuid is not null)
+	</select>
+
+	<delete id="deleteMessageById" parameterType="long">
+		delete from
+		clickoo_message where id = #{id}
+	</delete>
+
+	<parameterMap type="map" id="idMap">
+		<parameter property="oldid" javaType="long" />
+		<parameter property="newid" javaType="long" />
+	</parameterMap>
+	<!--
+		<update id="updateUserId" parameterMap="idMap"> update clickoo_message
+		set uid = #{newid} where uid = #{oldid} and (status = 0 or status = 1)
+		</update>
+	-->
+	<parameterMap type="map" id="statusMap">
+		<parameter property="uid" javaType="string" />
+		<parameter property="oldstatus" javaType="string" />
+		<parameter property="newstatus" javaType="string" />
+	</parameterMap>
+
+	<update id="updateStatusByUid" parameterMap="statusMap">
+		update
+		clickoo_message
+		set status = #{newstatus}
+		where
+		status =#{oldstatus}
+	</update>
+
+	<select id="selectUuid" parameterType="string" resultType="String">
+		select id from clickoo_message where uuid = #{uuid} and aid = #{aid}
+	</select>
+
+
+	<select id="getUuidList" parameterType="string" resultType="string">
+		select uuid from clickoo_message where aid = #{aid} and
+		(uuid !='' and
+		uuid is not null)
+	</select>
+
+	<select id="getAllReceivedMsgIdByAccountId" parameterType="long"
+		resultType="String">
+		select id from clickoo_message where aid = #{aid} and
+		uuid
+		!='' and
+		(status = 0 or status = 1)
+		order by mail_date desc
+	</select>
+
+	<parameterMap type="map" id="oldMap">
+		<parameter property="aid" javaType="long" />
+		<parameter property="registerDate" javaType="string" />
+		<parameter property="oldMailNum" javaType="string" />
+	</parameterMap>
+	<select id="getOldMessages" parameterMap="oldMap" resultMap="messageMap">
+		select m.id as
+		mesid,intime,status,aid,
+		m.uuid as muuid
+		from
+		clickoo_message m
+		where aid = #{aid} and
+		intime <![CDATA[<=]]>
+		#{registerDate} order by intime
+		desc limit
+		#{oldMailNum}
+	</select>
+
+	<parameterMap type="map" id="oldSeqMap">
+		<parameter property="uid" javaType="long" />
+		<parameter property="aid" javaType="long" />
+		<parameter property="selectDate" javaType="string" />
+		<parameter property="oldMailNum" javaType="string" />
+	</parameterMap>
+	<select id="getOldSeqMessages" parameterMap="oldSeqMap"
+		resultMap="messageMap">
+		select cm.id as
+		mesid,intime,status,aid,
+		cm.uuid as muuid
+		from
+		clickoo_message cm
+		where cm.aid = #{aid} and
+		cm.intime <![CDATA[>]]>
+		#{selectDate} and
+		cm.intime <![CDATA[<]]>
+		(select registerDate from clickoo_main.clickoo_user_account where aid
+		= #{aid} and uid = #{uid})
+		order by intime
+		desc limit
+		#{oldMailNum}
+	</select>
+
+	<parameterMap type="map" id="newMap">
+		<parameter property="aid" javaType="long" />
+		<parameter property="selectDate" javaType="string" />
+	</parameterMap>
+	<select id="getNewMessages" parameterMap="newMap" resultMap="messageMap">
+		select m.id as
+		mesid,intime,status,aid,
+		m.uuid as muuid
+		from
+		clickoo_message m
+		where aid = #{aid} and
+		intime <![CDATA[>]]>
+		#{selectDate};
+	</select>
+	<parameterMap type="map" id="selIdMap">
+		<parameter property="accountId" javaType="long" />
+		<parameter property="id" javaType="long" />
+	</parameterMap>
+	<select id="getUuidListById" parameterMap="selIdMap" resultMap="messageMap">
+		select m.id as
+		mesid,intime,status,aid,
+		m.uuid as muuid
+		from
+		clickoo_message m where aid=#{accountId} and
+		id > #{id}  order by id asc
+	</select>
+
+	<insert id="getNextMessageId" parameterType="clickoo_message"
+		useGeneratedKeys="true" keyProperty="id">
+		insert into
+		clickoo_message
+		(id,intime,aid,uuid)
+		values
+		(#{id},now(),#{aid},#{uuid})
+	</insert>
+
+	<update id="createMessageById" parameterType="clickoo_message">
+		update
+		clickoo_message
+		set
+		intime=#{intime},status=#{status},aid=#{aid},uuid=#{uuid},
+		emailFrom=#{emailFrom},emailTo=#{emailTo},cc=#{cc},bcc=#{bcc},subject=#{subject},
+		sendtime=#{sendtime}
+		where id=#{id}
+	</update>
+
+	<parameterMap type="map" id="getByUuid">
+		<parameter property="aid" javaType="string" />
+		<parameter property="uuid" javaType="string" />
+	</parameterMap>
+
+	<select id="getIdByUuid" parameterMap="getByUuid" resultType="String">
+		select id from clickoo_message where uuid = #{uuid} and aid=#{aid}
+	</select>
+
+	<delete id="deleteDirty">
+		delete from clickoo_message where aid is null and intime<![CDATA[<]]>(date_sub(now(),
+		interval '00:30:00' hour_second))
+	</delete>
+	<select id="getDeviceByMid" parameterType="string" resultType="String">
+		select u.devicemodel from clickoo_message m left join
+		clickoo_user_account ua on m.aid=ua.aid left join clickoo_user u on
+		ua.uid = u.uid where m.id=#{mid}  
+	</select>
+
+	<select id="getMessagesByIds" resultType="clickoo_message">
+		select aid,uuid from clickoo_message where id in
+		<foreach item="ids" index="index" collection="array" open="("
+			separator="," close=")">
+			#{ids}   
+		</foreach>
+	</select>
+
+	<delete id="deleteMessageByIds">
+		DELETE FROM clickoo_message WHERE id in
+		<foreach item="ids" index="index" collection="array" open="("
+			separator="," close=")">
+			#{ids}   
+		</foreach>
+	</delete>
+
+	<delete id="deleteMessageByuuids">
+		DELETE FROM clickoo_message WHERE uuid = #{ids}
+	</delete>
+
+	<select id="getDownloadMessage" parameterType="string"
+		resultType="clickoo_message">
+		select cm.id,intime,cm.status,cm.aid,
+		cm.uuid
+		from
+		clickoo_message cm inner join clickoo_user_account cua on cua.aid =
+		cm.aid inner join clickoo_user cu on cu.uid=cua.uid and cu.uid =
+		#{uid} and cm.status = 4; 
+	</select>
+
+	<resultMap type="clickoo_message" id="Message_Data_Attachment">
+		<id column="mesid" property="id" />
+		<result column="intime" property="intime" />
+		<result column="status" property="status" />
+		<result column="aid" property="aid" javaType="string" />
+		<result column="muuid" property="uuid" />
+		<result column="folderName" property="folderName" />
+		<result column="sendtime" property="sendtime" />
+		<result column="emailFrom" property="emailFrom" />
+		<result column="emailTo" property="emailTo" />
+		<result column="cc" property="cc" />
+		<result column="bcc" property="bcc" />
+		<result column="subject" property="subject" />
+
+		<collection property="messageData" ofType="clickoo_message_data">
+			<id column="did" property="id" />
+			<result column="data" property="content" />
+			<result column="size" property="size" />
+		</collection>
+
+		<collection property="attachList" ofType="clickoo_message_attachment">
+			<id column="atid" property="id" />
+			<result column="aname" property="name" />
+			<result column="atype" property="type" />
+			<result column="length" property="length" />
+			<result column="apath" property="path" />
+			<result column="volume_id" property="volume_id" />
+			<result column="mid" property="mid" />
+			<result column="parent" property="parent" />
+		</collection>
+	</resultMap>
+
+	<select id="getEmailById" parameterType="long"
+		resultMap="Message_Data_Attachment">
+		select
+		m.id as mesid,m.intime,m.status,aid,m.uuid as
+		muuid,m.folderName,m.sendtime,m.emailFrom,m.emailTo,m.cc,m.bcc,m.subject,
+		md.id as did,md.data,md.size,
+		ma.id as atid,ma.name as aname,ma.type as
+		atype,ma.length,ma.volume_id,ma.path as
+		apath,ma.mid,ma.parent
+		from
+		clickoo_message m left join
+		clickoo_message_data md on m.id = md.id left join
+		clickoo_message_attachement ma on m.id = ma.mid
+		where
+		m.id = #{mid}
+	</select>
+
+	<parameterMap type="map" id="messageparamMap">
+		<parameter property="aid" javaType="string" />
+		<parameter property="limit" javaType="string" />
+		<parameter property="lasttime" javaType="string" />
+	</parameterMap>
+
+	<select id="getDeleteMessageIDS" parameterMap="messageparamMap"
+		resultType="clickoo_message">
+		select id
+		from clickoo_message
+		where aid = #{aid} limit #{limit}
+		union
+		select id
+		from clickoo_message
+		where
+		aid = #{aid} and intime <![CDATA[>]]>
+		#{lasttime}
+	</select>
+
+
+	<select id="getMaxuuid" resultType="long" parameterType="long">
+		select
+		maxuuid from clickoo_mail_account where id = #{aid}
+	</select>
+
+
+	<parameterMap type="map" id="clean_message_map">
+		<parameter property="aid" javaType="string" />
+		<parameter property="lastTime" javaType="string" />
+		<parameter property="maxEmailNum" javaType="string" />
+		<parameter property="validdatemax" javaType="string" />
+	</parameterMap>
+	<select id="getAllAttachmentByProc" parameterMap="clean_message_map"
+		resultType="clickoo_message_attachment" statementType="CALLABLE">
+		{call
+		MESSAGECLEAN(#{aid},#{lastTime},#{maxEmailNum},#{validdatemax})}
+	</select>
+
+	<select id="getSubjectByAccountId" resultType="clickoo_imap_message">
+		select
+		cm.uuid as
+		uid,cm.subject as content
+		from clickoo_message cm where cm.aid = #{aid}
+		order by (uuid+0)
+	</select>
+
+	<!--根据uuid和aid获取邮件信息 -->
+	<parameterMap type="map" id="MsgUuidAid">
+		<parameter property="aid" javaType="string" />
+		<parameter property="uuid" javaType="string" />
+	</parameterMap>
+	<select id="getMsgByUuidAndAid" parameterMap="MsgUuidAid"
+		resultMap="Message_Data_Attachment">
+		select
+		m.id as mesid,m.intime,m.sendtime,m.status,aid,m.uuid
+		as
+		muuid,m.folderName,m.emailFrom,m.emailTo,m.cc,m.bcc,m.subject,
+		md.id
+		as did,md.data,md.size,
+		ma.id as atid,ma.name as aname,ma.type as
+		atype,ma.length,ma.volume_id,ma.path as
+		apath,ma.mid
+		from clickoo_message m inner
+		join clickoo_message_data md on m.id = md.id
+		left join
+		clickoo_message_attachement ma on ma.parent =0 and m.id = ma.mid
+		where
+		m.uuid = #{uuid} and m.aid = #{aid}
+	</select>
+
+	<select id="getIntimeByMessageId" resultType="date"
+		parameterType="string">
+		select intime from clickoo_message where id = #{id}
+	</select>
+	<delete id="deleteMessageLimitByAid" parameterType="string">
+		delete from
+		clickoo_message where aid =#{aid} and id not in (select id from (select id from
+		clickoo_message where aid =#{aid} order by intime desc limit 10)as t); 
+	</delete>
+
+	<update id="setDeleteMessageSigns">
+		update clickoo_message set status = 1 WHERE id in
+		<foreach item="ids" index="index" collection="list" open="("
+			separator="," close=")">
+			#{ids}   
+		</foreach>
+	</update>
+
+	<select id="getToDeleteAttachments" parameterType="int"
+		resultType="clickoo_message_attachment">
+		select cma.*
+		from clickoo_message_attachement cma right join clickoo_message cm on
+		cma.mid= cm.id where cm.status=#{deleteMessageStatus} and cma.id is not null;
+	</select>
+	
+	<delete id="deleteToDeleteMessages" parameterType="int">
+		delete cm,cmd,cma 
+		from clickoo_message cm left join clickoo_message_data cmd on cm.id = cmd.id 
+		left join  clickoo_message_attachement  cma on cm.id = cma.mid 
+		where cm.status=#{deleteMessageStatus};
+	</delete>
+</mapper>
+	
+	

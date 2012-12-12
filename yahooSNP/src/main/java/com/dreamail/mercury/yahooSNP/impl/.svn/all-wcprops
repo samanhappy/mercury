@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/295/mercury/yahooSNP/src/main/java/com/dreamail/mercury/yahooSNP/impl
+END
+Subscription.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/295/mercury/yahooSNP/src/main/java/com/dreamail/mercury/yahooSNP/impl/Subscription.java
+END
+UnSubscription.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/295/mercury/yahooSNP/src/main/java/com/dreamail/mercury/yahooSNP/impl/UnSubscription.java
+END
+EmailSubscribeImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/PushMail_Server/!svn/ver/295/mercury/yahooSNP/src/main/java/com/dreamail/mercury/yahooSNP/impl/EmailSubscribeImpl.java
+END
+MessageFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/209/mercury/yahooSNP/src/main/java/com/dreamail/mercury/yahooSNP/impl/MessageFactory.java
+END

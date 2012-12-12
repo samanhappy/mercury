@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/288/mercury/cagauth/src/main/java/com/dreamail/mercury/jakarta/handle
+END
+ServiceAuthenticationNoticeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/288/mercury/cagauth/src/main/java/com/dreamail/mercury/jakarta/handle/ServiceAuthenticationNoticeHandler.java
+END
+GetClientConfigNoticeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/288/mercury/cagauth/src/main/java/com/dreamail/mercury/jakarta/handle/GetClientConfigNoticeHandler.java
+END
+HandlerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/288/mercury/cagauth/src/main/java/com/dreamail/mercury/jakarta/handle/HandlerFactory.java
+END
+SetServerConfigNoticeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/288/mercury/cagauth/src/main/java/com/dreamail/mercury/jakarta/handle/SetServerConfigNoticeHandler.java
+END
+UpdateConfigNoticeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PushMail_Server/!svn/ver/288/mercury/cagauth/src/main/java/com/dreamail/mercury/jakarta/handle/UpdateConfigNoticeHandler.java
+END
+ErrorNoticeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/PushMail_Server/!svn/ver/288/mercury/cagauth/src/main/java/com/dreamail/mercury/jakarta/handle/ErrorNoticeHandler.java
+END
+GetServerConfigNoticeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/288/mercury/cagauth/src/main/java/com/dreamail/mercury/jakarta/handle/GetServerConfigNoticeHandler.java
+END
+INotificationHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/PushMail_Server/!svn/ver/288/mercury/cagauth/src/main/java/com/dreamail/mercury/jakarta/handle/INotificationHandler.java
+END

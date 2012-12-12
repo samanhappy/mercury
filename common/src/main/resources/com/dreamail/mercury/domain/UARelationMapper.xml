@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.UARelationMapper">
+	<resultMap type="uaRelation" id="uaRelationMap">
+		<id column="id" property="id" />
+		<result column="uid" property="uid" />
+		<result column="aid" property="aid" />
+		<result column="status" property="status" />
+		<result column="registerDate" property="registerDate" />
+		<result column="validation" property="validation" />
+		<result column="offlineDate" property="offlineDate" />
+	</resultMap>
+
+	<insert id="insertUARelation" parameterType="uaRelation"
+		useGeneratedKeys="true" keyProperty="id">
+		insert into
+		clickoo_user_account(id,uid,aid,status,registerDate,validation,offlineDate)
+		values
+		(#{id},#{uid},#{aid},#{status},#{registerDate},#{validation},#{offlineDate})
+	</insert>
+
+	<select id="selectAllAid" parameterType="long" resultType="string">
+		select aid from clickoo_user_account where uid=#{uid}
+	</select>
+
+	<!--选择普通账号和imap-idle账号，排除yahooSNP账号 -->
+	<select id="selectAllTaskAid" parameterType="long" resultType="string">
+		select ua.aid from clickoo_user_account ua
+		left join
+		clickoo_mail_account a
+		on ua.aid = a.id
+		where ua.uid = #{uid} and
+		(a.type = 0 or a.type = 2)
+	</select>
+
+	<select id="selectAllAidByIMEI" parameterType="string"
+		resultType="string">
+		select aid from clickoo_user_account ua
+		left join
+		clickoo_user u
+		on ua.uid = u.uid
+		where IMEI=#{IMEI}
+	</select>
+
+	<delete id="deleteUARelation" parameterType="uaRelation">
+		delete from
+		clickoo_user_account where uid=#{uid} and aid=#{aid}
+	</delete>
+
+	<delete id="deleteUARelationByUid" parameterType="long">
+		delete from
+		clickoo_user_account where uid=#{uid}
+	</delete>
+
+	<parameterMap type="map" id="statusMap">
+		<parameter property="uid" javaType="string" />
+		<parameter property="aid" javaType="string" />
+		<parameter property="status" javaType="string" />
+		<parameter property="offlineDate" javaType="java.util.Date" />
+	</parameterMap>
+
+	<update id="updateStatusByUid" parameterMap="statusMap">
+		update
+		clickoo_user_account
+		set status=#{status}
+		where uid=#{uid} and
+		aid=#{aid}
+	</update>
+
+	<select id="selectAllUid" parameterType="long" resultType="string">
+		select uid from clickoo_user_account where aid=#{aid}
+	</select>
+
+	<select id="selectUARelation" parameterType="uaRelation"
+		resultType="uaRelation">
+		select id from clickoo_user_account where uid=#{uid} and
+		aid=#{aid}
+	</select>
+
+	<select id="selectAllUARelation" parameterType="long"
+		resultType="uaRelation">
+		select
+		id,uid,aid,status,registerDate,validation,offlineDate from
+		clickoo_user_account where uid=#{uid} and (status =0 or status=2)
+	</select>
+	<!--
+		<select id="selectALLUARelation" parameterType="long"
+		resultType="uaRelation"> select
+		id,uid,aid,status,registerDate,validation from clickoo_user_account
+		where uid=#{uid} </select>
+	-->
+	<select id="selectAllAccountByUid" parameterType="long"
+		resultType="clickoo_mail_account">
+		select a.id,a.name,a.out_cert as outCert,a.in_path as
+		inPath,a.outpath as outPath from
+		clickoo_user_account ua left join
+		clickoo_mail_account a
+		on ua.aid =
+		a.id
+		where ua.uid=#{uid}
+		order by
+		ua.registerDate desc
+	</select>
+
+	<!--meng.sun add start -->
+
+	<!--用户上线改变账号状态 -->
+	<select id="SetOnline" parameterType="map" resultType="clickoo_mail_account">
+		CALL
+		SetOnline(#{uid}, #{status}, #{aids})
+	</select>
+
+
+	<!--用户下线改变账号状态 -->
+	<select id="SetOffline" parameterType="map" resultType="clickoo_mail_account">
+		CALL
+		SetOffline(#{uid}, #{status}, #{aids})
+	</select>
+
+	<!--多用户下线改变账号状态 -->
+	<select id="SetOfflineForUsers" parameterType="map"
+		resultType="clickoo_mail_account">
+		CALL
+		SetOfflineForUsers(#{uids}, #{status})
+	</select>
+
+	<!--meng.sun add end -->
+
+	<select id="getOldAccountId" parameterType="long" resultType="uaRelation">
+		select
+		ua1.id,ua1.uid,ua1.aid,ua1.status,ua1.registerDate,ua1.validation,ua1.offlineDate
+		from
+		clickoo_user_account ua1 where ua1.uid = #{uid} and status = 2 and
+		exists(select 1 from clickoo_user_account ua2 where ua2.aid = ua1.aid
+		and ua2.uid != #{uid})
+	</select>
+
+	<select id="getNewAccountId" parameterType="long" resultType="uaRelation">
+		select
+		ua1.id,ua1.uid,ua1.aid,ua1.status,ua1.registerDate,ua1.validation,ua1.offlineDate
+		from
+		clickoo_user_account ua1 where ua1.uid = #{uid} and ((status = 2
+		and
+		not exists(select 1 from clickoo_user_account ua2 where ua2.aid =
+		ua1.aid and ua2.uid != #{uid})) or ua1.status=0)
+	</select>
+
+	<update id="updateUARelation" parameterType="uaRelation">
+		update
+		clickoo_user_account
+		set
+		status=#{status},registerDate=#{registerDate}
+		where uid = #{uid} and aid = #{aid}
+	</update>
+
+	<update id="updateUARelationByUid" parameterType="string">
+		update
+		clickoo_user_account
+		set status = 0
+		where uid=#{uid} and
+		status =2
+	</update>
+
+	<update id="updateValidationByUidAndAid" parameterType="uaRelation">
+		update
+		clickoo_user_account
+		set validation = #{validation}
+		where uid = #{uid}
+		and aid = #{aid}
+	</update>
+
+	<update id="updateValidationToNormalByUid" parameterType="uaRelation">
+		update
+		clickoo_user_account
+		set validation = 1
+		where uid = #{uid} and
+		validation = #{validation}
+	</update>
+
+	<select id="selectAidsByUidAndValidation" parameterType="uaRelation"
+		resultType="string">
+		select aid from clickoo_user_account
+		where uid = #{uid} and
+		validation = #{validation}
+	</select>
+
+	<select id="selectOnlineAccount" parameterType="uaRelation"
+		resultType="string">
+		select aid from clickoo_user_account
+		where aid = #{aid} and
+		uid != #{uid}
+		and (status = 0 or status = 1)
+	</select>
+
+
+	<select id="is2Account" parameterType="long" resultType="uaRelation">
+		select
+		uid from clickoo_user_account
+		where aid = #{aid}
+	</select>
+	
+	
+	<select id="selectUAByAid" parameterType="long" resultType="uaRelation">
+		select
+		id,uid,aid,status,registerDate,validation,offlineDate from
+		clickoo_user_account
+		where aid = #{aid}
+	</select>
+	
+	<update id="updateUAByAid" parameterType="uaRelation">
+		update
+		clickoo_user_account
+		set
+		uid=#{uid},registerDate=#{registerDate},status=#{status},offlineDate=#{offlineDate},validation = #{validation}
+		where aid=#{aid} 
+	</update>
+	
+	<!--当前用户邮箱个数-->
+	<select id="selectUserEmailAccount" parameterType="long" resultType="long">
+		select count(aid) from clickoo_user_account where uid=#{uid}
+	</select>
+</mapper>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PushMail_Server/!svn/ver/415/mercury/common/src/main/java/com/dreamail/mercury/mail/validate/impl
+END
+Pop3MailValidateImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/validate/impl/Pop3MailValidateImpl.java
+END
+ImapMailValidateImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PushMail_Server/!svn/ver/415/mercury/common/src/main/java/com/dreamail/mercury/mail/validate/impl/ImapMailValidateImpl.java
+END
+MailValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/validate/impl/MailValidator.java
+END
+SendMailValidateImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/validate/impl/SendMailValidateImpl.java
+END
+EWSMailValidateImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/validate/impl/EWSMailValidateImpl.java
+END

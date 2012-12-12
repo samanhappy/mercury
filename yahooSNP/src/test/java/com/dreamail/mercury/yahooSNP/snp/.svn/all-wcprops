@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/PushMail_Server/!svn/ver/402/mercury/yahooSNP/src/test/java/com/dreamail/mercury/yahooSNP/snp
+END
+TokenTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/295/mercury/yahooSNP/src/test/java/com/dreamail/mercury/yahooSNP/snp/TokenTest.java
+END
+YahooSNPTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/402/mercury/yahooSNP/src/test/java/com/dreamail/mercury/yahooSNP/snp/YahooSNPTest.java
+END
+SubscriptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PushMail_Server/!svn/ver/295/mercury/yahooSNP/src/test/java/com/dreamail/mercury/yahooSNP/snp/SubscriptionTest.java
+END
+MyTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/295/mercury/yahooSNP/src/test/java/com/dreamail/mercury/yahooSNP/snp/MyTest.java
+END
+TestEmailNotifyServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/PushMail_Server/!svn/ver/300/mercury/yahooSNP/src/test/java/com/dreamail/mercury/yahooSNP/snp/TestEmailNotifyServlet.java
+END
+LoginTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/295/mercury/yahooSNP/src/test/java/com/dreamail/mercury/yahooSNP/snp/LoginTest.java
+END
+TestJms.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/300/mercury/yahooSNP/src/test/java/com/dreamail/mercury/yahooSNP/snp/TestJms.java
+END
+JmsSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/295/mercury/yahooSNP/src/test/java/com/dreamail/mercury/yahooSNP/snp/JmsSender.java
+END

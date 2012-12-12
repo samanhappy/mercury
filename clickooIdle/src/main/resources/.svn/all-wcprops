@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/resources
+END
+logback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/PushMail_Server/!svn/ver/1/mercury/clickooIdle/src/main/resources/logback.xml
+END
+spring-jms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/resources/spring-jms.xml
+END

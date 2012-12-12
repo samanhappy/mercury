@@ -1,0 +1,98 @@
+10
+
+dir
+557
+https://10.11.1.107/svn/PushMail_Server/mercury
+https://10.11.1.107/svn/PushMail_Server
+
+
+
+2012-04-16T07:30:09.387250Z
+557
+meng.sun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9b0afab4-edfc-6d4f-883e-c1cb8134b5b6
+
+timerPush
+dir
+
+yahooSNP
+dir
+
+clickooIdle
+dir
+
+adminManager
+dir
+
+common
+dir
+
+clickooImap
+dir
+
+taskFactory
+dir
+
+pom.xml
+file
+
+
+
+
+2012-02-14T02:36:00.218750Z
+0d3f809773d727ad3327fcda565417d0
+2012-02-10T06:56:32.219466Z
+408
+lianjie.you
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10717
+
+caduceus
+dir
+
+cagauth
+dir
+
+sendMail
+dir
+
+talaria
+dir
+
+petasos
+dir
+

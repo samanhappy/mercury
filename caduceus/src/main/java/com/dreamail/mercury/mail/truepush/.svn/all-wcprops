@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/563/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/truepush
+END
+TruepushTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/535/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/truepush/TruepushTest.java
+END
+AbstractActiveSyncProvide.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/PushMail_Server/!svn/ver/536/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/truepush/AbstractActiveSyncProvide.java
+END
+ITruepush.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/406/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/truepush/ITruepush.java
+END
+IdleTruepush.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/452/mercury/caduceus/src/main/java/com/dreamail/mercury/mail/truepush/IdleTruepush.java
+END

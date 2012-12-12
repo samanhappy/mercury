@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.FolderMapper">
+	<resultMap type="clickoo_folder" id="folderMap">
+		<id column="fid" property="id" />
+		<result column="fuid" property="uid" />
+		<result column="faid" property="aid" />
+		<result column="foldername" property="name" />
+		<result column="registerDate" property="registerDate" />
+		<result column="frstatus" property="receiveStatus" />
+	</resultMap>
+
+	<insert id="insertFolder" parameterType="clickoo_folder"
+		useGeneratedKeys="true" keyProperty="id">
+		insert into
+		clickoo_folder(id,uid,aid,name,addDate,receiveStatus,listStatus)
+		values
+		(#{id},#{uid},#{aid},#{name},#{addDate},#{receiveStatus},#{listStatus})
+	</insert>
+
+	<select id="selectFoldersByAid" parameterType="long" resultMap="folderMap">
+		select f.id as fid,f.name as foldername,f.uid as fuid,f.aid as faid,
+		min(f.addDate) as registerDate,max(f.receiveStatus) as frstatus
+		from
+		clickoo_mail_account a
+		left join clickoo_folder f on a.id=f.aid
+		where
+		a.id=#{aid}
+		group by f.name 
+	</select>
+
+	<parameterMap type="map" id="paraMap">
+		<parameter property="aid" javaType="long" />
+		<parameter property="name" javaType="string" />
+	</parameterMap>
+	<select id="selectFoldersByAidAndName" parameterMap="paraMap"
+		resultMap="folderMap">
+		select id,uid,aid,name,addDate,receiveStatus,listStatus
+		from
+		clickoo_folder
+		where
+		aid=#{aid} and name=#{name}
+	</select>
+</mapper>

@@ -1,0 +1,5 @@
+com.dreamail.mercury.petasos.impl.email.EmailSend
+com.dreamail.mercury.petasos.impl.email.EmailList
+com.dreamail.mercury.petasos.impl.email.EmailContent
+com.dreamail.mercury.petasos.impl.email.EmailAttachment
+com.dreamail.mercury.petasos.impl.email.EmailReceiveTime

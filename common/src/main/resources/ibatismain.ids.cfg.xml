@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//ibatis.apache.org//DTD Config 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-config.dtd">
+<configuration>
+
+	<properties resource="jdbcmain.properties"></properties>
+
+	<typeAliases>
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_ids"
+			alias="clickoo_ids" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_mail_account"
+			alias="clickoo_mail_account" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_mail_receive_server"
+			alias="clickoo_mail_receive_server" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_mail_send_server"
+			alias="clickoo_mail_send_server" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_user"
+			alias="clickoo_user" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_volume"
+			alias="clickoo_volume" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_volume_meta"
+			alias="clickoo_volume_meta" />
+		<typeAlias type="com.dreamail.mercury.cache.domain.AccountCacheObject"
+			alias="accountCacheObject" />
+		<typeAlias type="com.dreamail.mercury.cache.domain.UARelationCacheObject"
+			alias="UARelationCacheObject" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_user_account"
+			alias="uaRelation" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_message"
+			alias="clickoo_message" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_delete_message"
+			alias="clickoo_delete_message" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_download_message"
+			alias="clickoo_download_message" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_role"
+			alias="clickoo_role" />
+		<typeAlias type="com.dreamail.mercury.pojo.IdMap" alias="idMap" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_user_limittimes"
+			alias="clickoo_user_limittimes" />
+		<typeAlias type="com.dreamail.mercury.pojo.User_role" alias="User_role" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_folder"
+			alias="clickoo_folder" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_yahoosnp_message"
+			alias="clickoo_yahoosnp_message" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_yahoosnp_ids"
+			alias="clickoo_yahoosnp_ids" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_message_attachment"
+			alias="clickoo_message_attachment" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_message_data"
+			alias="clickoo_message_data" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_imap_message"
+			alias="clickoo_imap_message" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_send_message"
+			alias="clickoo_send_message" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_send_failed_message"
+			alias="clickoo_send_failed_message" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_task_factory"
+			alias="clickoo_task_factory" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_send_xml"
+			alias="clickoo_send_xml" />
+		<typeAlias type="com.dreamail.mercury.pojo.Clickoo_sender_filter"
+			alias="clickoo_sender_filter" />
+		<typeAlias type="com.dreamail.mercury.pojo.AdminUser"
+			alias="adminUser" />
+	</typeAliases>
+
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="${jdbc.driverClassName}" />
+				<property name="url" value="${jdbc.url}" />
+				<property name="username" value="${jdbc.username}" />
+				<property name="password" value="${jdbc.password}" />
+
+				<property name="poolMaximumActiveConnections" value="10" />
+				<property name="poolMaximumIdleConnections" value="2" />
+				<property name="poolMaximumCheckoutTime" value="20000" />
+				<property name="poolTimeToWait" value="20000" />
+				<property name="poolPingEnabled" value="true" />
+				<property name="poolPingQuery" value="select 1" />
+				<property name="poolPingConnectionsNotUsedFor" value="3600000" />
+
+			</dataSource>
+		</environment>
+	</environments>
+
+	<mappers>
+		<mapper resource="com/dreamail/mercury/domain/AccountMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/ReceiveServerMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/SendServerMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/UserMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/VolumeMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/VolumeMetaMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/UARelationMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/MessageMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/DeleteMessageMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/DownloadMessageMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/RoleMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/TimerMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/FolderMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/YahoosnpMessageMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/YahoosnpIdsMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/AttachmentMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/DataMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/SendMessageMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/SendFailedMessageMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/TaskFactoryMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/SendXmlMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/SenderFilterMapper.xml" />
+		<mapper resource="com/dreamail/mercury/domain/AdminUserMapper.xml" />
+	</mappers>
+</configuration>

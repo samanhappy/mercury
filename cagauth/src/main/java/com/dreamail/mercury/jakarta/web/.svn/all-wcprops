@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/PushMail_Server/!svn/ver/288/mercury/cagauth/src/main/java/com/dreamail/mercury/jakarta/web
+END
+ResponseSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/288/mercury/cagauth/src/main/java/com/dreamail/mercury/jakarta/web/ResponseSender.java
+END
+PMAsyncListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/288/mercury/cagauth/src/main/java/com/dreamail/mercury/jakarta/web/PMAsyncListener.java
+END
+JakartaStartListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/PushMail_Server/!svn/ver/288/mercury/cagauth/src/main/java/com/dreamail/mercury/jakarta/web/JakartaStartListener.java
+END
+AsyncContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/288/mercury/cagauth/src/main/java/com/dreamail/mercury/jakarta/web/AsyncContextManager.java
+END
+CAGHandlerServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/288/mercury/cagauth/src/main/java/com/dreamail/mercury/jakarta/web/CAGHandlerServlet.java
+END

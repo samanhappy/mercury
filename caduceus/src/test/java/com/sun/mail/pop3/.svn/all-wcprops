@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/pop3
+END
+DefaultFolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/pop3/DefaultFolder.java
+END
+POP3SSLStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/pop3/POP3SSLStore.java
+END
+Protocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/pop3/Protocol.java
+END
+Status.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/pop3/Status.java
+END
+POP3Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/pop3/POP3Message.java
+END
+POP3Folder.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/pop3/POP3Folder.java
+END
+POP3Store.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/pop3/POP3Store.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/pop3/package.html
+END

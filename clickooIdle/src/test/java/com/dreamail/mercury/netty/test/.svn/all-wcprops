@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/289/mercury/clickooIdle/src/test/java/com/dreamail/mercury/netty/test
+END
+AbstractTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/test/java/com/dreamail/mercury/netty/test/AbstractTest.java
+END
+StringParserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/test/java/com/dreamail/mercury/netty/test/StringParserTest.java
+END
+InstallCert.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/test/java/com/dreamail/mercury/netty/test/InstallCert.java
+END
+ServerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/test/java/com/dreamail/mercury/netty/test/ServerTest.java
+END
+FetchTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/289/mercury/clickooIdle/src/test/java/com/dreamail/mercury/netty/test/FetchTest.java
+END
+JmsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/289/mercury/clickooIdle/src/test/java/com/dreamail/mercury/netty/test/JmsTest.java
+END
+ProcessTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/test/java/com/dreamail/mercury/netty/test/ProcessTest.java
+END

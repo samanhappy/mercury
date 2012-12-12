@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/1/mercury/clickooImap/src/test/java/com/clickoo/clickooImap/testnetty
+END
+MsssageClientHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/PushMail_Server/!svn/ver/1/mercury/clickooImap/src/test/java/com/clickoo/clickooImap/testnetty/MsssageClientHandler.java
+END
+MsssageClientPipelineFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/1/mercury/clickooImap/src/test/java/com/clickoo/clickooImap/testnetty/MsssageClientPipelineFactory.java
+END
+MsssageClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/1/mercury/clickooImap/src/test/java/com/clickoo/clickooImap/testnetty/MsssageClient.java
+END
+MsssageEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/1/mercury/clickooImap/src/test/java/com/clickoo/clickooImap/testnetty/MsssageEncoder.java
+END
+TestServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/1/mercury/clickooImap/src/test/java/com/clickoo/clickooImap/testnetty/TestServer.java
+END
+MsssageServerHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/PushMail_Server/!svn/ver/1/mercury/clickooImap/src/test/java/com/clickoo/clickooImap/testnetty/MsssageServerHandler.java
+END
+MsssageServerPipelineFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/1/mercury/clickooImap/src/test/java/com/clickoo/clickooImap/testnetty/MsssageServerPipelineFactory.java
+END
+MsssageDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/1/mercury/clickooImap/src/test/java/com/clickoo/clickooImap/testnetty/MsssageDecoder.java
+END
+MsssageServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/1/mercury/clickooImap/src/test/java/com/clickoo/clickooImap/testnetty/MsssageServer.java
+END
+TestClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/1/mercury/clickooImap/src/test/java/com/clickoo/clickooImap/testnetty/TestClient.java
+END

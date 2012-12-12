@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.IDsMapper">
+    <select id="selectIDs" parameterType="java.lang.String" useCache="false" resultType="com.clickoo.mercury.pojo.Clickoo_ids">
+        select name,cid as nonce,steps from clickoo_ids where name = #{name}
+    </select>
+
+    <insert id="insertIDs" parameterType="com.clickoo.mercury.pojo.Clickoo_ids">
+        insert into clickoo_ids (name,cid,steps) values (#{name},#{nonce},#{steps})
+    </insert>
+
+    <update id="updateNonce" parameterType="com.clickoo.mercury.pojo.Clickoo_ids">
+        update clickoo_ids set cid=#{nonce} where name=#{name}
+    </update>
+
+    <update id="getLock" parameterType="java.lang.String">
+        update clickoo_ids set name=#{name} where name=#{name}
+    </update>
+</mapper>

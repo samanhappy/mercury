@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PushMail_Server/!svn/ver/493/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/email
+END
+EmailAttachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/PushMail_Server/!svn/ver/493/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/email/EmailAttachment.java
+END
+EmailSend.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/568/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/email/EmailSend.java
+END
+EmailContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/313/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/email/EmailContent.java
+END
+EmailList.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/290/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/email/EmailList.java
+END
+EmailReceiveTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/PushMail_Server/!svn/ver/290/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/email/EmailReceiveTime.java
+END
+IEmailAttachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/PushMail_Server/!svn/ver/290/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/email/IEmailAttachment.java
+END
+EmailDelete.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PushMail_Server/!svn/ver/290/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/email/EmailDelete.java
+END
+IEmailSend.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/290/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/email/IEmailSend.java
+END
+IEmailContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/PushMail_Server/!svn/ver/290/mercury/petasos/src/main/java/com/dreamail/mercury/petasos/impl/email/IEmailContent.java
+END

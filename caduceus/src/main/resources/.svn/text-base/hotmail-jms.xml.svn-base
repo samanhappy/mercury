@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jms="http://www.springframework.org/schema/jms"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd 
+       http://www.springframework.org/schema/context 
+       http://www.springframework.org/schema/context/spring-context-2.5.xsd 
+       http://www.springframework.org/schema/jms 
+       http://www.springframework.org/schema/jms/spring-jms-2.5.xsd"
+	default-lazy-init="true">
+	
+	<!-- <import resource="public-jms.xml" /> -->
+	
+	<jms:listener-container connection-factory="jmsFactoryHotmail" destination-type="queue">
+		<jms:listener destination="hotmailReceiveQueue" ref="ReceiveHotmailMessage" method="onMessage" /> 
+	</jms:listener-container>
+	<jms:listener-container connection-factory="jmsFactoryHotmail" destination-type="queue">
+		<jms:listener destination="hotmailQueue" ref="ReceiveHotmailMessage" method="onMessage" /> 
+	</jms:listener-container>
+	
+	<bean id="jmsFactoryHotmail" class="com.dreamail.mercury.mail.jms.MqConnectionFactory">
+		<constructor-arg type="java.lang.String">
+			<value>${queue.url}</value>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="ReceiveHotmailMessage" class="com.dreamail.mercury.mail.jms.ReceiveHotmailMessage">
+	</bean>
+</beans>

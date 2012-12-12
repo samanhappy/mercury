@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/213/mercury/petasos/src/test/java/com/dreamail/mercury/petasos/protocol
+END
+HttpRequester.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PushMail_Server/!svn/ver/213/mercury/petasos/src/test/java/com/dreamail/mercury/petasos/protocol/HttpRequester.java
+END
+TestProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/213/mercury/petasos/src/test/java/com/dreamail/mercury/petasos/protocol/TestProtocol.java
+END
+PMString.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/213/mercury/petasos/src/test/java/com/dreamail/mercury/petasos/protocol/PMString.java
+END
+ProtocolExchangeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/PushMail_Server/!svn/ver/213/mercury/petasos/src/test/java/com/dreamail/mercury/petasos/protocol/ProtocolExchangeTest.java
+END
+HttpRespons.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/213/mercury/petasos/src/test/java/com/dreamail/mercury/petasos/protocol/HttpRespons.java
+END

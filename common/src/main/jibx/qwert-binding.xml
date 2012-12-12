@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!--
+		Document : qwert-binding.xml Created on : 2010年6月11日, 下午1:48 Author :
+		tiger Description: Purpose of the document follows.
+	-->
+
+<binding name="qwertml" package="com.dreamail.mercury.domain">
+	<mapping name="PushMail" class="com.dreamail.mercury.domain.qwert.PushMail">
+		<structure name="Header" usage="optional">
+			<structure field="version">
+				<value name="Version" field="version" />
+			</structure>
+			<structure name="Cred" field="cred" usage="optional">
+				<structure name="Meta" field="meta"
+					marshaller="com.dreamail.mercury.jibx.StringStringHashMapper"
+					unmarshaller="com.dreamail.mercury.jibx.StringStringHashMapper"
+					usage="optional" />
+				<value name="DvcID" field="deviceID" usage="optional" />
+				<value name="UUID" field="uuid" usage="optional" />
+			</structure>
+			<structure name="Status" field="status" usage="optional">
+				<value name="Code" field="code" usage="optional" />
+				<value name="Message" field="message" usage="optional" />
+			</structure>
+		</structure>
+		<structure name="Body" usage="optional">
+			<collection field="targets" usage="optional">
+				<structure name="Target"
+					type="com.dreamail.mercury.domain.qwert.QwertTarget" usage="optional">
+					<value style="attribute" name="name" field="typeName" usage="optional" />
+					<!--
+						<value style="attribute" name="isAtom" field="isatom"
+						usage="optional" />
+					-->
+					<structure name="Meta" field="meta"
+						marshaller="com.dreamail.mercury.jibx.StringStringHashMapper"
+						unmarshaller="com.dreamail.mercury.jibx.StringStringHashMapper"
+						usage="optional">
+					</structure>
+					<collection field="commands" usage="optional">
+						<structure name="Cmd"
+							type="com.dreamail.mercury.domain.qwert.QwertCmd" usage="optional">
+							<value style="attribute" name="name" field="methodName"
+								usage="optional" />
+							<structure name="Meta" field="meta"
+								marshaller="com.dreamail.mercury.jibx.StringStringHashMapper"
+								unmarshaller="com.dreamail.mercury.jibx.StringStringHashMapper"
+								usage="optional" />
+							<collection field="objects" usage="optional" />
+						</structure>
+					</collection>
+				</structure>
+			</collection>
+		</structure>
+	</mapping>
+
+	<mapping name="Status" class="com.dreamail.mercury.domain.qwert.Status">
+		<value name="Code" field="code" usage="optional" />
+		<value name="Message" field="message" usage="optional" />
+	</mapping>
+	<mapping name="Device" class="com.dreamail.mercury.domain.WebDevice">
+		<value name="ID" field="id" usage="optional" />
+		<value name="Uid" field="uid" usage="optional" />
+		<value name="DeviceCode" field="deviceCode" usage="optional" />
+		<value name="Model" field="model" usage="optional" />
+	</mapping>
+	<mapping name="User" class="com.dreamail.mercury.domain.WebUser">
+		<value name="Uid" field="uid" usage="optional" />
+		<value name="Name" field="name" usage="optional" />
+		<value name="Passwd" field="passwd" usage="optional" />
+
+		<!--此处顺序有改变，可能会引发bug-->
+		<value name="IMEI" field="IMEI" usage="optional" />
+		<value name="DeviceModel" field="devicemodel" usage="optional" />
+		<value name="Signature" field="signature" usage="optional" />
+
+		<value name="Gender" field="gender" usage="optional" />
+		<value name="Birthday" field="birthday" usage="optional" />
+		<value name="Declaration" field="declaration" usage="optional" />
+
+		<value name="Roleid" field="roleid" usage="optional" />
+		<value name="IsPushemail" field="isPushemail" usage="optional" />
+		<value name="TimeStamp" field="timestamp" usage="optional" />
+	</mapping>
+	<mapping name="RoleFunction" class="com.dreamail.mercury.domain.WebRoleFunction">
+		<value name="AccountNumber" field="accountNumber" usage="optional" />
+		<value name="StorageOption" field="storageOption" usage="optional" />
+		<value name="LatestEmailNumber" field="latestEmailNumber" usage="optional" />
+		<value name="RetrievalEmailInterval" field="retrievalEmailInterval"
+			usage="optional" />
+		<value name="EncryptionOption" field="encryptionOption" usage="optional" />
+		<value name="SynchronizeOption" field="synchronizeOption" usage="optional" />
+
+		<value name="SaveOriginalAttachmentOption" field="saveOriginalAttachmentOption"
+			usage="optional" />
+		<value name="UseExchangeServerOption" field="useExchangeServerOption"
+			usage="optional" />
+		<value name="ScheduledPushOption" field="scheduledPushOption"
+			usage="optional" />
+		<value name="AllowAttachmentNumber" field="allowAttachmentNumber"
+			usage="optional" />
+		<value name="UseMailAccountOption" field="useMailAccountOption"
+			usage="optional" />
+		<value name="AutoCleanupPeriod" field="autoCleanupPeriod" usage="optional" />
+	</mapping>
+	<mapping name="Account" class="com.dreamail.mercury.domain.WebAccount">
+		<value name="ID" field="id" usage="optional" />
+		<value name="Alias" field="alias" usage="optional" />
+		<value name="Name" field="name" usage="optional" />
+		<value name="Password" field="password" usage="optional" />
+		<value name="SecurityPassword" field="securityPassword" usage="optional" />
+		<value name="Status" field="status" usage="optional" />
+		<value name="SendHost" field="sendHost" usage="optional" />
+		<value name="SendPort" field="sendPort" usage="optional" />
+		<value name="SendProtocolType" field="sendProtocolType" usage="optional" />
+		<value name="ReceiveHost" field="receiveHost" usage="optional" />
+		<value name="ReceivePort" field="receivePort" usage="optional" />
+		<value name="ReceiveProtocolType" field="receiveProtocolType"
+			usage="optional" />
+		<value name="SendTs" field="sendTs" usage="optional" />
+		<value name="ReceiveTs" field="receiveTs" usage="optional" />
+		<value name="SSL" field="ssl" usage="optional" />
+		<value name="Comment" field="comment" usage="optional" />
+		<value name="IsPush" field="isPush" usage="optional" />
+		<value name="ScheduledPush" field="scheduledPush" usage="optional" />
+		<value name="StartTime" field="starttime" usage="optional" />
+		<value name="EndTime" field="endtime" usage="optional" />
+		<value name="Day" field="day" usage="optional" />
+		<value name="ServiceActivation" field="ServiceActivation" usage="optional" />
+		<value name="Token" field="token" usage="optional" />
+		<value name="Ptid" field="ptid" usage="optional" />
+	</mapping>
+	<mapping name="TimePush" class="com.dreamail.mercury.domain.TimePush">
+		<value name="ScheduledPush" field="scheduledPush" usage="optional" />
+		<value name="StartTime" field="starttime" usage="optional" />
+		<value name="EndTime" field="endtime" usage="optional" />
+		<value name="Day" field="day" usage="optional" />
+	</mapping>
+	<mapping name="Mail" class="com.dreamail.mercury.domain.WebEmail">
+		<structure name="Mail-head" type="com.dreamail.mercury.domain.WebEmailhead"
+			field="head" usage="optional">
+			<value name="EmailHeadID" field="emailHeadID" usage="optional" />
+			<value name="MessageId" field="messageId" usage="optional" />
+			<value name="AId" field="aid" usage="optional" />
+			<value name="Subject" field="subject" usage="optional" />
+			<value name="From" field="from" usage="optional" />
+			<value name="To" field="to" usage="optional" />
+			<value name="Cc" field="cc" usage="optional" />
+			<value name="Bcc" field="bcc" usage="optional" />
+			<value name="Mid" field="mid" usage="optional" />
+			<value name="Forward" field="forward" usage="optional" />
+			<value name="SendTime" field="sendTime" usage="optional" />
+			<value name="ReceiveTime" field="receiveTime" usage="optional" />
+			<value name="MessageId_old" field="messageId_old" usage="optional" />
+			<value name="MessageId_new" field="messageId_new" usage="optional" />
+		</structure>
+		<structure name="Mail-body" type="com.dreamail.mercury.domain.WebEmailbody"
+			field="body" usage="optional">
+			<value name="BodyId" field="bodyid" usage="optional" />
+			<value name="Size" field="size" usage="optional" />
+			<value name="Data-type" field="datatype" usage="optional" />
+			<value name="Data" field="data" usage="optional" />
+			<!--
+				<value name="BodyIndexs" field="bodyindexs" usage="optional" />
+			-->
+			<!--			<value name="BodyIndex" field="bodyindex" usage="optional" />-->
+		</structure>
+		<collection field="attach" usage="optional">
+			<structure name="Attachment"
+				type="com.dreamail.mercury.domain.WebEmailattachment">
+				<value name="AttId" field="attid" usage="optional" />
+				<value name="ParentId" field="parentid" usage="optional" />
+				<value name="Name" field="name" usage="optional" />
+				<value name="Size" field="size" usage="optional" />
+				<value name="Body" field="body" usage="optional" />
+				<value name="Type" field="type" usage="optional" />
+				<value name="IsPath" field="ispath" usage="optional" />
+				<value name="IsDown" field="isdown" usage="optional" />
+				<!--				<value name="AttIndexs" field="attindexs" usage="optional" />-->
+				<!--				<value name="AttIndex" field="attindex" usage="optional" />-->
+			</structure>
+		</collection>
+	</mapping>
+	
+	<mapping name="SenderFilter" class="com.dreamail.mercury.domain.WebSenderFilter">
+			<value name="Set" field="set" usage="optional" />
+			<value name="Operation" field="operation" usage="optional" />
+			<value name="Name" field="name" usage="optional" />
+			<value name="Sign" field="sign" usage="optional" />
+	</mapping>
+</binding>

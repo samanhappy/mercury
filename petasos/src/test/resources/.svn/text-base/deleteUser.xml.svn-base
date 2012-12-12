@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+		Document : data.xml Created on : 2010年6月11日, 下午4:10 Author : tiger
+		Description: Purpose of the document follows.
+	-->
+
+<PushMail>
+	<Header>
+		<Version>PushMail1.0</Version>
+		<Cred>
+			<!--<Meta size="2">
+					<Item name="Encrypt1">base64</Item>
+					<Item name="Encrypt3">ffffff</Item>
+				</Meta>-->
+			<UUID>3</UUID>
+		</Cred>
+	</Header>
+	<Body>
+		<Target name="User" isAtom="true">		
+			<Cmd name="AccountRemove">
+				<Meta size="1">
+					<Item name="IMEI">20.43</Item>
+				</Meta>
+				<!--<Account>
+							<Name>kai_li_mind_20@yahoo.com</Name>
+						</Account>
+					-->
+			</Cmd>
+			
+		</Target>
+	</Body>
+</PushMail>

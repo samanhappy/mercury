@@ -1,0 +1,5 @@
+port=2525
+out_time=300
+##retry after sending mail##
+retry_times=2
+system_admin={"name":"archermind163@163.com","password":"archermind","sendHost":"smtp.163.com","sendPort":25,"sendTs":"","subject":"System mail","content":"Sorry,sendmail error!"}

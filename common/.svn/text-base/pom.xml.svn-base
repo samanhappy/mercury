@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.clickoo</groupId>
+		<artifactId>mercury</artifactId>
+		<version>1.0</version>
+	</parent>
+	<groupId>com.clickoo.mercury</groupId>
+	<artifactId>common</artifactId>
+	<packaging>jar</packaging>
+	<name>mercury-common</name>
+	<description></description>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.clickoo.mercury</groupId>
+			<artifactId>mail</artifactId>
+		</dependency>
+		<!--Jibx -->
+		<dependency>
+			<groupId>org.jibx</groupId>
+			<artifactId>jibx-run</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.jibx</groupId>
+			<artifactId>jibx-extras</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+		</dependency>
+		<!--db -->
+		<dependency>
+			<groupId>com.ck.mail</groupId>
+			<artifactId>memcached</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ck.mail</groupId>
+			<artifactId>commons-pool</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sf.json-lib</groupId>
+			<artifactId>json-lib</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>im4java</groupId>
+			<artifactId>im4java</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>glassfish</groupId>
+			<artifactId>imqjmsra</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.jms</groupId>
+			<artifactId>jms</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>xerces</groupId>
+			<artifactId>xercesImpl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>nekohtml</groupId>
+			<artifactId>nekohtml</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.beetstra.jutf7</groupId>
+			<artifactId>jutf7</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.clickoo.mercury</groupId>
+			<artifactId>cpdetector</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.codehaus.xfire</groupId>
+			<artifactId>xfire-jaxb2</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.codehaus.xfire</groupId>
+			<artifactId>xfire-java5</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sf.jsr107cache</groupId>
+			<artifactId>jsr107cache</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sun.jndi</groupId>
+			<artifactId>fscontext</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sun.jndi</groupId>
+			<artifactId>providerutil</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+		</dependency>
+		<!-- <dependency> -->
+		<!-- <groupId>pdfbox</groupId> -->
+		<!-- <artifactId>pdfbox</artifactId> -->
+		<!-- </dependency> -->
+		<dependency>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.fontbox</groupId>
+			<artifactId>fontbox</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcprov-ext-jdk15</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.thoughtworks.xstream</groupId>
+			<artifactId>xstream</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+		</dependency>
+
+		<!-- memcache -->
+		<dependency>
+			<groupId>com.caucho</groupId>
+			<artifactId>hessian</artifactId>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.jibx</groupId>
+				<artifactId>maven-jibx-plugin</artifactId>
+				<configuration>
+					<directory>src/main/jibx</directory>
+					<includes>
+						<includes>*-binding.xml</includes>
+					</includes>
+					<verbose>true</verbose>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>bind</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

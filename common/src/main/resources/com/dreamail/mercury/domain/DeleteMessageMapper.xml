@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.DeleteMessageMapper">
+
+	<resultMap id="deMessageMap" type="clickoo_delete_message">
+		<id column="deid" property="id" />
+		<result column="deacccname" property="acccname" />
+		<result column="deintime" property="intime" />
+		<result column="demid" property="mid" />
+		<result column="deuuid" property="uuid" />
+	</resultMap>
+
+	<insert id="insertDeleteMessage" parameterType="clickoo_delete_message"
+		useGeneratedKeys="true" keyProperty="id">
+		insert into
+		clickoo_delete_message(id,accname,intime,mid,uuid)
+		values(#{id},#{accname},#{intime},#{mid},#{uuid})
+	</insert>
+
+	<select id="selectDeleteMessageByAccname" parameterType="string"
+		resultType="clickoo_delete_message">
+		select id,accname,intime,mid,uuid from
+		clickoo_delete_message where accname=#{accname}
+	</select>
+
+	<delete id="deleteDMessageByDids">
+		DELETE FROM clickoo_delete_message WHERE id in
+		<foreach item="dids" index="index" collection="array" open="("
+			separator="," close=")">
+			#{dids}   
+        </foreach>
+	</delete>
+
+	<select id="getDeleteMessages" parameterType="string"
+		resultType="string">
+		select distinct mid from clickoo_delete_message where intime <![CDATA[<]]>
+		#{intime}
+	</select>
+</mapper>
+	
+	

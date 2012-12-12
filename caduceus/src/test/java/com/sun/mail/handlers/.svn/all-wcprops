@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/test/java/com/sun/mail/handlers
+END
+text_xml.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/handlers/text_xml.java
+END
+image_gif.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/handlers/image_gif.java
+END
+image_jpeg.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/handlers/image_jpeg.java
+END
+multipart_mixed.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/test/java/com/sun/mail/handlers/multipart_mixed.java
+END
+text_plain.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/test/java/com/sun/mail/handlers/text_plain.java
+END
+text_html.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/com/sun/mail/handlers/text_html.java
+END
+message_rfc822.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/test/java/com/sun/mail/handlers/message_rfc822.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/PushMail_Server/!svn/ver/409/mercury/taskFactory/src/main/java/com/dreamail/handle
+END
+UserOfflineHandlerTimer.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/234/mercury/taskFactory/src/main/java/com/dreamail/handle/UserOfflineHandlerTimer.java
+END
+UserOfflineHandlerTimerTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PushMail_Server/!svn/ver/374/mercury/taskFactory/src/main/java/com/dreamail/handle/UserOfflineHandlerTimerTask.java
+END
+SendMailFailHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/409/mercury/taskFactory/src/main/java/com/dreamail/handle/SendMailFailHandler.java
+END

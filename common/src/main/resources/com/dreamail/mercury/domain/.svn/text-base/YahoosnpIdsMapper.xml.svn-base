@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.YahoosnpIdsMapper">
+
+	<select id="selectAllUuidByAid" parameterType="long" resultType="string">
+		select uuid from clickoo_yahoosnp_ids where aid = #{aid}
+	</select>
+	
+	<delete id="deleteAllUuidByAid" parameterType="long">
+		delete from clickoo_yahoosnp_ids where aid = #{aid}
+	</delete>
+	
+	<insert id="insertUuid" parameterType="clickoo_yahoosnp_ids">
+		insert into clickoo_yahoosnp_ids(aid, uuid) values (#{aid}, #{uuid})	
+	</insert>
+
+</mapper>

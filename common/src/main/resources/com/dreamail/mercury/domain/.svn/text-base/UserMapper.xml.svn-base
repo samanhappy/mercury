@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.UserMapper">
+
+	<insert id="insertUser" parameterType="clickoo_user"
+		useGeneratedKeys="true" keyProperty="uid">
+		insert into clickoo_user
+		(uid,name,password,status,devicemodel,IMEI,signature,rolelevel,timedate,tsoffset)
+		values
+		(#{uid},#{name},#{password},#{status},#{devicemodel},#{IMEI},#{signature},#{rolelevel},#{timedate},#{tsoffset})
+	</insert>
+
+	<select id="getUserById" parameterType="long" resultMap="userMap">
+		select
+		u.uid,name,password,u.status as
+		ustatus,devicemodel,IMEI,signature,rolelevel,timedate
+		from
+		clickoo_user u
+		where
+		u.uid = #{uid}
+	</select>
+
+	<resultMap type="clickoo_user" id="userMap">
+		<id column="uid" property="uid" />
+		<result column="name" property="name" />
+		<result column="password" property="password" />
+		<result column="ustatus" property="status" />
+		<result column="devicemodel" property="devicemodel" />
+		<result column="IMEI" property="IMEI" />
+		<result column="signature" property="signature" />
+		<result column="rolelevel" property="rolelevel" />
+		<result column="timedate" property="timedate" />
+	</resultMap>
+
+	<update id="updateUser" parameterType="clickoo_user">
+		update clickoo_user
+		set
+		name=#{name},password=#{password},status=#{status},devicemodel=#{devicemodel},
+		IMEI=#{IMEI},signature=#{signature},rolelevel=#{rolelevel},timedate=#{timedate},tsoffset=#{tsoffset}
+		where uid = #{uid} 
+	</update>
+	<delete id="deleteUserByUid" parameterType="long">
+		delete from
+		clickoo_user where uid = #{uid}
+	</delete>
+
+	<select id="selectUser" parameterType="string" resultType="int">
+		select count(uid) from clickoo_user where uid = #{uid} 
+	</select>
+
+	<update id="updateUserState" parameterType="clickoo_user">
+		update clickoo_user
+		set status=#{status} where uid = #{uid}
+    </update>
+
+	<select id="getAllUserId" resultType="long">
+		select uid from
+		clickoo_user
+    </select>
+
+	<select id="getDeviceModelByUid" parameterType="long"
+		resultType="string">
+		select devicemodel from clickoo_user where uid = #{uid}
+	</select>
+
+	<select id="isExistUsername" parameterType="String" resultMap="userMap">
+		select
+		uid,name,password,status,devicemodel,IMEI,signature,rolelevel,timedate
+		from clickoo_user where name = #{name}
+	</select>
+
+	<select id="getUidByIMEI" parameterType="string" resultType="long">
+		select uid from clickoo_user where IMEI = #{IMEI}
+	</select>
+
+	<select id="getUidByName" parameterType="string" resultType="long">
+		select uid from clickoo_user where name = #{name}
+	</select>
+
+	<select id="isExistIMEI" parameterType="String" resultMap="userMap">
+		select
+		uid,name,password,status,devicemodel,IMEI,signature,rolelevel,timedate
+		from clickoo_user where IMEI = #{IMEI}
+	</select>
+
+	<select id="getIMEIByUid" parameterType="long" resultType="string">
+		select IMEI from clickoo_user where uid = #{uid}
+	</select>
+
+	<select id="getUserNameById" parameterType="long" resultType="string">
+		select name from clickoo_user where uid = #{uid}
+	</select>
+
+	<select id="getIMEIByName" parameterType="string" resultType="string">
+		select IMEI from clickoo_user where name = #{name}
+	</select>
+
+	<select id="getRolelevelByUid" parameterType="long" resultType="int">
+		select rolelevel from clickoo_user where uid = #{uid}
+	</select>
+
+	<!--更新用户角色 -->
+	<update id="updateRolelevel" parameterType="clickoo_user">
+		update clickoo_user
+		set rolelevel = #{rolelevel}
+		where uid = #{uid}
+	</update>
+
+	<!--更新用户时间偏移量 -->
+	<update id="updateUserTsOffset" parameterType="clickoo_user">
+		update
+		clickoo_user
+		set tsoffset = #{tsoffset}
+		where uid = #{uid}
+	</update>
+
+	<!--得到所有用户的是时间偏移量 -->
+	<select id="getAllUserOffsets" resultType="clickoo_user">
+		select uid, tsoffset
+		from clickoo_user
+	</select>
+
+	<select id="getUserOffsetById" parameterType="long" resultType="long">
+		select tsoffset from clickoo_user where uid = #{uid}
+	</select>
+
+	<!--得到某级别下所有用户 -->
+	<select id="getUserByTitle" resultType="clickoo_user">
+		select uid from
+		clickoo_user where rolelevel = #{rolelevel}
+	</select>
+
+	<resultMap type="User_role" id="userroleMap">
+		<collection property="user" column="user" ofType="clickoo_user">
+			<id column="uid" property="uid" />
+			<result column="name" property="name" />
+			<result column="password" property="password" />
+			<result column="ustatus" property="status" />
+			<result column="devicemodel" property="devicemodel" />
+			<result column="IMEI" property="IMEI" />
+			<result column="signature" property="signature" />
+			<result column="rolelevel" property="rolelevel" />
+			<result column="timedate" property="timedate" />
+		    <result column="emailcount" property="emailcount" />
+		</collection>
+		<collection property="role" column="role" ofType="clickoo_role">
+			<id column="id" property="id" />
+			<result column="title" property="title" />
+			<result column="remark" property="remark" />
+			<result column="function" property="function" />
+			<result column="priority" property="priority" />
+		</collection>
+	</resultMap>
+
+	<select id="getUserRoleById" parameterType="long" resultMap="userroleMap">
+		select
+		u.uid,name,password,u.status as
+		ustatus,devicemodel,IMEI,signature,rolelevel,timedate,r.id,title,remark,function,priority,
+		(select count(aid) from clickoo_user_account where uid = #{uid} ) as emailcount
+		from
+		clickoo_user u,clickoo_role r
+		where
+		u.uid = #{uid} and u.rolelevel =
+		r.priority
+	</select>
+
+	<select id="getAllOnlineIMEI" resultType="string">
+		select IMEI from
+		clickoo_user where status = 0 and IMEI != '';
+	</select>
+	<update id="updateUserSign" parameterType="clickoo_user">
+		update clickoo_user set sign=#{sign} where uid = #{uid}
+	</update>
+	
+	<resultMap type="clickoo_user" id="userDevice">
+		<id column="uid" property="uid" />
+		<result column="name" property="name" />
+		<result column="password" property="password" />
+		<result column="ustatus" property="status" />
+		<result column="devicemodel" property="devicemodel" />
+		<result column="IMEI" property="IMEI" />
+		<result column="signature" property="signature" />
+		<result column="rolelevel" property="rolelevel" />
+		<result column="timedate" property="timedate" />
+	    <result column="emailcount" property="emailcount" />
+	    <result column="sign" property="sign" />
+		<collection property="aidList"  ofType="string">
+		<result column="aid" property="aid" />
+		</collection>
+		<collection property="filterList"  ofType="clickoo_sender_filter">
+		<id column="id" property="id" />
+		<result column="uid" property="uid" />
+		<result column="name" property="name" />
+		<result column="sign" property="sign" />
+		</collection>
+	</resultMap>
+	<select id="getAidAndDevice" parameterType="long" resultMap="userDevice">
+		select cu.uid as uid,cu.devicemodel as devicemodel,ua.aid as aid  from clickoo_user cu left join clickoo_user_account ua 
+		on cu.uid = ua.uid where cu.uid=#{uid};
+	</select>
+	<select id="getAidAndFilter" parameterType="long" resultMap="userDevice">
+		select cu.uid as uid,cu.sign,ua.aid as aid,csf.id,csf.name,csf.sign  from clickoo_user cu left join clickoo_user_account ua 
+		on cu.uid = ua.uid left join clickoo_sender_filter csf on ua.uid =  csf.uid where cu.uid=#{uid} and cu.sign = csf.sign;
+	</select>
+</mapper>

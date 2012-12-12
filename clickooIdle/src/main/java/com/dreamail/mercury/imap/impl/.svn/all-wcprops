@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/PushMail_Server/!svn/ver/289/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/impl
+END
+AbstractProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/289/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/impl/AbstractProcess.java
+END
+SearchProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/289/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/impl/SearchProcess.java
+END
+LoginProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/289/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/impl/LoginProcess.java
+END
+ListProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/impl/ListProcess.java
+END
+SelectProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/289/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/impl/SelectProcess.java
+END
+OtherProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/289/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/impl/OtherProcess.java
+END
+FetchProcessFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/impl/FetchProcessFactory.java
+END
+StatusProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/289/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/impl/StatusProcess.java
+END
+FetchEmailStructure.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/PushMail_Server/!svn/ver/289/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/impl/FetchEmailStructure.java
+END
+Clean.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/impl/Clean.java
+END
+FetchEmailDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PushMail_Server/!svn/ver/289/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/impl/FetchEmailDetail.java
+END
+ExamineProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/289/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/impl/ExamineProcess.java
+END
+AbstractFetchEmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/PushMail_Server/!svn/ver/289/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/impl/AbstractFetchEmail.java
+END
+FetchProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/289/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/impl/FetchProcess.java
+END
+StoreProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/289/mercury/clickooIdle/src/main/java/com/dreamail/mercury/imap/impl/StoreProcess.java
+END

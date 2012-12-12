@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/PushMail_Server/!svn/ver/379/mercury/common/src/main/java/com/dreamail/mercury/configure
+END
+MemcachedPropertiesDeploy.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/configure/MemcachedPropertiesDeploy.java
+END
+ServerManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/configure/ServerManager.java
+END
+CAGPropertiesDeploy.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/configure/CAGPropertiesDeploy.java
+END
+PropertiesParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/configure/PropertiesParse.java
+END
+PropertiesDeploy.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/379/mercury/common/src/main/java/com/dreamail/mercury/configure/PropertiesDeploy.java
+END
+LoadProUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/configure/LoadProUtil.java
+END

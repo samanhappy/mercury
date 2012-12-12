@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="myDataSource"
+		class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName"
+			value="com.mysql.jdbc.Driver">
+		</property>
+		<property name="url" value="jdbc:mysql://10.11.1.118:3306/boco?characterEncoding=utf-8"></property>
+		<property name="username" value="root"></property>
+		<property name="password" value="123456"></property>
+	</bean>
+
+	<bean id="mySessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource">
+			<ref bean="myDataSource" />
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">
+					org.hibernate.dialect.MySQLDialect
+				</prop>
+			</props>
+		</property>
+		<property name="mappingResources">
+			<list>
+				<value>com/cmcc/emgr/pcroom/dao/PCRoom.hbm.xml</value>
+				<value>com/cmcc/emgr/pcroom/dao/User.hbm.xml</value>
+				<value>com/cmcc/emgr/pcroom/dao/Dept.hbm.xml</value>
+				<value>com/cmcc/emgr/log/dao/Log.hbm.xml</value>
+				<value>com/cmcc/emgr/log/dao/Module.hbm.xml</value>
+				<value>com/cmcc/emgr/permission/dao/Role.hbm.xml</value>
+				<value>com/cmcc/emgr/department/dao/TDept.hbm.xml</value>
+				<value>com/cmcc/emgr/department/dao/TUser1.hbm.xml</value>
+				<value>com/cmcc/emgr/domain/TUser.hbm.xml</value>
+				<value>com/cmcc/emgr/domain/TDicType.hbm.xml</value>
+				<value>com/cmcc/emgr/dictionary/dao/TDiccontent.hbm.xml</value>
+				<value>com/cmcc/emgr/dictionary/dao/TDictype.hbm.xml</value>
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="deptService" class="com.cmcc.emgr.pcroom.service.DeptService">
+		<property name="sessionFactory" ref="mySessionFactory"></property>
+	</bean>
+	
+	<bean id="userService" class="com.cmcc.emgr.pcroom.service.UserService">
+		<property name="sessionFactory" ref="mySessionFactory"></property>
+	</bean>
+	
+	<bean id="roomService" class="com.cmcc.emgr.pcroom.service.RoomService">
+		<property name="sessionFactory" ref="mySessionFactory"></property>
+	</bean>
+	
+	<bean id="logService" class="com.cmcc.emgr.log.service.LogService">
+		<property name="sessionFactory" ref="mySessionFactory"></property>
+	</bean>
+	
+	<bean id="moduleService" class="com.cmcc.emgr.log.service.ModuleService">
+		<property name="sessionFactory" ref="mySessionFactory"></property>
+	</bean>
+		
+	<bean id="roleService" class="com.cmcc.emgr.permission.service.RoleService">
+		<property name="sessionFactory" ref="mySessionFactory"></property>
+	</bean>
+
+
+<!--	yc-->
+	<bean id="service" class="com.cmcc.emgr.department.service.Service">
+		<property name="sessionFactory" ref="mySessionFactory">
+		</property>
+	</bean>
+	<bean id="dicservice1" class="com.cmcc.emgr.dictionary.service.DicService">
+		<property name="sessionFactory" ref="mySessionFactory">
+		</property>
+	</bean>
+	
+	
+<!--max	-->
+	<bean id="staffservice" class="com.cmcc.emgr.staff.service.StaffService">
+	  <property name="sdao">
+	    <ref bean="sdao"/>
+	  </property>
+	</bean>
+   <bean id="sdao" class="com.cmcc.emgr.staff.dao.StaffDao">
+     <property name="sessionFactory">
+       <ref bean="mySessionFactory"/>
+     </property>
+   </bean>
+   
+   <bean id="dicservice" class="com.cmcc.emgr.dictionary.service.DicService1">
+     <property name="dicdao">
+       <ref bean="dicdao"/>
+     </property>
+   </bean>
+   
+   <bean id="dicdao" class="com.cmcc.emgr.dictionary.dao.DicDao">
+     <property name="sessionFactory">
+       <ref bean="mySessionFactory"/>
+     </property>
+   </bean>
+
+	
+</beans>

@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/PushMail_Server/!svn/ver/532/mercury/common/src/main/resources/com/dreamail/mercury/domain
+END
+FolderMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/FolderMapper.xml
+END
+DownloadMessageMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/DownloadMessageMapper.xml
+END
+VolumeMetaMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/VolumeMetaMapper.xml
+END
+UserMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/341/mercury/common/src/main/resources/com/dreamail/mercury/domain/UserMapper.xml
+END
+IDsMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/IDsMapper.xml
+END
+TimerMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/TimerMapper.xml
+END
+SendServerMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/325/mercury/common/src/main/resources/com/dreamail/mercury/domain/SendServerMapper.xml
+END
+MessageMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/532/mercury/common/src/main/resources/com/dreamail/mercury/domain/MessageMapper.xml
+END
+SenderFilterMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/342/mercury/common/src/main/resources/com/dreamail/mercury/domain/SenderFilterMapper.xml
+END
+AdminUserMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/306/mercury/common/src/main/resources/com/dreamail/mercury/domain/AdminUserMapper.xml
+END
+AttachmentMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/AttachmentMapper.xml
+END
+TaskFactoryMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/TaskFactoryMapper.xml
+END
+AccountMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/486/mercury/common/src/main/resources/com/dreamail/mercury/domain/AccountMapper.xml
+END
+SendMessageMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/SendMessageMapper.xml
+END
+YahoosnpIdsMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/YahoosnpIdsMapper.xml
+END
+RoleMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/RoleMapper.xml
+END
+SendFailedMessageMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/SendFailedMessageMapper.xml
+END
+UARelationMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/UARelationMapper.xml
+END
+YahoosnpMessageMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/YahoosnpMessageMapper.xml
+END
+DeleteMessageMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/DeleteMessageMapper.xml
+END
+VolumeMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/VolumeMapper.xml
+END
+ReceiveServerMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/ReceiveServerMapper.xml
+END
+DataMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/DataMapper.xml
+END
+SendXmlMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/282/mercury/common/src/main/resources/com/dreamail/mercury/domain/SendXmlMapper.xml
+END

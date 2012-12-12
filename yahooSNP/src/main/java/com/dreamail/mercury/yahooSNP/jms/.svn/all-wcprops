@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/PushMail_Server/!svn/ver/400/mercury/yahooSNP/src/main/java/com/dreamail/mercury/yahooSNP/jms
+END
+JMSMessageSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PushMail_Server/!svn/ver/295/mercury/yahooSNP/src/main/java/com/dreamail/mercury/yahooSNP/jms/JMSMessageSender.java
+END
+MqConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/PushMail_Server/!svn/ver/209/mercury/yahooSNP/src/main/java/com/dreamail/mercury/yahooSNP/jms/MqConnectionFactory.java
+END
+MessageReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/400/mercury/yahooSNP/src/main/java/com/dreamail/mercury/yahooSNP/jms/MessageReceiver.java
+END

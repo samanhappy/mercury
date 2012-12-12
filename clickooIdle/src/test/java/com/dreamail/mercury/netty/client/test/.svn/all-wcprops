@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/test/java/com/dreamail/mercury/netty/client/test
+END
+SecureChatClientHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/test/java/com/dreamail/mercury/netty/client/test/SecureChatClientHandler.java
+END
+SecureChatClientPipelineFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/test/java/com/dreamail/mercury/netty/client/test/SecureChatClientPipelineFactory.java
+END
+TelnetClientHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/test/java/com/dreamail/mercury/netty/client/test/TelnetClientHandler.java
+END
+TelnetClientPipelineFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/test/java/com/dreamail/mercury/netty/client/test/TelnetClientPipelineFactory.java
+END
+TestIDLE.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PushMail_Server/!svn/ver/269/mercury/clickooIdle/src/test/java/com/dreamail/mercury/netty/client/test/TestIDLE.java
+END

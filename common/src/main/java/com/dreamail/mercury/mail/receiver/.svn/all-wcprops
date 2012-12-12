@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/PushMail_Server/!svn/ver/555/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver
+END
+DLEmailImapImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/DLEmailImapImpl.java
+END
+IDLProvide.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/IDLProvide.java
+END
+IProvide.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/IProvide.java
+END
+AbstractImapProvide.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/PushMail_Server/!svn/ver/462/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/AbstractImapProvide.java
+END
+ImapSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/ImapSupport.java
+END
+DLEMailSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/DLEMailSupport.java
+END
+ISupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/ISupport.java
+END
+DLEmailException.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/DLEmailException.java
+END
+DLEmailEWSImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/DLEmailEWSImpl.java
+END
+DLEmailPop3Impl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/DLEmailPop3Impl.java
+END
+AbstractProvide.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PushMail_Server/!svn/ver/462/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/AbstractProvide.java
+END
+DLSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/DLSupport.java
+END
+Pop3Support.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/Pop3Support.java
+END
+AbstractPop3Provide.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/PushMail_Server/!svn/ver/477/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/AbstractPop3Provide.java
+END

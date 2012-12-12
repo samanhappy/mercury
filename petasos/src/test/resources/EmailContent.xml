@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+		Document : data.xml Created on : 2010年6月11日, 下午4:10 Author : tiger
+		Description: Purpose of the document follows.
+	-->
+
+<PushMail>
+	<Header>
+		<Version>PushMail1.0</Version>
+		<Cred>
+			<UUID>2</UUID>
+		</Cred>
+	</Header>
+	<Body>
+		<Target name="Email" isAtom="true">
+			<Cmd name="EmailContent">
+				<Meta size="2">
+					<Item name="IMEI">20.43</Item>
+					<Item name="SeqNo">1</Item>
+				</Meta>
+				<Account>
+					<ID>2</ID>
+				</Account>
+				<Mail>
+					<Mail-head>
+						<MessageId>155</MessageId>
+					</Mail-head>
+				</Mail>
+			</Cmd>
+		</Target>
+	</Body>
+</PushMail>
+
+
+<!--
+<PushMail>
+	<Header>
+		<Version>PushMail1.0</Version>
+		<Cred>
+			<UUID>11</UUID>
+		</Cred>
+	</Header>
+	<Body>
+		<Target name="Email" isAtom="true">
+			<Cmd name="EmailContent">
+				<Meta size="2">
+					<Item name="IMEI">192.168.20.47</Item>
+					<Item name="SeqNo">1</Item>
+				</Meta>
+				<Account>
+					<ID>24</ID>
+				</Account>
+				<Mail>
+					<Mail-head>
+						<MessageId>304</MessageId>
+					</Mail-head>
+				</Mail>
+			</Cmd>
+		</Target>
+	</Body>
+</PushMail>
+
+-->
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/555/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/attachment/picture
+END
+IPictureHandle.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/attachment/picture/IPictureHandle.java
+END
+AttachmentPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/attachment/picture/AttachmentPath.java
+END
+ScaleByJMagick.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/PushMail_Server/!svn/ver/555/mercury/common/src/main/java/com/dreamail/mercury/mail/receiver/attachment/picture/ScaleByJMagick.java
+END

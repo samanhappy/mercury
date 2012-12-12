@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.YahoosnpMessageMapper">
+
+	<select id="selectByAid" parameterType="long"
+		resultType="clickoo_yahoosnp_message">
+		select aid,status,subId,userId,maxuuid
+		from
+		clickoo_yahoosnp_message
+		where aid = #{aid}
+	</select>
+
+	<select id="selectAllSNPMessage" resultType="clickoo_yahoosnp_message">
+		select
+		aid,status,subId,userId
+		from clickoo_yahoosnp_message
+	</select>
+
+	<select id="selectAllSNPAid" resultType="long">
+		select
+		aid
+		from
+		clickoo_yahoosnp_message
+	</select>
+
+	<update id="updateMessage" parameterType="clickoo_yahoosnp_message">
+		update
+		clickoo_yahoosnp_message
+		set
+		status = #{status},subId = #{subId},
+		userId = #{userId}
+		where aid = #{aid}
+	</update>
+
+	<update id="updateMessageStatus" parameterType="clickoo_yahoosnp_message">
+		update
+		clickoo_yahoosnp_message
+		set
+		status = #{status}
+		where aid = #{aid}
+	</update>
+	
+	<update id="updateMaxUuid" parameterType="clickoo_yahoosnp_message">
+		update
+		clickoo_yahoosnp_message
+		set
+		maxuuid = #{maxuuid}
+		where aid = #{aid}
+	</update>
+
+	<insert id="insertMessage" parameterType="clickoo_yahoosnp_message">
+		insert into
+		clickoo_yahoosnp_message
+		(aid,status,subId,userId)
+		values
+		(#{aid},#{status},#{subId},#{userId})
+	</insert>
+
+	<delete id="deleteMessageByAid" parameterType="long">
+		delete from
+		clickoo_yahoosnp_message where aid = #{aid}
+	</delete>
+</mapper>

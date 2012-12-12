@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/287/mercury/caduceus/src/main/java/com/dreamail/mercury/receiver/mail/threadpool/impl
+END
+GmailMailThreadPoolImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/PushMail_Server/!svn/ver/287/mercury/caduceus/src/main/java/com/dreamail/mercury/receiver/mail/threadpool/impl/GmailMailThreadPoolImpl.java
+END
+HotmailMailThreadPoolImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/PushMail_Server/!svn/ver/287/mercury/caduceus/src/main/java/com/dreamail/mercury/receiver/mail/threadpool/impl/HotmailMailThreadPoolImpl.java
+END
+YahooMailThreadPoolImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/PushMail_Server/!svn/ver/287/mercury/caduceus/src/main/java/com/dreamail/mercury/receiver/mail/threadpool/impl/YahooMailThreadPoolImpl.java
+END
+ReceiveMailThreadPoolImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/PushMail_Server/!svn/ver/287/mercury/caduceus/src/main/java/com/dreamail/mercury/receiver/mail/threadpool/impl/ReceiveMailThreadPoolImpl.java
+END
+OthersMailThreadPoolImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/PushMail_Server/!svn/ver/287/mercury/caduceus/src/main/java/com/dreamail/mercury/receiver/mail/threadpool/impl/OthersMailThreadPoolImpl.java
+END

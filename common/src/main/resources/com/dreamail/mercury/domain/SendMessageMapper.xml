@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.clickoo.mercury.domain.SendMessageMapper">
+
+	<resultMap id="doMessageMap" type="clickoo_send_message">
+		<id column="sid" property="id" />
+		<result column="intime" property="intime" />
+		<result column="said" property="aid" javaType="string" />
+		<result column="svol" property="volumeid" />
+		<result column="spath" property="path" />
+	</resultMap>
+
+	<insert id="insertSendMessage" parameterType="clickoo_send_message"
+		useGeneratedKeys="true" keyProperty="id">
+		insert into
+		clickoo_send_message(id,intime,aid,volumeid,path)
+		values(#{id},#{intime},#{aid},#{volumeid},#{path})
+	</insert>
+
+	<delete id="deleteSendMessageBySids">
+		DELETE FROM clickoo_download_message WHERE uid=#{uid} and mid in
+		<foreach item="sids" index="index" collection="array" open="("
+			separator="," close=")">
+			#{sids}   
+        </foreach>
+	</delete>
+
+	<select id="selectSendMessageById" parameterType="long"
+		resultType="clickoo_send_message">
+		select sm.id,sm.intime,sm.aid,
+		sm.volumeid,sm.path
+		from
+		clickoo_send_message sm where sm.id=#{id};
+	</select>
+
+	<update id="updateSendMessage" parameterType="clickoo_send_message">
+		update
+		clickoo_send_message set
+		intime=#{intime},aid=#{aid},volumeid=#{volumeid},path=#{path} where id
+		= #{id};
+	</update>
+
+	<update id="updateSentMessageStatus" parameterType="clickoo_send_message">
+		update
+		clickoo_send_message set status = #{status} where id = #{id}
+	</update>
+
+	<select id="getAllNeedHandleSentMessagesByUid" parameterType="long"
+		resultType="clickoo_send_message">
+		select id,hid,status from clickoo_send_message
+		where uid =
+		#{uid} and (status = 1 or status = 2)
+	</select>
+
+	<parameterMap type="map" id="clean_message_map">
+		<parameter property="lastTime" javaType="string" />
+		<parameter property="aid" javaType="string" />
+	</parameterMap>
+
+	<select id="getAllSendMessageByProc" parameterMap="clean_message_map"
+		resultType="clickoo_send_message" statementType="CALLABLE">
+		{call
+		SENDMESSAGECLEAN(#{lastTime},#{aid})}  
+	</select>
+
+	<select id="getAllSendDoneMessage" resultType="clickoo_send_message">
+		select
+		id,volumeid,path from clickoo_send_message where status = 3
+	</select>
+
+	<delete id="deleteAllSendDoneMessage">
+		delete from clickoo_send_message where status = 3
+	</delete>
+
+</mapper>
+	
+	

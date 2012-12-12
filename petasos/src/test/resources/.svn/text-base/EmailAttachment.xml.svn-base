@@ -1,0 +1,22 @@
+<PushMail>
+	<Header>
+		<Version>PushMail1.0</Version>
+		<Cred>
+			<UUID>6</UUID>
+		</Cred>
+	</Header>
+	<Body>
+		<Target name="Email" isAtom="true">
+			<Cmd name="EmailDelete">
+				<Meta size="1">
+					<Item name="IMEI">jhsi5880</Item>
+				</Meta>
+				<Mail>
+					<Mail-head>
+						<MessageId>185</MessageId>
+					</Mail-head>
+				</Mail>
+			</Cmd>
+		</Target>
+	</Body>
+</PushMail>

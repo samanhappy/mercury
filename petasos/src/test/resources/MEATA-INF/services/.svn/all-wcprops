@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/PushMail_Server/!svn/ver/222/mercury/petasos/src/test/resources/MEATA-INF/services
+END
+com.dreamail.mercury.petasos.IEmailController
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PushMail_Server/!svn/ver/222/mercury/petasos/src/test/resources/MEATA-INF/services/com.dreamail.mercury.petasos.IEmailController
+END
+com.dreamail.mercury.petasos.IFunctionHandle
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/222/mercury/petasos/src/test/resources/MEATA-INF/services/com.dreamail.mercury.petasos.IFunctionHandle
+END
+com.dreamail.mercury.petasos.IUserController
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PushMail_Server/!svn/ver/222/mercury/petasos/src/test/resources/MEATA-INF/services/com.dreamail.mercury.petasos.IUserController
+END

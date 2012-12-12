@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event
+END
+MessageCountEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/MessageCountEvent.java
+END
+MessageChangedEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/MessageChangedEvent.java
+END
+ConnectionAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/ConnectionAdapter.java
+END
+ConnectionEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/ConnectionEvent.java
+END
+StoreListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/StoreListener.java
+END
+TransportListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/TransportListener.java
+END
+MessageCountListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/MessageCountListener.java
+END
+MessageChangedListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/MessageChangedListener.java
+END
+ConnectionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/ConnectionListener.java
+END
+FolderAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/FolderAdapter.java
+END
+FolderEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/FolderEvent.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/package.html
+END
+FolderListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/FolderListener.java
+END
+MailEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/MailEvent.java
+END
+TransportAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/TransportAdapter.java
+END
+TransportEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/TransportEvent.java
+END
+StoreEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/StoreEvent.java
+END
+MessageCountAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/test/java/javax/mail/event/MessageCountAdapter.java
+END

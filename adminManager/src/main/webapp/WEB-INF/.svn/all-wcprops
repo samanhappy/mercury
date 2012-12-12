@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/PushMail_Server/!svn/ver/303/mercury/adminManager/src/main/webapp/WEB-INF
+END
+struts-logic.tld
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/PushMail_Server/!svn/ver/248/mercury/adminManager/src/main/webapp/WEB-INF/struts-logic.tld
+END
+spring.tld
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/PushMail_Server/!svn/ver/248/mercury/adminManager/src/main/webapp/WEB-INF/spring.tld
+END
+struts-tiles.tld
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/PushMail_Server/!svn/ver/248/mercury/adminManager/src/main/webapp/WEB-INF/struts-tiles.tld
+END
+struts-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/PushMail_Server/!svn/ver/248/mercury/adminManager/src/main/webapp/WEB-INF/struts-config.xml
+END
+struts-nested.tld
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/PushMail_Server/!svn/ver/248/mercury/adminManager/src/main/webapp/WEB-INF/struts-nested.tld
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/PushMail_Server/!svn/ver/248/mercury/adminManager/src/main/webapp/WEB-INF/applicationContext.xml
+END
+struts-html.tld
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/PushMail_Server/!svn/ver/248/mercury/adminManager/src/main/webapp/WEB-INF/struts-html.tld
+END
+struts-bean.tld
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/PushMail_Server/!svn/ver/248/mercury/adminManager/src/main/webapp/WEB-INF/struts-bean.tld
+END
+validator-rules.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/PushMail_Server/!svn/ver/248/mercury/adminManager/src/main/webapp/WEB-INF/validator-rules.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/PushMail_Server/!svn/ver/303/mercury/adminManager/src/main/webapp/WEB-INF/web.xml
+END

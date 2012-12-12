@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/PushMail_Server/!svn/ver/544/mercury/caduceus/src/main/resources
+END
+gmail-jms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/PushMail_Server/!svn/ver/544/mercury/caduceus/src/main/resources/gmail-jms.xml
+END
+hotmail-jms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/PushMail_Server/!svn/ver/544/mercury/caduceus/src/main/resources/hotmail-jms.xml
+END
+bigmailpool.properties
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/main/resources/bigmailpool.properties
+END
+cspring-jms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/PushMail_Server/!svn/ver/544/mercury/caduceus/src/main/resources/cspring-jms.xml
+END
+searchsize.properties
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/main/resources/searchsize.properties
+END
+accountqueue.properties
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/main/resources/accountqueue.properties
+END
+threadpool.properties
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/main/resources/threadpool.properties
+END
+logback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/main/resources/logback.xml
+END
+public-jms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/PushMail_Server/!svn/ver/413/mercury/caduceus/src/main/resources/public-jms.xml
+END
+yahoo-jms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/PushMail_Server/!svn/ver/544/mercury/caduceus/src/main/resources/yahoo-jms.xml
+END
+mailpool.properties
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/main/resources/mailpool.properties
+END
+other-jms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/PushMail_Server/!svn/ver/276/mercury/caduceus/src/main/resources/other-jms.xml
+END
+as-binding.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/PushMail_Server/!svn/ver/537/mercury/caduceus/src/main/resources/as-binding.xml
+END
+timer.properties
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/PushMail_Server/!svn/ver/339/mercury/caduceus/src/main/resources/timer.properties
+END
+mail.properties
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/PushMail_Server/!svn/ver/1/mercury/caduceus/src/main/resources/mail.properties
+END

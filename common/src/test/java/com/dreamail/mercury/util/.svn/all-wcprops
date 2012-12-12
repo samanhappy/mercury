@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/PushMail_Server/!svn/ver/300/mercury/common/src/test/java/com/dreamail/mercury/util
+END
+DOCTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/util/DOCTestCase.java
+END
+UUIDHexGeneratorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/util/UUIDHexGeneratorTest.java
+END
+XLSTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/util/XLSTestCase.java
+END
+IDGeneratorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/util/IDGeneratorTest.java
+END
+PDFTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/util/PDFTestCase.java
+END
+JsonPluginTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/util/JsonPluginTest.java
+END
+ImageFormatImplTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/300/mercury/common/src/test/java/com/dreamail/mercury/util/ImageFormatImplTestCase.java
+END

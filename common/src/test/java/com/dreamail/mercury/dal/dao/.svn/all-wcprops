@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/dal/dao
+END
+AccountDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/dal/dao/AccountDaoTest.java
+END
+UserDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/dal/dao/UserDaoTest.java
+END
+DeviceDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/dal/dao/DeviceDaoTest.java
+END
+IDsDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/dal/dao/IDsDaoTest.java
+END
+SendServerDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/dal/dao/SendServerDaoTest.java
+END
+SendFailedMessageDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/dal/dao/SendFailedMessageDaoTest.java
+END
+UARelationDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/dal/dao/UARelationDaoTest.java
+END
+MessageDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/dal/dao/MessageDaoTest.java
+END
+SessionFactoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/dal/dao/SessionFactoryTest.java
+END
+VolumeDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/dal/dao/VolumeDaoTest.java
+END
+AttachmentDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/dal/dao/AttachmentDaoTest.java
+END
+ReceiveServerDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/dal/dao/ReceiveServerDaoTest.java
+END
+VolumeMetaTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/dal/dao/VolumeMetaTest.java
+END

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	<data-sources />
+	<form-beans>
+		<form-bean name="roomform"
+			type="com.cmcc.emgr.pcroom.form.RoomForm">
+		</form-bean>
+		<form-bean name="roleform"
+			type="com.cmcc.emgr.permission.form.RoleForm">
+		</form-bean>
+		<form-bean name="userform"
+			type="com.cmcc.emgr.permission.form.UserForm">
+		</form-bean>
+
+		<!--		yc-->
+		<form-bean name="deptForm"
+			type="com.cmcc.emgr.department.form.DeptForm" />
+		<form-bean name="dicCForm" type="com.cmcc.emgr.dictionary.form.DicCForm" />
+
+		<!--		max	-->
+		<form-bean name="addform"
+			type="com.cmcc.emgr.staff.web.UserForm">
+		</form-bean>
+	</form-beans>
+	<global-exceptions />
+	<global-forwards />
+	<action-mappings>
+		<action path="/addroomjsp"
+			type="com.cmcc.emgr.pcroom.web.AddRoomJspAction" />
+		<action path="/addRoom"
+			type="com.cmcc.emgr.pcroom.web.AddRoomAction" name="roomform"
+			validate="false" />
+		<action path="/getRoomList"
+			type="com.cmcc.emgr.pcroom.web.GetRoomListAction" validate="false" />
+		<action path="/deleteRoom"
+			type="com.cmcc.emgr.pcroom.web.DeleteRoomAction" />
+		<action path="/queryroom"
+			type="com.cmcc.emgr.pcroom.web.QueryRoomAction" validate="false" />
+		<action path="/updateRoomJsp"
+			type="com.cmcc.emgr.pcroom.web.UpdateRoomJspAction" />
+		<action attribute="roomform" name="roomform" path="/updateRoom"
+			scope="request" type="com.cmcc.emgr.pcroom.web.UpdateRoomAction"
+			validate="false" />
+		<action path="/showLogList"
+			type="com.cmcc.emgr.log.web.ShowLogListAction" validate="false" />
+		<action path="/queryLog"
+			type="com.cmcc.emgr.log.service.QueryLogAction" validate="false" />
+		<action path="/getRoleList"
+			type="com.cmcc.emgr.permission.web.GetRoleListAction" />
+		<action path="/newRoleJsp"
+			type="com.cmcc.emgr.permission.web.NewRoleJspAction"
+			validate="false" />
+		<action path="/newRole"
+			type="com.cmcc.emgr.permission.web.NewRoleAction" name="roleform" />
+		<action path="/deleteRole"
+			type="com.cmcc.emgr.permission.web.DeleteRoleAction"
+			validate="false" />
+		<action path="/configRoleJsp"
+			type="com.cmcc.emgr.permission.web.ConfigRoleJspAction" />
+		<action path="/configRole"
+			type="com.cmcc.emgr.permission.web.ConfigRoleAction" name="roleform" />
+		<action path="/configMemberJsp"
+			type="com.cmcc.emgr.permission.web.ConfigMemberJspAction" />
+		<action path="/queryMember"
+			type="com.cmcc.emgr.permission.web.QueryMemberAction"
+			validate="false" />
+		<action path="/configMemberRoleJsp"
+			type="com.cmcc.emgr.permission.web.ConfigMemberRoleJspAction" />
+		<action attribute="userform" name="userform"
+			path="/configMemberRole" scope="request"
+			type="com.cmcc.emgr.permission.web.ConfigMemberRoleAction"
+			validate="false" />
+		<action path="/login" type="com.cmcc.emgr.web.LoginAction" />
+		<action forward="/index.jsp" path="/index" />
+
+
+		<!--yc-->
+		<action path="/deptList" forward="/Dept/DeptList.jsp" />
+		<action path="/dicContentList"
+			forward="/Dictionary/DicContentList.jsp" />
+		<action path="/newdeptpage" forward="/Dept/NewDept.jsp" />
+		<action path="/updatedeptpage" forward="/Dept/UpdateDept.jsp" />
+		<action path="/newdept" name="deptForm"
+			type="com.cmcc.emgr.department.web.NewDeptAction" />
+		<action path="/updateDept" name="deptForm"
+			type="com.cmcc.emgr.department.web.UpdateDeptAction" />
+		<action attribute="deptForm" name="deptForm" path="/deleteDept"
+			scope="request" type="com.cmcc.emgr.department.web.DeleteDeptAction" />
+		<action path="/info"
+			type="com.cmcc.emgr.department.web.InfoAction" validate="false" />
+		<action path="/allInfo"
+			type="com.cmcc.emgr.department.web.AllInfoAction" />
+		<action path="/allDicList"
+			type="com.cmcc.emgr.dictionary.web.AllDicListAction" />
+
+		
+		<action path="/updateDicCPage" forward="/Dictionary/UpdateDicC.jsp" />
+		<action path="/newDicCPage" forward="/Dictionary/NewDicC.jsp" />
+		<action path="/dicType" type="com.cmcc.emgr.dictionary.web.DicTypeAction" />
+		<action path="/newDicC" name="dicCForm"
+			type="com.cmcc.emgr.dictionary.web.NewDicCAction" />
+		<action path="/deleteDicC" type="com.cmcc.emgr.dictionary.web.DeleteDicCAction" />
+		<action path="/dicCInfo" type="com.cmcc.emgr.dictionary.web.DicCInfoAction" />
+		<action path="/updateDicC" name="dicCForm"
+			type="com.cmcc.emgr.dictionary.web.UpdateDicCAction" />
+
+<!--max-->
+		<action path="/findUserList"
+			type="com.cmcc.emgr.staff.web.FindUserListAction" />
+		<action path="/addUser" name="addform"
+			type="com.cmcc.emgr.staff.web.AddUserAction" />
+		<action path="/deleteUser"
+			type="com.cmcc.emgr.staff.web.DeleteUserAction" />
+		<action path="/updateUser" name="addform"
+			type="com.cmcc.emgr.staff.web.UpdateUserAction" />
+		<action path="/findUserById"
+			type="com.cmcc.emgr.staff.web.FindUserByIdAction" />
+		<action path="/findDic"
+			type="com.cmcc.emgr.dictionary.web.FindDicAction" />
+		<action path="/addDic"
+			type="com.cmcc.emgr.dictionary.web.AddDicAction" />
+		<action path="/deleteDic"
+			type="com.cmcc.emgr.dictionary.web.DeleteDicAction" />
+		<action path="/updateDic"
+			type="com.cmcc.emgr.dictionary.web.UpdateDicAction" />
+
+	</action-mappings>
+
+	<message-resources
+		parameter="com.yourcompany.struts.ApplicationResources" />
+
+	<plug-in
+		className="org.springframework.web.struts.ContextLoaderPlugIn">
+		<set-property property="contextConfigLocation"
+			value="/WEB-INF/applicationContext.xml" />
+	</plug-in>
+</struts-config>
+

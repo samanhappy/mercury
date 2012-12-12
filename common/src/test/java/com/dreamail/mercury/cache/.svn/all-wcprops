@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/cache
+END
+TestMsgCacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/cache/TestMsgCacheManager.java
+END
+MemcachedTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/cache/MemcachedTest.java
+END
+TestMemcached.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/PushMail_Server/!svn/ver/299/mercury/common/src/test/java/com/dreamail/mercury/cache/TestMemcached.java
+END

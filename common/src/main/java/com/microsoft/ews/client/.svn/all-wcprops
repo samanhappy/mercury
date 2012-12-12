@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/ews/client
+END
+EWSReceiveClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/ews/client/EWSReceiveClient.java
+END
+ExchangeWebServiceClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/ews/client/ExchangeWebServiceClient.java
+END
+EWSSSLSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/ews/client/EWSSSLSocketFactory.java
+END
+ExchangeWebServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/ews/client/ExchangeWebServiceImpl.java
+END
+EWSSendClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/ews/client/EWSSendClient.java
+END
+ExchangeServicePortType.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/microsoft/ews/client/ExchangeServicePortType.java
+END
+EWSTrustManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/PushMail_Server/!svn/ver/1/mercury/common/src/main/java/com/microsoft/ews/client/EWSTrustManager.java
+END

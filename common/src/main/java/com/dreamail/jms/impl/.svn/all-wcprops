@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/jms/impl
+END
+OnlineJmsSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/jms/impl/OnlineJmsSender.java
+END
+TaskQueueJmsSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/jms/impl/TaskQueueJmsSender.java
+END
+TaskFactoryTopicJmsSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/jms/impl/TaskFactoryTopicJmsSender.java
+END
+TimerTopicJmsSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/jms/impl/TimerTopicJmsSender.java
+END
+CacheAccountJmsSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/jms/impl/CacheAccountJmsSender.java
+END
+AccountQueueJmsSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/jms/impl/AccountQueueJmsSender.java
+END
+OfflineJmsSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/jms/impl/OfflineJmsSender.java
+END
+MessageTopicJmsSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PushMail_Server/!svn/ver/283/mercury/common/src/main/java/com/dreamail/jms/impl/MessageTopicJmsSender.java
+END
